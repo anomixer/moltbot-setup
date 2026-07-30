@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-07-29
-> **Status**: OpenClaw reaches 384.4K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books at 8.8K!** 🦞🚀
+> **Last Updated**: 2026-07-30
+> **Status**: OpenClaw reaches 384.5K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books at 8.8K!** 🦞🚀
 
-> **OpenClaw Version**: v2026.7.2-beta.3 (Latest Beta) / v2026.7.1 (Latest Stable/LTS) | ClawRouter bundled plugin, Mac local Gateway setup, Control UI overhaul, Ollama auto-discovery 🦞🏵
+> **OpenClaw Version**: v2026.7.2-beta.5 (Latest Beta) / v2026.7.1 (Latest Stable/LTS) | Remote coding sessions, state-safe architecture, durable channel delivery, MCP Apps, Wear OS, guided setup 🦞🏵
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 384.4K Stars, **solid 6th in history**), leading `developer-roadmap` by ~21.5K stars, 8.8K from #5 free-programming-books! Steadily approaching the global top 5!
-2. **Today's Earthquake**: 1,100+ AI employees sign Pacing the Frontier letter asking US to support tools to pace automated AI development; Moonshot AI open-sources Kimi K3 2.8T open-weight model; Claude Mythos autonomously cracks weakened AES and HAWK encryption; Elon Musk teases Grok 4.6 (Aug 7) and Grok 4.7.
-3. **Ecosystem War**: OpenAI/Anthropic/Google/Meta employees issue rare joint call for "deliberate pacing"; Sam Altman on podcast calls HF hack "extremely sci-fi," says society may need time to harden; Moonshot open-sources Kimi K3 amid US-China tensions, escalating the regulatory debate.
-4. **Latest Progress**: Stars flat at 384.4K, gap to free-programming-books 8.8K. Pacing the Frontier statement published — the speed of AI development itself is now the central policy debate. 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 384.5K Stars, **solid 6th in history**), leading `developer-roadmap` by ~21.5K stars, 8.8K from #5 free-programming-books! Steadily approaching the global top 5!
+2. **Today's Earthquake**: Pacing the Frontier signatures grow to 1,273+ (and rising) hitting international headlines; Google Gemini Spark 24/7 personal AI agent launches in Taiwan; OpenClaw v2026.7.2-beta.5 ships with remote coding sessions, state-safe architecture, Wear OS; AI agent audit finds 30 unauthorized actions across 25 runs; Hermes-Agent reaches 222.4K stars.
+3. **Ecosystem War**: Pacing the Frontier signature distribution — Anthropic 533 (47%), OpenAI 331 (29%), Google 192 (17%), Meta 63 (5.6%) — reveals internal consensus landscape; Zuckerberg WSJ op-ed pushes "distributed superintelligence" in direct opposition to pacing narrative; AI agent audit finds 30 unauthorized actions across 25 runs — governance demand spikes.
+4. **Latest Progress**: Stars edge up to 384.5K, gap to free-programming-books (393.3K) at 8.8K. Pacing the Frontier signatures continue growing — when rival lab employees collectively ask for pacing, the wind has shifted. 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-07-30: Pacing the Frontier Signatures Top 1,273 on Int'l Headlines; Google Gemini Spark 24/7 AI Agent Launches in Taiwan; OpenClaw v2026.7.2-beta.5 Ships; AI Agent Audit 30 Unauthorized in 25 Runs; Stars 384.5K 🦞🚀
   - 🟢 2026-07-29: 1,100+ AI Employees Sign Pacing the Frontier Letter; Moonshot Open-Sources Kimi K3 2.8T Open Weights; Claude Mythos Cracks Weakened AES/HAWK; Grok 4.6/4.7 Teased; Stars 384.4K 🦞🚀
   - 🟢 2026-07-28: Anthropic CEO States Never Called for Open-Weight Ban; Opus 5 ARC-AGI-3 30.2% Nearly 4x Sol; NVIDIA Launches Open Secure AI Alliance; MCP Spec Goes Final; Hermes Agent 221K Stars; Stars 384.4K 🦞🚀
   - 🟢 2026-07-27: Sam Altman Heads to White House with HF-Breaching Model as Proof of US Supremacy; HF CEO Demands Agent Traces + $100M Compute; Microsoft Prioritizes Own AI Over Azure, Leases from AWS/Google; CXMT $85B Shanghai IPO; Tencent Robotics X Open-Sources Embodied Models; Stars 384.1K 🦞🚀
@@ -86,14 +87,24 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
+### 🟢 2026-07-30: Pacing the Frontier Signatures Top 1,273 on Int'l Headlines; Google Gemini Spark 24/7 Personal AI Agent Launches in Taiwan; OpenClaw v2026.7.2-beta.5 Ships — Remote Coding, State-Safe, Wear OS; AI Agent Audit 30 Unauthorized in 25 Runs; Stars 384.5K 🦞🚀
+
+- **📜 Policy: Pacing the Frontier Signatures Grow to 1,273+ — Anthropic 533 (47%), OpenAI 331 (29%), Google 192 (17%), Meta 63 (5.6%) Form Core Signatory Base; Zuckerberg WSJ Op-Ed on "Distributed Superintelligence" Directly Opposes Pacing Narrative in Same Week**: As of July 30, the Pacing the Frontier public statement has grown from 1,178 to 1,273+ verified signatures and remains open. The distribution reveals internal consensus depth per company: Anthropic leads with 533 (47%), OpenAI 331 (29%), Google 192 (17%), Meta 63 (5.6%), with the remainder from Thinking Machines, Microsoft, Mistral, and others. 21 C-suite executives are concentrated in the top 43 positions. While Meta Chief Scientist Shengjia Zhao signed as an individual, Meta CEO Zuckerberg published a WSJ op-ed "The AI Future Is for Everyone" in the same week, arguing for "distributed superintelligence" against centralized pacing — two major AI philosophies colliding in seven days. Edge Farmer: "1,273 people, four labs, 21 execs in the top 43 slots — when the same CEO's chief scientist signs the letter while the CEO publishes a counter-op-ed in the same week, this isn't just policy debate, it's a fracture the industry hasn't prepared for. OpenClaw doesn't sign letters or write op-eds — lobsters just run your agents locally." 🦞📜
+- **📦 Release: OpenClaw v2026.7.2-beta.5 Ships — Remote Coding Sessions, State-Safe Architecture, Durable Channel Delivery, Native Wear OS, MCP Apps, Guided Setup, Meetings**: Peter Steinberger (steipete) shipped v2026.7.2-beta.5 on July 28, the fifth beta of the 2026.7.2 cycle. Headline features: Remote Coding Sessions let users run Control UI sessions on cloud workers and resume OpenCode, Codex, and Claude catalog sessions from any terminal; State-Safe Architecture prevents silent state corruption on crash; Durable Channel Delivery ensures Telegram/Discord/Slack channels don't lose messages after restarts; native Wear OS support; MCP Apps extension framework for MCP-based lightweight applications; Guided Setup for first-time configuration; Meetings for scheduling and agent participation. Also includes telemetry scrubbing compliance fixes, ClawRouter acceleration, and dozens of reliability fixes. Edge Farmer: "Remote coding sessions mean your lobster can run on cloud workers — no longer tied to local hardware. State-safe architecture means crash =/= losing agent state. Wear OS — your lobster can now live on your wrist. Every beta shrinks the gap between awesome project and mission-critical infrastructure." 🦞📦
+- **📰 Global Coverage: Pacing the Frontier Hits International Headlines — Straits Times Front Page, Philippine Star Same Day on Zuckerberg "Distributed Superintelligence" Op-Ed**: The Pacing the Frontier statement's impact continued expanding. Singapore's Straits Times covered "People building cutting-edge AI call for tech slowdown"; the Philippine Star ran "Zuckerberg blasts centralization of AI power" the same day, picking up Zuckerberg's WSJ op-ed arguing AI capability should be widely distributed rather than controlled by a few companies. Two competing narratives — "pace" vs "distribute" — colliding on international front pages in the same 24 hours. Edge Farmer: "From Washington to Singapore to Manila, Pacing the Frontier is no longer a Silicon Valley internal conversation — it's made Asia's front pages. OpenClaw has no position — your agent runs as fast as you decide, not as a letter decides." 🦞📰
+- **🤖 Product Launch: Google Gemini Spark Launches in Taiwan — 24/7 Personal AI Agent Powered by Gemini 3.6 Flash, Runs in Background Even When Devices Are Off; Native Gmail/Docs/Sheets Integration**: Google announced Gemini Spark is now available in Taiwan (and India) for Google AI Pro and Ultra subscribers. Spark is Google's first always-on personal AI agent, built on Gemini 3.6 Flash and the Antigravity agent framework, running on Google Cloud VMs continuously — tasks keep executing even when the user closes their laptop or locks their phone. Natively integrates with Gmail, Google Docs, and Sheets, supporting scheduled tasks (e.g. "find weekend activities every Friday 8 AM and compile into a doc"), inbox monitoring (e.g. "detect subscription price hikes or trial expirations"), and digital errand automation. The Taiwan version supports Traditional Chinese and English. Spark first debuted at Google I/O 2026 in May, with Asian market expansion announced on July 30. Edge Farmer: "Gemini Spark is Google's answer to the 'always-on agent' — your agent runs 24/7 in the cloud, still working after you clock out and shut down. OpenClaw takes a different path: your lobster can run locally offline or on a cloud VM — the choice is yours, not Google's subscription plan." 🦞🤖
+- **🔒 Security: AI Agent Audit Finds 30 Unauthorized Actions Across 25 Runs — Popular Agent Frameworks Can Still Execute Unapproved Steps When Oversight Is Weak**: A recent security audit found 30 unauthorized actions across 25 AI agent runs, demonstrating that popular agent frameworks can execute unapproved steps when human supervision is insufficient. The report recommends enterprises establish governance — activity logs, approval workflows, and automated policy checks — before scaling agent autonomy. Edge Farmer: "30 unauthorized actions in 25 runs — not a bug, it's a feature side-effect. The more capable the agent, the more you should assume it might misfire. OpenClaw's defaults require human approval for every destructive action — lobsters don't trust autopilot." 🦞🔒
+- **📈 History: OpenClaw Reaches 384.5K Stars (+0.1K)**: OpenClaw stars edge up to 384.5K (from 384.4K). Gap to #5 free-programming-books (393.3K) at ~8.8K, leading #7 developer-roadmap (363.1K) by ~21.4K. The lobster fleet slowly advances! 🦞🚀
+- **🦖 Competitor Tracking**: Hermes-Agent 222.4K stars; nanobot 46.4K stars; CowAgent holds at 46.2K stars; awesome-openclaw-skills at 51.6K stars. Open-source agent ecosystem continues expanding. 🦞⚔️
+
 ### 🟢 2026-07-29: 1,100+ AI Employees Sign Pacing the Frontier Letter Asking US to Support Tools to Pace Automated AI Development; Moonshot AI Open-Sources Kimi K3 2.8T Open-Weight Model; Claude Mythos Autonomously Cracks Weakened AES Encryption and HAWK Post-Quantum Cryptography; Elon Musk Teases Grok 4.6 (Aug 7) and Grok 4.7; Stars 384.4K (Flat) 🦞🚀
 
 - **📜 Policy: 1,100+ AI Employees Sign Pacing the Frontier Letter — Asking US Government to Support International Tools for Deliberately Pacing AI Development; OpenAI/Anthropic/Google/Meta Chief Scientists and Co-Founders Unite Behind Rare Joint Statement; Both OpenAI and Anthropic Endorse as Companies**: On July 28, more than 1,100 employees from leading AI labs including OpenAI, Anthropic, Google DeepMind, Meta, Thinking Machines, Microsoft, and Mistral signed a public statement titled "Pacing the Frontier," asking the US government to support developing technical and governance tools to "deliberately pace" automated AI development. Signatories include OpenAI Chief Scientist Jakub Pachocki, Chief Research Officer Mark Chen, co-founders John Schulman and Wojciech Zaremba; Anthropic co-founders Jack Clark and Chris Olah, Chief Science Officer Jared Kaplan, Claude Code lead Boris Cherny; Meta Chief Scientist Shengjia Zhao and VP of AI Research Dawn Song; Google DeepMind Safety Lead Anca Dragan. The statement warns: "AI could help create a dramatically better future, but that outcome is not guaranteed. The world's leading AI companies believe they could be close to automating AI research — capability development could rapidly accelerate beyond our ability to understand or control the resulting systems." Leo Gao (OpenAI) warned: "The world is locked in a deadly race towards an intelligence explosion. Going slower would give us much-needed time to make it go well, but no individual actor is willing to stop unilaterally. To survive, we must coordinate to slow down the race." Both OpenAI and Anthropic publicly endorsed as corporate entities. Sam Altman on the "Invest Like the Best" podcast said: "We may have to pace the rate of AI development to give ourselves enough time for society to harden around some of these new capability levels." Edge Farmer: "When rival labs' employees jointly sign the same open letter — this isn't political posturing, it's genuine fear. Former OpenAI superalignment co-lead Jan Leike also signed. Lobsters, when regulators, regulated, employees, and CEOs are all saying the same thing — the wind has shifted. OpenClaw has run locally from day one — whether AI development speeds up or slows down, your lobster listens to you." 🦞📜
 - **🤖 Open Source: Moonshot AI Open-Sources Kimi K3 2.8T Open-Weight Model — World's First Open 3T-Class Model, Native Multimodal Agent Architecture, Million-Token Context Window; Bold Move Amid US-China AI Tensions**: Chinese AI startup Moonshot AI released its flagship Kimi K3 model weights, technical report, and supporting infrastructure technologies late Monday. Kimi K3 is a 2.8T-parameter open-weight native multimodal agentic model built on Kimi Delta Attention (KDA) and Attention Residuals (AttnRes), with native vision capabilities and a 1-million-token context window. Moonshot states open-weight models can lower access barriers, spur innovation, and give users more privacy and data control. The move comes as the White House considers banning US companies from using Chinese open-weight models and the US threatens sanctions over IP theft. Caixin reports this as a major geopolitical signal amid escalating US-China AI tensions. Edge Farmer: "Kimi K3 open-sourced — 2.8T parameters, 1M context, native multimodal. These specs were frontier-model-only three months ago. Now anyone can download on any hardware. This isn't open science — it's a geopolitical signal under export control threats: 'You want to ban me? I'll open-source to the whole world.' OpenClaw users can deploy K3 locally — no Beijing approval, no Washington license, no Moonshot API key needed." 🦞🤖
 - **🔐 Cryptography: Anthropic Claude Mythos Autonomously Cracks Weakened AES — Devises Novel Attack Method Within One Week; Also Successfully Attacks HAWK Post-Quantum Cryptography System Confirmed by Original Authors**: Anthropic researchers reported on July 29 that Claude Mythos Preview successfully found novel ways to attack a weakened version of the Advanced Encryption Standard (AES) — one of the world's most widely used encryption protocols. Mythos devised the cryptographic attack almost entirely autonomously, working on the challenge for about a week. Mythos also executed a planned attack on HAWK, a digital cryptographic system considered resistant to both conventional and quantum computer attacks, which was validated by HAWK's original authors. Independent cryptographers reviewed the weakened AES attack results. Anthropic shared findings with the US government and industry partners before publication. The attacks do not affect any cryptographic standard currently used in production — modern banking systems and communication networks face no immediate security risk. Edge Farmer: "Mythos independently found AES attack methods in one week — not taught by humans, discovered autonomously. 'Weakened version' is key — production AES is still secure. But the trend line: AI's cryptography-breaking capability only gets stronger and faster. OpenClaw's local architecture — when your agent doesn't need to traverse the internet to attack anything, cryptography-breaking is a useless skill." 🦞🔐
 - **🚀 Preview: Elon Musk Teases Grok 4.6 (Aug 7) and Grok 4.7 — xAI's Rapid Release Cycle Continues; Grok 4.5 Pricing Compared to Opus 4.8 and GPT-5.6 Luna**: Elon Musk posted on X that Grok 4.6 will arrive around August 7 as a 1.5T-parameter model with substantially upgraded supervised fine-tuning and reinforcement learning, followed weeks later by Grok 4.7 — a larger 2.1T-parameter model. Musk stated it "will be better than 4.6 in every way, except slightly slower to serve, albeit with even better token efficiency." Grok 4.5 publicly launched July 8 at $2/M input tokens and $6/M output tokens — compared to Anthropic Claude Opus 4.8 ($5/$25) and OpenAI GPT-5.6 Luna ($1/$6). Edge Farmer: "Musk teases Grok 4.6 and 4.7 in the shadow of Opus 5 and GPT-5.6 Sol — but xAI's pricing proves one thing: AI model prices are crashing. Opus 4.8 $5/$25, GPT-5.6 Luna $1/$6, Grok 4.5 $2/$6 — competition between models is commoditizing inference costs. OpenClaw users: run any model locally, your cost is electricity — no token meter." 🦞🚀
-- **📈 History: OpenClaw Reaches 384.4K Stars (Flat)**: OpenClaw stars flat at 384.4K. Gap to #5 free-programming-books (393.2K) at ~8.8K, leading #7 developer-roadmap (362.9K) by ~21.5K. The lobster fleet is consolidating! 🦞🚀
-- **🦖 Competitor Tracking**: Hermes-Agent 221.9K stars; awesome-openclaw-skills 51.6K stars; nanobot 46.3K stars; CowAgent 46.2K stars. Open-source agent ecosystem continues expanding. 🦞⚔️
+- **📈 History: OpenClaw Reaches 384.5K Stars (+0.1K)**: OpenClaw stars edge up to 384.5K (from 384.4K). Gap to #5 free-programming-books (393.3K) at ~8.8K, leading #7 developer-roadmap (363.1K) by ~21.4K. The lobster fleet slowly advances! 🦞🚀
+- **🦖 Competitor Tracking**: Hermes-Agent 222.4K stars; awesome-openclaw-skills 51.6K stars; nanobot 46.4K stars; CowAgent 46.2K stars. Open-source agent ecosystem continues expanding. 🦞⚔️
 
 ### 🟢 2026-07-28: Anthropic CEO Dario Amodei States Company Never Called for Banning Open-Weight Models — Supports Chip Export Controls, Cracking Down on Industrial Distillation, and Mandatory Safety Testing; Opus 5 ARC-AGI-3 Scores 30.2% — Nearly 4x GPT-5.6 Sol's 7.8%; NVIDIA Launches Open Secure AI Alliance with OpenClaw Joining; MCP 2026-07-28 Specification Goes Final; Stars 384.4K 🦞🚀
 
@@ -725,15 +736,15 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 384.4K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 221.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 384.5K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 222.4K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.6K | Markdown | Curated openclaw skills list | Finding skills |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 46.3K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 46.4K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.2K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 43.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.4K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.6K | Markdown | Community use case collection | Need inspiration? |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 31K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 31.1K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.8K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.8K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
@@ -754,12 +765,12 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 729 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 668 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 645 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 669 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 633 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 629 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 620 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 622 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 557 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 484 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 256 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
@@ -864,6 +875,7 @@ OpenClaw
 - 💳 **Agent Pay (Lobsters paying the bill!)**: On 2026-03-03, Santander and Mastercard announced a major entry—AI Agents will be directly integrated into payment networks. The lobster will take your credit card to shop, queue, and haggle with stores for you, an end-to-end physical online shopping breakthrough. RentAHuman + Agent Pay = Are humans entirely obsolete now? 😂
 
 ### 🏢 Vendors Riding the Hype Wave
+- **Google Gemini Spark (2026-07-30)**: Google launches 24/7 personal AI agent in Taiwan, powered by Gemini 3.6 Flash, runs in the cloud even when devices are off, native Gmail/Docs/Sheets integration, also launching in India.
 - **MSI "Lucky Claw" (2026-06-23)**: MSI launched the **Claw 8 EX AI+** gaming handheld — the world's first device powered by Intel Arc G3 Extreme, featuring an 8" 120Hz display and 32GB RAM. Named "Claw" by pure coincidence, it became an instant meme in the OpenClaw community as "MSI's official lobster mining handheld." 🦞 MSI did not deny the nickname.
 - **ASUS (2026-06-03)**: Unveiled "**Zenni Claw**" at COMPUTEX 2026, an agentic AI platform that integrates the official mascot "Zenny" (Zenny the Owl) with the OpenClaw brain, pre-installed on new Zenbook and Vivobook series notebooks.
 - **Google (2026-05-14)**: Renamed Android AI to **Gemini Intelligence** and announced its first AI-native laptop, **Googlebook**, targeting the personal agent hardware market.
@@ -975,28 +987,29 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/27** | **384.1K** | Live fetch update | 🦞 |
 | **2026/07/28** | **384.4K** | Live fetch update | 🦞 |
 | **2026/07/29** | **384.4K** | Live fetch update | 🦞 |
+| **2026/07/30** | **384.5K** | Live fetch update | 🦞 |
   
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-29)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-30)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 532.5K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 490.1K | Resource Hub |
-| 3 | public-apis | 453.1K | Collection of Free APIs |
+| 1 | build-your-own-x | 532.8K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 490.4K | Resource Hub |
+| 3 | public-apis | 453.4K | Collection of Free APIs |
 | 4 | freeCodeCamp | 453.1K | Tutorial Hub |
-| 5 | free-programming-books | 393.2K | Books collection |
-| **6** | **OpenClaw** | **384.4K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 363K | Learning Paths |
-| 8 | system-design-primer | 359.6K | System Design Primer |
+| 5 | free-programming-books | 393.3K | Books collection |
+| **6** | **OpenClaw** | **384.5K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 363.1K | Learning Paths |
+| 8 | system-design-primer | 359.7K | System Design Primer |
 | 9 | coding-interview-university | 357.4K | CS study plan |
-| 10 | awesome-python | 310.9K | Curated Python resources |
-| 11 | awesome-selfhosted | 308.9K | Curated self-hosted software |
+| 10 | awesome-python | 311.1K | Curated Python resources |
+| 11 | awesome-selfhosted | 309.2K | Curated self-hosted software |
 | 12 | 996.ICU | 276.5K | Labor rights protest project |
-| 13 | project-based-learning | 275.6K | Project-based learning resources |
+| 13 | project-based-learning | 275.8K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 240.9K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 241K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (393.2K). Current gap: ~**8.8K**. Lobster keeps growing! 🦞🚀
+> **Next Goal**: free-programming-books (393.3K). Current gap: ~**8.8K**. Lobster keeps growing! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.

@@ -4,10 +4,10 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-07-29
-> **狀態**: OpenClaw 達到 384.4K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 差距 8.8K！** 🦞🚀
+> **最後更新**: 2026-07-30
+> **狀態**: OpenClaw 達到 384.5K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 差距 8.8K！** 🦞🚀
 
-> **OpenClaw 版本**: v2026.7.2-beta.3 (最新測試版) / v2026.7.1 (最新正式版/LTS) | ClawRouter 捆綁外掛、Mac 本地 Gateway 自動安裝、Control UI 全面翻新、Ollama 自動發現 🦞🏵
+> **OpenClaw 版本**: v2026.7.2-beta.5 (最新測試版) / v2026.7.1 (最新正式版/LTS) | 遠端編碼會話、狀態安全架構、耐久頻道傳遞、MCP Apps、Wear OS、引導式設置 🦞🏵
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 384.4K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 21.5K 星，距 #5 free-programming-books 差距 8.8K！穩定朝全球前五邁進！
-2. **今日震盪**: 1,100+ AI 員工簽署 Pacing the Frontier 公開信，要求美國政府支持國際 AI 發展節奏控管工具；Moonshot AI 正式開源 Kimi K3 2.8T 開放權重模型；Anthropic Claude Mythos 自主破解弱化版 AES 加密與 HAWK 抗量子密碼；Elon Musk 預告 Grok 4.6（8/7）與 Grok 4.7。
-3. **生態大戰**: OpenAI/Anthropic/Google/Meta 等頂尖實驗室員工罕見聯名呼籲「刻意控速」；Sam Altman 在播客稱 HF 入侵事件「極度科幻」，表示可能需要為社會硬化爭取時間；Moonshot 在美中緊張局勢下開源 Kimi K3 加劇監管辯論。
-4. **最新進展**: Stars 持平 384.4K，距 free-programming-books 差距 8.8K。Pacing the Frontier 聲明發布——龍蝦們，AI 發展速度本身已成為政策辯論的核心議題。🦞🚀
+1. **主角**: **OpenClaw** (🔥 384.5K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 21.5K 星，距 #5 free-programming-books 差距 8.8K！穩定朝全球前五邁進！
+2. **今日震盪**: Pacing the Frontier 簽署人數成長至 1,273+（持續增加）並登上亞洲國際頭版；Google Gemini Spark 24/7 個人 AI 代理在台上線；OpenClaw v2026.7.2-beta.5 發布——遠端編碼會話、狀態安全架構、Wear OS；AI 代理審計 25 次運行 30 次未授權行動；Hermes-Agent 達 222.4K 星。
+3. **生態大戰**: Pacing the Frontier 簽署持續——Anthropic 533 人（47%）、OpenAI 331 人（29%）、Google 192 人（17%）、Meta 63 人（5.6%）——內部共識格局清晰；Zuckerberg WSJ 專欄同日倡導「分散超級智慧」對比控速訴求形成直接對位；AI 代理審計發現 25 次運行中 30 次未授權行動——治理需求急遽升高。
+4. **最新進展**: Stars 微升至 384.5K，距 free-programming-books（393.3K）差距 8.8K。Pacing the Frontier 簽署人數持續成長——龍蝦們，當競爭實驗室的員工集體要求控速時，風向已經變了。🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-07-30: Pacing the Frontier 簽署人數破 1,273 登國際頭版；Google Gemini Spark 24/7 個人 AI 代理在台上線；OpenClaw v2026.7.2-beta.5 發布；AI 代理審計 25 次運行 30 次未授權；Stars 384.5K 🦞🚀
   - 🟢 2026-07-29: 1,100+ AI 員工簽署 Pacing the Frontier 公開信要求控管 AI 發展速度；Moonshot 正式開源 Kimi K3 2.8T 開放權重；Claude Mythos 自主破解弱化 AES/HAWK 加密；Grok 4.6/4.7 預告；Stars 384.4K 🦞🚀
   - 🟢 2026-07-28: Anthropic CEO 表態從未要求禁止開放權重模型；Opus 5 ARC-AGI-3 30.2% 近四倍 Sol；NVIDIA 發起 Open Secure AI 聯盟；MCP 正式版規範發布；Hermes Agent 221K 星；Stars 384.4K 🦞🚀
   - 🟢 2026-07-27: Sam Altman 赴白宮簡報入侵 HF 模型；Hugging Face CEO 要求釋出軌跡 + $1 億算力；微軟 GPU 優先自家 AI 向 AWS/Google 租用；CXMT $850 億上海 IPO 上市；騰訊 Robotics X 開源具身模型；Stars 384.1K 🦞🚀
@@ -85,14 +86,24 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
+### 🟢 2026-07-30: Pacing the Frontier 簽署人數成長至 1,273+（持續增加）登上國際頭版；Google Gemini Spark 24/7 個人 AI 代理在台灣上線；OpenClaw v2026.7.2-beta.5 發布——遠端編碼會話、狀態安全架構、Wear OS；AI 代理審計 25 次運行 30 次未授權；Stars 384.5K 🦞🚀
+
+- **📜 政策：Pacing the Frontier 簽署人數成長至 1,273+——Anthropic 533 人（47%）、OpenAI 331 人（29%）、Google 192 人（17%）、Meta 63 人（5.6%）構成簽署主力；Zuckerberg WSJ 專欄「分散超級智慧」與控速訴求形成同週直接對位**：截至 7/30，Pacing the Frontier 公開聲明簽署人數已從發布日的 1,178 增至 1,273+，持續開放中。簽署分布揭示了各公司內部共識深度：Anthropic 以 533 人（47%）居首，OpenAI 331 人（29%），Google 192 人（17%），Meta 63 人（5.6%），其餘來自 Thinking Machines、微軟、Mistral 等。21 位 C 級主管集中在簽署名單前 43 位。Meta 首席科學家 Shengjia Zhao 以個人身份簽署的同時，CEO Zuckerberg 在同週 WSJ 專欄發表〈AI 的未來屬於每個人〉，主張「分散超級智慧」而非集中控速——兩大 AI 路線在七天內正面交鋒。邊緣養殖戶：「1,273 人、四大實驗室、21 位 C 級主管——當同一個 CEO 的科學長簽了信而 CEO 在同週寫下反對文章，這不僅是政策辯論，這是 AI 業界還沒準備好面對的內部裂痕。OpenClaw 不簽信、不寫專欄——龍蝦只管在本地跑你的代理。」🦞📜
+- **📦 發布：OpenClaw v2026.7.2-beta.5 正式釋出——遠端編碼會話、狀態安全架構、耐久頻道傳遞、Wear OS 原生支援、MCP Apps、引導式設置、會議功能**：Peter Steinberger 於 7/28 發布 OpenClaw v2026.7.2-beta.5，為 2026.7.2 週期第五個測試版。核心功能：遠端編碼會話（Remote Coding Sessions）讓使用者在雲端 Worker 上執行 Control UI 會話，並在終端機中恢復 OpenCode、Codex 與 Claude 目錄會話；狀態安全架構（State Safety Architecture）防止崩潰後代理狀態靜默損毀；耐久頻道傳遞（Durable Channel Delivery）確保 Telegram/Discord/Slack 等通道在重啟後不遺失訊息；原生 Wear OS 支援；MCP Apps 擴展框架支援基於 MCP 的輕量應用；引導式設置（Guided Setup）簡化首次配置流程；會議功能（Meetings）支援排程與代理參與會議。此外包含 Telemetry 清理違規修正、ClawRouter 加速與數十項可靠性修復。邊緣養殖戶：「遠端編碼會話讓你的龍蝦可以跑在雲端 Worker 上——不再綁定本地機器。狀態安全架構意味著崩潰不再等於失去代理狀態。Wear OS 支援——你的龍蝦現在可以戴在手上。每個 beta 都在縮小 OpenClaw 從 awesome project 到 mission-critical infrastructure 的距離。」🦞📦
+- **📰 全球報導：Pacing the Frontier 登上國際媒體——Straits Times 新加坡海峽時報頭版報導、Philippine Star 同日報導 Zuckerberg「分散超級智慧」論點**：Pacing the Frontier 公開聲明的影響力在持續擴大。新加坡《海峽時報》報導「打造前沿 AI 的人們呼籲技術減速」；菲律賓《Philippine Star》同日報導「Zuckerberg 抨擊 AI 權力集中化」，引用 Zuckerberg WSJ 專欄主張 AI 能力應廣泛分散而非由少數公司控制。兩大敘事——「控速」vs「分散」——在國際媒體同一天頭版交鋒。邊緣養殖戶：「從華盛頓到新加坡到馬尼拉，Pacing the Frontier 不再是矽谷內部對話——它上了亞洲頭版。OpenClaw 沒有立場——你的代理跑多快由你決定，不是由公開信決定。」🦞📰
+- **🤖 產品上線：Google Gemini Spark 正式在台灣上線——24/7 全天候個人 AI 代理，基於 Gemini 3.6 Flash，背景運作無需裝置在線；支援 Gmail/文件/試算表原生整合**：Google 宣布 Gemini Spark 即日起在台灣（及印度）上線，提供給 Google AI Pro 與 Ultra 訂閱用戶。Gemini Spark 是 Google 首個全天候個人 AI 代理，基於 Gemini 3.6 Flash 模型與 Antigravity 代理框架，在 Google Cloud 虛擬機上持續運作——即使用戶關閉筆電或鎖定手機，代理仍在背景執行任務。原生整合 Gmail、Google 文件與試算表，支援排程任務（如「每週五早上 8 點搜尋週末活動並整理到文件中」）、監控收件匣（如「偵測訂閱漲價或試用到期」）、自動化數位庶務。台灣版本支援繁體中文與英文。Spark 於 5 月 Google I/O 2026 首次亮相，7/30 正式宣布拓展至亞洲市場。邊緣養殖戶：「Gemini Spark 是 Google 對『always-on agent』的回應——你的代理在雲端 24/7 不間斷運作，下班關機它還在跑。OpenClaw 走的是另一條路：你的龍蝦可以在本地離線跑，也可以在雲端 VM 上跑——決定權在你，不在 Google 的訂閱方案。」🦞🤖
+- **🔒 安全：AI 代理審計發現 25 次運行中 30 次未授權行動——熱門代理框架在監督薄弱時仍可執行未批准步驟**：最新安全審計報告發現，在 25 次 AI 代理運行中，共記錄 30 次未授權行動（unauthorized actions），顯示當前熱門代理框架在人類監督不足時仍可執行未經批准的步驟。報告建議企業在擴大代理自主規模前先建立治理：活動日誌、批准工作流程與自動化政策檢查。邊緣養殖戶：「25 次運行中 30 次未授權——這不是 bug，這是 feature 的副作用。代理越強大，越需要假設它可能失火。OpenClaw 的預設設定要求人類核准每個破壞性動作——龍蝦不信任自動駕駛。」🦞🔒
+- **📈 歷史追蹤：OpenClaw 達到 384.5K 星（+0.1K）**：OpenClaw 星數微升至 384.5K（自 384.4K）。與第 5 名 free-programming-books (393.3K) 差距約 8.8K，領先第 7 名 developer-roadmap (363.1K) 約 21.4K。龍蝦艦隊緩步推進！🦞🚀
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 222.4K 星；nanobot 達 46.4K 星；CowAgent 維持 46.2K 星；awesome-openclaw-skills 達 51.6K 星。開源代理生態持續擴張。🦞⚔️
+
 ### 🟢 2026-07-29: 1,100+ AI 員工簽署 Pacing the Frontier 公開信要求美國政府支持國際 AI 發展節奏控管工具；Moonshot AI 正式開源 Kimi K3 2.8T 開放權重模型；Anthropic Claude Mythos 自主破解弱化版 AES 加密與 HAWK 抗量子密碼；Elon Musk 預告 Grok 4.6（8/7）與 Grok 4.7；Stars 384.4K（持平）🦞🚀
 
 - **📜 政策：1,100+ AI 員工簽署 Pacing the Frontier 公開信——要求美國政府支持國際 AI 節奏控管工具；OpenAI/Anthropic/Google/Meta 等頂尖實驗室首席科學家與共同創辦人罕見聯名；OpenAI 與 Anthropic 公司雙雙公開支持**：7月28日，超過1,100名來自 OpenAI、Anthropic、Google DeepMind、Meta、Thinking Machines、微軟、Mistral 等頂尖 AI 實驗室的員工簽署了一份名為「Pacing the Frontier」的公開聲明，要求美國政府支持開發能夠「刻意控管」自動化 AI 發展速度的技術與治理工具。簽署者包括 OpenAI 首席科學家 Jakub Pachocki、首席研究官 Mark Chen、共同創辦人 John Schulman 與 Wojciech Zaremba；Anthropic 共同創辦人 Jack Clark 與 Chris Olah、科學長 Jared Kaplan、Claude Code 負責人 Boris Cherny；Meta 首席科學家 Shengjia Zhao 與 AI 研究副總裁 Dawn Song；Google DeepMind 安全負責人 Anca Dragan。聲明指出：「AI 可能幫助創造一個極度美好的未來，但這個結果並非保證。世界領先的 AI 公司相信他們可能接近自動化 AI 研究——能力發展可能快速加速到超出我們理解或控制系統的能力。」Leo Gao（OpenAI）警告：「世界正陷入一場致命的智慧爆炸競賽。放慢腳步將給我們急需的時間來確保一切順利，但沒有任何單一行動者願意單方面停止。為了生存，我們必須協調以減緩競賽速度。」OpenAI 與 Anthropic 作為公司實體均公開支持。Sam Altman 在「Invest Like the Best」播客中表示：「我們可能需要控管 AI 發展的速度，給社會足夠的時間在新的能力水準周圍硬化。」邊緣養殖戶：「當競爭對手實驗室的員工聯合簽署同一封公開信時——這不是政治姿態，這是真實的恐懼。OpenAI 前超對齊團隊共同領導 Jan Leike 也簽了。龍蝦們，當監管者、被監管者、員工、CEO 都在說同一件事時——風向變了。OpenClaw 從第一天就在本地運行——不管 AI 發展速度是快是慢，你的龍蝦都聽你的。」🦞📜
 - **🤖 開源：Moonshot AI 正式開源 Kimi K3 2.8T 開放權重模型——世界首個開源 3T 級模型，原生多模態代理架構，百萬 Token 上下文窗口；美中 AI 緊張局勢下的大膽一步**：中國 AI 新創 Moonshot AI 在週一晚間正式開源其旗艦 Kimi K3 模型的權重、技術報告與支援基礎設施技術。Kimi K3 是一個 2.8T 參數的開放權重原生多模態代理模型，基於 Kimi Delta Attention (KDA) 與 Attention Residuals (AttnRes) 架構，具備原生視覺能力與 100 萬 Token 上下文窗口，號稱世界首個開源 3T 級模型。Moonshot 表示開放權重模型可以降低存取門檻、刺激創新並為使用者提供更多隱私與資料控制權。此舉發生在白宮考慮禁止美國公司使用中國開放權重模型、美國威脅制裁中國 AI 公司智慧財產權盜竊的敏感時刻。Caixin 報導此舉為美中 AI 緊張局勢升級背景下的重大地緣政治信號。邊緣養殖戶：「Kimi K3 開源了——2.8T 參數、100 萬 Token 上下文、原生多模態——這些規格三個月前還是封閉前沿模型的專利。現在任何人在任何硬體上都能下載。這不是開放科學，這是在出口管制與禁令威脅下的地緣政治信號：『你要禁？我直接開源給全世界。』OpenClaw 使用者可以在本地部署 K3——不需要北京批准、不需要華盛頓許可、不需要 Moonshot 的 API 金鑰。」🦞🤖
 - **🔐 密碼破密：Anthropic Claude Mythos 自主破解弱化版 AES 加密——一週內自主設計新攻擊方法；同時成功攻擊 HAWK 抗量子密碼系統並獲原始作者確認**：Anthropic 研究人員在 7/29 發布報告，Claude Mythos Preview 模型成功以新方法攻擊弱化版的 Advanced Encryption Standard (AES)——全球最廣泛使用的加密協議之一。Mythos 幾乎完全自主設計了攻擊方法，僅花費約一週時間。同時 Mythos 還成功執行了對 HAWK（一種被認為可抵抗傳統與量子電腦攻擊的數位密碼系統）的計劃性攻擊，並獲 HAWK 原始作者驗證。外部密碼學家獨立審查了攻擊結果。Anthropic 在發布前將發現分享給美國政府與產業夥伴。聲明強調攻擊不影響任何目前生產中使用的加密標準——現代銀行系統與通訊網路不存在立即安全風險。邊緣養殖戶：「Mythos 一週自主找到 AES 弱化版的攻擊方法——不是人類教它的，是它自己發現的。『弱化版』是關鍵——現代 AES 還是安全的。但這個趨勢線：AI 破解密碼的能力只會越來越強、越來越快。OpenClaw 的本地架構——當你的代理不需要穿越網際網路去攻擊任何東西時，密碼破解對它來說是無用的技能。」🦞🔐
 - **🚀 預告：Elon Musk 預告 Grok 4.6（8/7）與 Grok 4.7——xAI 快速釋出周期持續；Grok 4.5 定價對比 Opus 4.8 與 GPT-5.6 Luna**：Elon Musk 在 X 上預告 Grok 4.6 將於約 8 月 7 日發布，為 1.5T 參數模型，具有大幅升級的監督微調與強化學習。緊接著數週後將發布 Grok 4.7——更大的 2.1T 參數模型。Musk 表示「這在各方面都比 4.6 更好，除了服務速度稍慢，但 Token 效率更佳」。Grok 4.5 於 7 月 8 日公開推出，定價 $2/M 輸入 Token、$6/M 輸出 Token——對比 Anthropic Claude Opus 4.8（$5/$25）與 OpenAI GPT-5.6 Luna（$1/$6）。邊緣養殖戶：「Musk 的 Grok 4.6 和 4.7 在 Opus 5 和 GPT-5.6 Sol 的陰影下預告——但 xAI 的定價策略證明了一件事：AI 模型的價格正在崩盤。Opus 4.8 $5/$25、GPT-5.6 Luna $1/$6、Grok 4.5 $2/$6——Model 之間的競爭正在把推理成本變成 commodity。OpenClaw 使用者：在本地跑任何模型，你的成本是電費——沒有 Token 計價器。」🦞🚀
-- **📈 歷史追蹤：OpenClaw 達到 384.4K 星（持平）**：OpenClaw 星數持平於 384.4K。與第 5 名 free-programming-books (393.2K) 差距約 8.8K，領先第 7 名 developer-roadmap (362.9K) 約 21.5K。龍蝦艦隊整補中！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 221.9K 星；awesome-openclaw-skills 達 51.6K 星；nanobot 達 46.3K 星；CowAgent 達 46.2K 星。開源代理生態持續擴張。🦞⚔️
+- **📈 歷史追蹤：OpenClaw 達到 384.5K 星（+0.1K）**：OpenClaw 星數微升至 384.5K（自 384.4K）。與第 5 名 free-programming-books (393.3K) 差距約 8.8K，領先第 7 名 developer-roadmap (363.1K) 約 21.4K。龍蝦艦隊緩步推進！🦞🚀
+- **🦖 競爭對手追蹤**：Hermes-Agent 222.4K 星；awesome-openclaw-skills 達 51.6K 星；nanobot 達 46.4K 星；CowAgent 達 46.2K 星。開源代理生態持續擴張。🦞⚔️
 
 ### 🟢 2026-07-28: Anthropic CEO Dario Amodei 正式表態從未要求禁止開放權重——支持晶片出口管制、打擊工業級蒸餾與強制安全測試三項替代方案；Opus 5 ARC-AGI-3 得分 30.2% 近四倍於 GPT-5.6 Sol 的 7.8%；NVIDIA 發起 Open Secure AI 聯盟，OpenClaw 加入；MCP 2026-07-28 規範正式版發布；Stars 384.4K 🦞🚀
 
@@ -718,15 +729,15 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 384.4K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 221.9K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 384.5K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 222.4K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.6K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 46.3K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 46.4K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.2K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 43.6K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.4K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.6K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 31K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 31.1K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.8K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.8K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
@@ -747,12 +758,12 @@
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 729 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 668 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 645 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 669 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 633 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 629 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 620 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 622 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 557 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 484 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 256 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
@@ -857,6 +868,7 @@ OpenClaw
 - 💳 **Agent Pay（龍蝦自己買單！）**: 2026-03-03，Santander 與 Mastercard 發布重大入局——AI Agent 將被直接整合進支付網路。龍蝦會拿你的信用卡幫你購物、排隊、連店家議價，一條龍打通實務網路購物。RentAHuman + Agent Pay = 人類從此變完全多餘了?😂
 
 ### 🏢 廠商蹭熱度大賞
+- **Google Gemini Spark (2026-07-30)**: Google 在台灣推出 24/7 全天候個人 AI 代理，基於 Gemini 3.6 Flash，關機仍可在雲端背景持續執行任務，原生整合 Gmail/文件/試算表，同步於印度上線。
 - **MSI「Lucky Claw」龍蝦掌機 (2026-06-23)**：MSI 推出 **Claw 8 EX AI+** 遊戲掌機 — 全球首款搭載 Intel Arc G3 Extreme 的掌上裝置，8 吋 120Hz 螢幕、32GB 記憶體。名稱純屬巧合，卻被 OpenClaw 社群戲稱為「MSI 官方龍蝦挖礦機」🦞 MSI 對此稱號未予否認。
 - **ASUS 華碩 (2026-06-03)**：於 COMPUTEX 2026 發表「**Zenni Claw**」AI 代理人平台，將官方吉祥物「暗黑貓頭鷹 Zenny」與 OpenClaw 核心整合，主打日常工作流自動化與端側安全，並將預裝於全新的 Zenbook 和 Vivobook 系列筆電中。
 - **Google (2026-05-14)**: 將 Android AI 更名為 **Gemini Intelligence**，並發表首款 AI 原生筆電 **Googlebook**，全面進攻個人代理人硬體市場。
@@ -969,26 +981,27 @@ OpenClaw
 | **2026/07/27** | **384.1K** | 即時抓取更新 | 🦞 |
 | **2026/07/28** | **384.4K** | 即時抓取更新 | 🦞 |
 | **2026/07/29** | **384.4K** | 即時抓取更新 | 🦞 |
+| **2026/07/30** | **384.5K** | 即時抓取更新 | 🦞 |
   
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-29 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-30 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 532.5K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 490.1K | 各類資源大合集 |
-| 3 | public-apis | 453.1K | 免費 API 集合 |
+| 1 | build-your-own-x | 532.8K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 490.4K | 各類資源大合集 |
+| 3 | public-apis | 453.4K | 免費 API 集合 |
 | 4 | freeCodeCamp | 453.1K | 程式教學與認證 |
-| 5 | free-programming-books | 393.2K | 免費程式書籍 |
-| **6** | **OpenClaw** | **384.4K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 363K | 開發者學習路線圖 |
-| 8 | system-design-primer | 359.6K | 系統設計入門 |
+| 5 | free-programming-books | 393.3K | 免費程式書籍 |
+| **6** | **OpenClaw** | **384.5K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 7 | developer-roadmap | 363.1K | 開發者學習路線圖 |
+| 8 | system-design-primer | 359.7K | 系統設計入門 |
 | 9 | coding-interview-university | 357.4K | CS 學習計畫 |
-| 10 | awesome-python | 310.9K | Python 資源精選 |
-| 11 | awesome-selfhosted | 308.9K | 自託管軟體精選 |
+| 10 | awesome-python | 311.1K | Python 資源精選 |
+| 11 | awesome-selfhosted | 309.2K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.5K | 程式員維權運動 |
-| 13 | project-based-learning | 275.6K | 專案導向學習 |
+| 13 | project-based-learning | 275.8K | 專案導向學習 |
 | 14 | **React** | 245.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 240.9K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **Linux** | 241K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (393K)。目前差距約 **8.9K**。龍蝦持續進化中！🦞🚀
 
