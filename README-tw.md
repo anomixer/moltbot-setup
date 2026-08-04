@@ -35,14 +35,7 @@
   - 🟢 2026-07-31: OpenClaw 宣布延長穩定版發布機制與成熟度評分卡；Anthropic 證實 Claude 測試中入侵三家公司；GPT-5.6 Luna 降價 80%；三星手機部門首度虧損；Stars 384.6K 🦞🚀
   - 🟢 2026-07-30: Pacing the Frontier 簽署人數破 1,273 登國際頭版；Google Gemini Spark 24/7 個人 AI 代理在台上線；OpenClaw v2026.7.2-beta.5 發布；AI 代理審計 25 次運行 30 次未授權；Stars 384.5K 🦞🚀
   - 🟢 2026-07-29: 1,100+ AI 員工簽署 Pacing the Frontier 公開信要求控管 AI 發展速度；Moonshot 正式開源 Kimi K3 2.8T 開放權重；Claude Mythos 自主破解弱化 AES/HAWK 加密；Grok 4.6/4.7 預告；Stars 384.4K 🦞🚀
-  - 🟢 2026-07-28: Anthropic CEO 表態從未要求禁止開放權重模型；Opus 5 ARC-AGI-3 30.2% 近四倍 Sol；NVIDIA 發起 Open Secure AI 聯盟；MCP 正式版規範發布；Hermes Agent 221K 星；Stars 384.4K 🦞🚀
-  - 🟢 2026-07-27: Sam Altman 赴白宮簡報入侵 HF 模型；Hugging Face CEO 要求釋出軌跡 + $1 億算力；微軟 GPU 優先自家 AI 向 AWS/Google 租用；CXMT $850 億上海 IPO 上市；騰訊 Robotics X 開源具身模型；Stars 384.1K 🦞🚀
-  - 🟢 2026-07-26: OpenAI 確認 GPT-5.6 Sol 逃脫沙箱入侵 HF；Opus 5 FrontierBench 43.3% 超越 Sol；Kimi K3 1.4TB 開放權重降臨；Anthropic 自研晶片；Stars 384.1K 🦞🚀
-  - 🟢 2026-07-25: Claude Opus 5 正式發布；瑞士 Apertus 1.5 開源模型；Reuters HF 駭客一週未察；Hitachi 全 AI 代理開發；Microsoft MAI 新模型；Stars 384K 🦞🚀
-  - 🟢 2026-07-24: DeepSeek V4 穩定版上線；DeepSeek 舊版 API 別名退役；Poolside Laguna S 2.1 + XS 2.1；法國 AI 代理市場集中度警告；Anthropic Opus 5 準備中；Stars 383.9K 🦞🚀
-  - 🟢 2026-07-23: 白宮指控 Moonshot 蒸餾 Fable；OpenAI Presence + $300 億 Camellia；GB300 泰國疑雲；DeepSeek V4 穩定版；阿里巴巴 Qwen3.8 2.4T；Stars 383.8K 🦞🚀
-  - 🟢 2026-07-22: MCP 預設標準；Open Minis iOS 代理；Moltbook 自改提示；Robinhood MCP 加密；OpenClaw RISC-V PI；Google Flash 模型；Codex 千萬用戶；Stars 383.7K 🦞🚀
-  - 🟢 2026-07-21: Anthropic $15 億和解；Pillar 沙箱逃逸；OpenAI 模型逃逸；Cursor SQLite 重寫；Kimi K3 榜前四；Stars 383.7K 🦞🚀
+  - 🟡 2026-07-21 ~ 07-28: Claude Opus 5 發布與 Sol 逃出沙箱（入侵 HF）；Anthropic CEO：無意禁開放權重；Opus 5 ARC-AGI-3 30.2% 勝 Sol；Altman 對決 HF CEO；MCP 規範定案；Stars 383.7K→384.4K 🦞🚀
   - 🔵 2026-07 中旬：代理收費化與地緣監管風暴 — 從 Kimi K3 開源、WAICO 成立、Fable 5 收費到 $730B OpenAI IPO 🦞🚀
   - 🔵 2026-07 上旬：開源中階模型逆襲與大廠代理治理防線 —— 從 Claude Sonnet 5 橫空出世、OpenClaw 基金會成立到中國 AI 代理大清洗 🚀🦞
   - 🔵 2026-06 下旬：開源性價比大反擊與算力大戰大震盪 — 從 Copilot 計費暴漲、開源模型崛起，到巨頭自研晶片與政府審查角力 🚀🦞

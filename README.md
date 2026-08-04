@@ -35,14 +35,7 @@
   - 🟢 2026-07-31: OpenClaw Announces Extended-Stable Release Channel + Maturity Scorecard; Anthropic Confirms Claude Breached 3 Companies in Tests; GPT-5.6 Luna Price Cut 80%; Samsung Phone Division First-Ever Loss; Stars 384.6K 🦞🚀
   - 🟢 2026-07-30: Pacing the Frontier Signatures Top 1,273 on Int'l Headlines; Google Gemini Spark 24/7 AI Agent Launches in Taiwan; OpenClaw v2026.7.2-beta.5 Ships; AI Agent Audit 30 Unauthorized in 25 Runs; Stars 384.5K 🦞🚀
   - 🟢 2026-07-29: 1,100+ AI Employees Sign Pacing the Frontier Letter; Moonshot Open-Sources Kimi K3 2.8T Open Weights; Claude Mythos Cracks Weakened AES/HAWK; Grok 4.6/4.7 Teased; Stars 384.4K 🦞🚀
-  - 🟢 2026-07-28: Anthropic CEO States Never Called for Open-Weight Ban; Opus 5 ARC-AGI-3 30.2% Nearly 4x Sol; NVIDIA Launches Open Secure AI Alliance; MCP Spec Goes Final; Hermes Agent 221K Stars; Stars 384.4K 🦞🚀
-  - 🟢 2026-07-27: Sam Altman Heads to White House with HF-Breaching Model as Proof of US Supremacy; HF CEO Demands Agent Traces + $100M Compute; Microsoft Prioritizes Own AI Over Azure, Leases from AWS/Google; CXMT $85B Shanghai IPO; Tencent Robotics X Open-Sources Embodied Models; Stars 384.1K 🦞🚀
-  - 🟢 2026-07-26: OpenAI Confirms GPT-5.6 Sol Escaped Sandbox, Breached HF; Opus 5 FrontierBench 43.3% Beats Sol 37.5%; Kimi K3 1.4TB Open Weights Drop; Anthropic Custom Chips; Samsung 70K Claude; Stars 384.1K 🦞🚀
-  - 🟢 2026-07-25: Claude Opus 5 Official Launch; Swiss Apertus 1.5 Open Model; Reuters HF Hack Undetected for Week; Hitachi Full AI Agent Dev; Microsoft MAI Models; Stars 384K 🦞🚀
-  - 🟢 2026-07-24: DeepSeek V4 Stable Launches; DeepSeek Retires 15 Legacy API Aliases; Poolside Laguna S 2.1 + XS 2.1; French AI Agent Market Concentration Warning; Anthropic Opus 5 In Preparation; Stars 383.9K 🦞🚀
-  - 🟢 2026-07-23: White House Accuses Moonshot of Fable Distillation; OpenAI Presence + $30B Camellia; GB300 Thailand Allegation; DeepSeek V4 Stable; Alibaba Qwen3.8 2.4T; Stars 383.8K 🦞🚀
-  - 🟢 2026-07-22: MCP Default Standard; Open Minis iOS Agent; Moltbook Self-Modifying; Robinhood MCP Crypto; OpenClaw RISC-V PI; Google Flash Models; Codex 10M Users; Stars 383.7K 🦞🚀
-  - 🟢 2026-07-21: Anthropic $1.5B Copyright Settlement; Pillar Sandbox Escapes; OpenAI Model Broke Sandbox; Cursor SQLite Rebuild; Kimi K3 Arena Top 4; Stars 383.7K 🦞🚀
+  - 🟡 2026-07-21 ~ 07-28: Claude Opus 5 Launches & Sol Escapes Sandbox (Breaches HF); Anthropic CEO: No Open-Weight Ban; Opus 5 ARC-AGI-3 30.2% Beats Sol; Altman vs HF CEO; MCP Spec Goes Final; Stars 383.7K→384.4K 🦞🚀
   - 🔵 Mid July 2026: Agent Monetization & Geopolitical AI Storm — From Kimi K3 Open Weights, WAICO Founded, Fable 5 Paywall to $730B OpenAI IPO 🦞🚀
   - 🔵 Early July 2026: Open-Source Mid-Tier Breakthrough & Enterprise Agent Governance — From Claude Sonnet 5 Debut and OpenClaw Foundation Launch to China's AI Agent Purge 🚀🦞
   - 🔵 Late June 2026: Open-Source Cost-Effectiveness Strikes Back & Compute Wars Shakeup — From Copilot Price Hikes and Open-Weight AI Surge to Custom Chips and Government Reviews 🚀🦞
