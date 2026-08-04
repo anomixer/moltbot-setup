@@ -132,6 +132,8 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **📈 History: OpenClaw Reaches 384.7K Stars (+0.1K)**: OpenClaw stars edge up to 384.7K (from 384.6K). Gap to #5 free-programming-books (393.4K) at ~8.7K, leading #7 developer-roadmap (363.2K) by ~21.5K. The lobster fleet steadily advances! 🦞🚀
 - **🦖 Competitor Tracking**: Hermes-Agent 223.5K stars; nanobot 46.5K stars; CowAgent 46.3K stars; obsidian-skills 43.8K stars; AionUi 31.2K stars. Open-source agent ecosystem continues expanding. 🦞⚔️
 
+---
+
 ### 🔵 Late July 2026: The Autonomy Wake-Up Call — From OpenAI's Sol Breaching HF, Kimi K3 2.8T Open Weights & Claude Opus 5 to Pacing the Frontier; Stars 383.7K→384.6K 🦞🔥
 
 - **📜 Pacing the Frontier Crosses 1,310 Signatures (7/31)**: The open letter asking the US to support "deliberately pacing" automated AI development grows from 1,178 on launch day to 1,310+ in a week — Anthropic 533 (~41%), OpenAI 331 (~25%), Google 192 (~15%), Meta 63 (~5%), with 21 C-suite executives in the top 43 slots.
