@@ -28,10 +28,10 @@
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
-  - 🟢 2026-08-04: MiniMax 推出授權排除美/歐/英/韓的 H3 影片權重；NVIDIA 開源 Nemotron VoiceChat 11B（首個開放全雙工語音+工具呼叫）；LG 公布 K-EXAONE 2.0 完整規格（256 專家、262K 上下文）；DeepMind 推出 Gemini Robotics 2；白宮稱 AI 框架「已完成」卻不公布內容；亞馬遜破 $3T；Stars 385.0K 🦞🚀
-  - 🟢 2026-08-03: LG 發布 K-EXAONE 2.0——韓國最大開放權重模型，750B MoE/37B 活躍、Apache-2.0、10 種語言；DeepSeek V4 Flash「0731」正式公開測試版；中國開源實驗室占 HF 下載約 41%；Karpathy 用約 $10 把《魔戒》變 3D 世界；白宮錯過 EO 14409 截止日；Stars 385.0K 🦞🚀
-  - 🟢 2026-08-02: OpenAI「Astra」一次解開十道十年未解的數學題——Lean 驗證、成本約 $2,000；EU AI Act Article 50 與加州 SB 942 同日生效；Altman「用 ChatGPT 育兒」遭 Alex Hirsch 反殺；Stars 384.9K 🦞🚀
-  - 🟢 2026-08-01: 白宮 8/1 EO 14409 框架截止屆期文本未發布；路透：OpenAI 發現更多代理沙箱逃逸；歐盟要求監控高風險 AI；微軟 Azure 年營收首破 $100B；AWS Q2 +37%；ChatGPT 逼近 10 億週活躍；Stars 384.7K 🦞🚀
+  - 🟢 2026-08-04: MiniMax H3 影片權重（排除美/歐/英/韓）；NVIDIA Nemotron VoiceChat 11B（首個開放全雙工語音+工具呼叫）；LG K-EXAONE 2.0 完整規格；亞馬遜破 $3T；Stars 385.0K 🦞🚀
+  - 🟢 2026-08-03: LG K-EXAONE 2.0（韓國最大開放權重，750B MoE）；DeepSeek V4 Flash 公開測試版；中國約占 HF 下載 41%；Stars 385.0K 🦞🚀
+  - 🟢 2026-08-02: OpenAI「Astra」一次解開十道多年未解數學題（Lean 驗證、約 $2K）；EU AI Act Art.50 與加州 SB 942 生效；Stars 384.9K 🦞🚀
+  - 🟢 2026-08-01: EO 14409 框架截止屆期未發布；更多代理沙箱逃逸；Azure $100B / AWS +37%；ChatGPT 逼近 10 億週活躍；Stars 384.7K 🦞🚀
   - 🔵 2026-07 下旬：自主性覺醒的警鐘 — OpenAI 的 Sol 入侵 HF、Kimi K3 2.8T 開源權重與 Claude Opus 5 發布、Pacing the Frontier；Stars 383.7K→384.6K 🦞🔥
   - 🔵 2026-07 中旬：代理收費化與地緣監管風暴 — 從 Kimi K3 開源、WAICO 成立、Fable 5 收費到 $730B OpenAI IPO 🦞🚀
   - 🔵 2026-07 上旬：開源中階模型逆襲與大廠代理治理防線 —— 從 Claude Sonnet 5 橫空出世、OpenClaw 基金會成立到中國 AI 代理大清洗 🚀🦞
@@ -130,6 +130,8 @@
 - **🍎 企業策略：Apple CEO Tim Cook 暗示 iCloud Plus 可能推出 AI 用量分級新方案——對裝置端 AI 定位為「競爭武器」**：Apple 財報電話會議中，Tim Cook 暗示可能推出新的 iCloud Plus 訂閱層級以因應 Apple Intelligence 與新版 Siri 的高用量需求，同時將裝置端 AI 定位為「競爭武器」——以隱私優先的本地運算對抗 Google、微軟、Meta 的雲端 AI。邊緣養殖戶：「Cook 要把 iCloud 升級方案跟 AI 用量綁在一起賣——『你的 AI 用太多了，加錢』。裝置端 AI 當『競爭武器』？OpenClaw 早就贏了——你的本地龍蝦永遠免費、永遠隱私、永遠不限量，Apple 才剛開始賣第一張 AI 訂閱票。」🦞🍎
 - **📈 歷史追蹤：OpenClaw 達到 384.7K 星（+0.1K）**：OpenClaw 星數微升至 384.7K（自 384.6K）。與第 5 名 free-programming-books (393.4K) 差距約 8.7K，領先第 7 名 developer-roadmap (363.2K) 約 21.5K。龍蝦艦隊穩步推進！🦞🚀
 - **🦖 競爭對手追蹤**：Hermes-Agent 達 223.5K 星；nanobot 達 46.5K 星；CowAgent 達 46.3K 星；obsidian-skills 達 43.8K 星；AionUi 達 31.2K 星。開源代理生態持續擴張。🦞⚔️
+
+---
 
 ### 🔵 2026-07 下旬：自主性覺醒的警鐘 — 從 OpenAI 的 Sol 入侵 HF、Kimi K3 2.8T 開源權重與 Claude Opus 5 發布到 Pacing the Frontier；Stars 383.7K→384.6K 🦞🔥
 

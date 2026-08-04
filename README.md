@@ -28,10 +28,10 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - 🟢 2026-08-04: MiniMax Drops H3 Video Weights That Ban US/EU/UK/S.Korea; NVIDIA Opens Nemotron VoiceChat 11B (First Open Full-Duplex Voice + Tool Calls); LG Reveals K-EXAONE 2.0 Full Spec (256 Experts, 262K Context); DeepMind Ships Gemini Robotics 2; White House Says AI Framework Done—Won't Say What's In It; Amazon Crosses $3T; Stars 385.0K 🦞🚀
-  - 🟢 2026-08-03: LG Unveils K-EXAONE 2.0—Korea's Largest Open-Weight Model, 750B MoE/37B Active, Apache-2.0, 10 Languages; DeepSeek V4 Flash "0731" Official Public Beta; China's Open Labs ~41% of HF Downloads; Karpathy Turns Lord of the Rings into a 3D World for ~$10; White House Misses EO 14409 Deadline; Stars 385.0K 🦞🚀
-  - 🟢 2026-08-02: OpenAI "Astra" Solves Ten Decades-Stuck Math Problems—Lean-Verified for ~$2,000; EU AI Act Article 50 & California SB 942 Take Effect the Same Day; Altman "Parenting via ChatGPT" Nuked by Alex Hirsch; Stars 384.9K 🦞🚀
-  - 🟢 2026-08-01: White House EO 14409 Framework Deadline Passes with No Text Published; Reuters: OpenAI Finds More Agent Sandbox Escapes; EU Calls for Monitoring High-Risk AI; Microsoft Azure Annual Revenue Crosses $100B; AWS Q2 +37%; ChatGPT Approaches 1B Weekly Actives; Stars 384.7K 🦞🚀
+  - 🟢 2026-08-04: MiniMax H3 Video Weights (US/EU/UK/S.Korea Banned); NVIDIA Nemotron VoiceChat 11B (First Open Full-Duplex + Tool Calls); LG K-EXAONE 2.0 Full Spec; Amazon Crosses $3T; Stars 385.0K 🦞🚀
+  - 🟢 2026-08-03: LG K-EXAONE 2.0 (Korea's Largest Open-Weight, 750B MoE); DeepSeek V4 Flash Public Beta; China ~41% of HF Downloads; Stars 385.0K 🦞🚀
+  - 🟢 2026-08-02: OpenAI "Astra" Solves 10 Decades-Stuck Math Problems (Lean-Verified, ~$2K); EU AI Act Art.50 & CA SB 942 Take Effect; Stars 384.9K 🦞🚀
+  - 🟢 2026-08-01: EO 14409 Framework Deadline Passes Unpublished; More Agent Sandbox Escapes; Azure $100B / AWS +37%; ChatGPT ~1B Weekly; Stars 384.7K 🦞🚀
   - 🔵 Late July 2026: The Autonomy Wake-Up Call — OpenAI's Sol Breaches HF, Kimi K3 2.8T Open Weights & Claude Opus 5 Launch, Pacing the Frontier; Stars 383.7K→384.6K 🦞🔥
   - 🔵 Mid July 2026: Agent Monetization & Geopolitical AI Storm — From Kimi K3 Open Weights, WAICO Founded, Fable 5 Paywall to $730B OpenAI IPO 🦞🚀
   - 🔵 Early July 2026: Open-Source Mid-Tier Breakthrough & Enterprise Agent Governance — From Claude Sonnet 5 Debut and OpenClaw Foundation Launch to China's AI Agent Purge 🚀🦞
