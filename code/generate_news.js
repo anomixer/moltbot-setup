@@ -19,7 +19,7 @@ const path = require('path');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const args = process.argv.slice(2);
-const newsInput = args[0];
+const newsInput = args[0] ? args[0].replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, '').trim().slice(0, 2000) : undefined;
 
 const API_KEY = process.env.GEMINI_API_KEY;
 if (!API_KEY) {
