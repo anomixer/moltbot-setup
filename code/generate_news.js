@@ -19,7 +19,12 @@ const path = require('path');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const args = process.argv.slice(2);
-const newsInput = args[0];
+const newsInput = args[0]?.trim().slice(0, 2000) || undefined;
+
+if (args[0] !== undefined && !newsInput) {
+    console.error("❌ 新聞輸入不能為空字串");
+    process.exit(1);
+}
 
 const API_KEY = process.env.GEMINI_API_KEY;
 if (!API_KEY) {
