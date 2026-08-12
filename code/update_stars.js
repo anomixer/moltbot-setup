@@ -44,7 +44,7 @@ function formatStars(n) {
     return String(n);
 }
 
-function fetchStars(repo) {
+function fetchApiStars(repo) {
     return new Promise((resolve) => {
         let token = process.env.GITHUB_TOKEN;
         if (token === 'github_pat_antigravitydummytoken') {
@@ -77,6 +77,63 @@ function fetchStars(repo) {
         req.on('error', (err) => resolve({ repo, stars: null, status: err.code || 'NET_ERROR' }));
         req.end();
     });
+}
+
+function fetchHtmlStars(repo) {
+    return new Promise((resolve) => {
+        const req = https.request({
+            hostname: 'github.com',
+            path: `/${repo}`,
+            method: 'GET',
+            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+        }, (res) => {
+            if ([301, 302].includes(res.statusCode) && res.headers.location) {
+                const redir = new URL(res.headers.location, 'https://github.com');
+                res.resume();
+                resolve({ repo, stars: null, status: 'REDIRECT', redirect: redir.toString() });
+                return;
+            }
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => {
+                if (res.statusCode === 200) {
+                    const m = data.match(/aria-label="([0-9,]+) users? starred this repository"/);
+                    if (m) {
+                        resolve({ repo, stars: parseInt(m[1].replace(/,/g, ''), 10) });
+                        return;
+                    }
+                    const m2 = data.match(/"stargazers_count":\s*([0-9]+)/);
+                    if (m2) {
+                        resolve({ repo, stars: parseInt(m2[1], 10) });
+                        return;
+                    }
+                    resolve({ repo, stars: null, status: 'NO_MATCH' });
+                } else {
+                    resolve({ repo, stars: null, status: res.statusCode });
+                }
+            });
+        });
+        req.on('error', (err) => resolve({ repo, stars: null, status: err.code || 'NET_ERROR' }));
+        req.end();
+    });
+}
+
+async function fetchStars(repo) {
+    const api = await fetchApiStars(repo);
+    if (api.stars !== null) return api;
+    // Fallback: GitHub API rate-limited → scrape the HTML page instead
+    const html = await fetchHtmlStars(repo);
+    if (html.stars !== null) return html;
+    if (html.redirect) {
+        // Follow the redirect host (e.g. facebook/react → github.com/facebook/react? actually org renames)
+        const redirHost = new URL(html.redirect).hostname;
+        if (redirHost === 'github.com') {
+            const redirPath = new URL(html.redirect).pathname.slice(1);
+            const html2 = await fetchHtmlStars(redirPath);
+            if (html2.stars !== null) return html2;
+        }
+    }
+    return html;
 }
 
 function parseStarsNum(str) {
