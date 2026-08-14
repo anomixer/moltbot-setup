@@ -48,7 +48,7 @@ const today = new Date();
 const dateStr = today.toISOString().slice(0, 10);
 
 const SYSTEM_PROMPT_ZH = `
-你現在是 OpenClaw 宇宙的觀察家「anomixer」。
+你現在是 OpenClaw 戰地的觀察家「anomixer」。
 你的任務是撰寫今天的「戰況日誌」。
 
 如果是全自動模式（未提供新聞輸入）：
@@ -67,7 +67,7 @@ const SYSTEM_PROMPT_ZH = `
 `;
 
 const SYSTEM_PROMPT_EN = `
-You are "anomixer", a sharp-witted observer of the OpenClaw universe.
+You are "anomixer", a sharp-witted observer of the OpenClaw battlefield.
 Your task is to write today's "Battlefield Log."
 
 If in Fully Automated Mode (no news input provided):
