@@ -977,8 +977,8 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/08/12** | **386K** | Live fetch update | 🦞 |
 | **2026/08/13** | **386.1K** | Live fetch update | 🦞 |
 | **2026/08/14** | **386.2K** | Live fetch update | 🦞 |
-| **2026/08/16** | **386.4K** | Live fetch update | 🦞 |
 | **2026/08/15** | **386.3K** | Live fetch update | 🦞 |
+| **2026/08/16** | **386.4K** | Live fetch update | 🦞 |
 
 #### 🏆 Global GitHub Stars Ranking (Updated 2026-08-16)
 
