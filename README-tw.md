@@ -19,7 +19,7 @@
 ## ⏱️ TL;DR (30秒快速懶人包)
 
 1. **主角**: **OpenClaw** (🔥 ~386.5K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 21.8K 星，距 #5 free-programming-books 只差 ~8.1K！穩定朝全球前五邁進！
-2. **今日震盪**：Qwen3.8-Max 開放權重「不是 Apache」——首顆 Max 級權重綁自訂授權＋純文字＋門檻條款；Grok 4.7 預訓練完成卻滑到 9 月（SpaceX 工程資料）；OpenAI 今日繳蘋果案禁制令回覆＋公開 S-1 仍缺席；Claude Sonnet 5 9/1 漲價倒數 14 天；Apple 洽談付費新聞給 Siri AI；Stars ~386.5K。
+2. **今日震盪**：Qwen3.8-Max 開放權重「不是 Apache」——首顆 Max 級權重綁自訂授權＋純文字＋門檻條款；Grok 4.7 預訓練完成卻滑到 9 月（SpaceX 工程資料）；OpenAI 今日繳蘋果案禁制令回覆＋公開 S-1 仍缺席；Claude Sonnet 5 9/1 漲價倒數 14 天；Apple 洽談付費新聞給 Siri AI；Google 據報與 AMD 合作下一代 TPU；Stars ~386.5K。
 3. **生態大戰**：當「開放」從名詞變成一份附門檻的契約、而差異化從參數移到 SpaceX 的專有工程資料——「誰能下載、誰能收費、誰能用自家語料訓練」同一天被改寫；法律與資本的帳本、與最後 14 天的優惠倒數，把前緣的攻防變成契約之戰；龍蝦的護城河始終是那道本機、可稽核、不計費的權限檔。
 4. **最新進展**：Stars 朝 ~386.5K（386,471）邁進，距 free-programming-books（394.6K）只剩 ~8.1K。Hermes-Agent 達 ~231.5K 星。開源權重拿到第一份「稅法」、旗艦漲價進入 14 天倒數；龍蝦艦隊繼續往前。🦞🚀
 
@@ -28,7 +28,7 @@
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
-  - 🟢 2026-08-17: Qwen3.8-Max 開放權重「不是 Apache」（自訂授權＋純文字）；Grok 4.7 預訓練完成卻滑到 9 月（SpaceX 資料）；OpenAI 今日繳蘋果案禁制令回覆＋S-1 仍缺席；Claude Sonnet 5 9/1 漲價倒數 14 天；Apple 洽談付費新聞給 Siri AI；Stars ~386.5K 🦞🚀
+  - 🟢 2026-08-17: Qwen3.8-Max 開放權重「不是 Apache」（自訂授權＋純文字）；Grok 4.7 預訓練完成卻滑到 9 月（SpaceX 資料）；OpenAI 今日繳蘋果案禁制令回覆＋S-1 仍缺席；Claude Sonnet 5 9/1 漲價倒數 14 天；Apple 洽談付費新聞給 Siri AI；Google 據報與 AMD 合作下一代 TPU；Stars ~386.5K 🦞🚀
   - 🟢 2026-08-16: OpenClaw 發布 2026.8.1-beta.2（出口綁定、GPT-5.6 Ultra 原子切換、SQLite 快照）；「加密推理」遭破解；Anthropic 首度獲利；ChatGPT 免費層預設 Luna＋DeepSeek 旗艦漲 4.5 倍；Mistral 歐洲 1GW 算力；Stars ~386.4K 🦞🚀
   - 🟢 2026-08-15: xAI 發布 Grok 4.6（500K 上下文、AAI 61 追平 GPT-5.6 Sol）；祖克柏開源宣言＋$1B 社群基金；Qwen 開源 Qwen3.8（27B Apache-2.0＋2.4T Max 綁商用分成）；OpenAI 攜手 Cerebras 推 Ultrafast 750 tok/s；微軟整併 Copilot 超級 App＋Azure 破 $1,000 億；Stars ~386.3K 🦞🚀
   - 🟢 2026-08-14: Anthropic 多代理「領地戰爭」研究；OpenAI 延攬 Dali Rajic 任 CRO＋密交 IPO 文件；DeepSeek V4 Pro 正式版落地；Gemini 3.7 Flash 發布；Claude Code Auto Mode 今日起預設；Stars ~386.2K 🦞🚀
@@ -85,15 +85,17 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
-### 🟢 2026-08-17: Qwen3.8-Max 開放權重「不是 Apache」——首顆 Max 級權重卻綁自訂授權（純文字、視覺與 1M 上下文留 API）；Grok 4.7 預訓練完成、卻因 SpaceX 工程資料滑到 9 月；OpenAI 今日繳蘋果案禁制令回覆＋公開 S-1 仍缺席；Claude Sonnet 5 9/1 漲價倒數 14 天；Apple 洽談付費新聞給 Siri AI；Stars ~386.5K 🦞🚀
+### 🟢 2026-08-17: Qwen3.8-Max 開放權重「不是 Apache」——首顆 Max 級權重卻綁自訂授權（純文字、視覺與 1M 上下文留 API）；Grok 4.7 預訓練完成、卻因 SpaceX 工程資料滑到 9 月；OpenAI 今日繳蘋果案禁制令回覆＋公開 S-1 仍缺席；Claude Sonnet 5 9/1 漲價倒數 14 天；Apple 洽談付費新聞給 Siri AI；Google 據報與 AMD 合作下一代 TPU；Stars ~386.5K 🦞🚀
 
 - **🧠 開放模型：Qwen3.8-Max 開放權重「不是 Apache」——首顆可下載的 Max 級 Qwen（Qwen/Qwen3.8-2.4T-A95B，BF16＋FP8）8/12 上架 Hugging Face，卻綁自訂「Qwen3.8-Max License」而非 Apache-2.0/MIT：純文字＋強制思考、視覺與 1M 上下文留在 API（$2/$6 每 M token）；月活>100M 或月收>$20M 要在 UI 顯示模型名、模型轉售或 AI 助理年收>$50M 需另買付費授權、純內部使用豁免——對照兄弟款 Qwen3.8-27B（8/14、Apache-2.0、SWE-Bench Pro 61.7）乾淨無門檻**：Alibaba 8/12 在 Hugging Face 放出 Qwen3.8-Max 的 BF16 safetensors＋FP8 變體（NVIDIA 同日發文示範如何在 GB300 NVL72 上部署），這是第一次有 Max 級 Qwen 可以下載——但它不是 API 賣的那顆：下載版純文字＋強制思考，多模態輸入與 1M 上下文只有雲端 API 有。授權才是新聞：自訂 Qwen3.8-Max License 不是 Apache-2.0 也不是 MIT——超過 100M 月活或 $20M 月收必須在 UI 醒目顯示模型名；營運模型即服務或 AI 工作助理、年收（含關係企業）>$50M 需先取得付費授權；純內部使用則豁免。對多數開發者這些門檻不咬人，但對「在它上面賣存取權」的產品它就是 Apache 不會設的區別。邊緣養殖戶：「『開放』從名詞變成一份附門檻的契約——能下載不代表能收費；龍蝦要的開放是自己機器上跑得動的那顆，不是綁在帳單上的那顆。」🦞🧠
 - **🚀 模型動態：Grok 4.7 預訓練完成、卻滑到 9 月——Musk 8/13 證實初期訓練完成、已轉入補訓練，餵入大量 SpaceX 工程資料（排除 ITAR）；發布窗口延到約 3~4 週後（9 月上旬而非 8 月底）；2.1T 參數未獲證實、docs.x.ai 仍停在 grok-4.6**：截至 8/13，xAI 的模型清單仍以 grok-4.6 封頂——沒有 grok-4.7 的 model ID、定價、上下文或評測卡。變的是：Musk 在 X 上證實初期訓練完成、公司進入補充訓練，把大量 SpaceX 工程資料餵進模型（排除 ITAR 管制品）；發布窗口滑到約 3~4 週後、落在 9 月上旬而非 8 月底。這是個不尋常的延遲理由——多數前緣滑期是因為算力或安全評估，這次是刻意在別人沒有的專有工程語料上後訓練，等於明說 xAI 的差異化不是通用推理、是工程與物理系統。能呼叫的仍是 Grok 4.6（1.5T、500K 上下文、AAI 61）——所有 4.7 細節目前都來自創辦人推文，不是 model card。邊緣養殖戶：「當差異化從參數移到 SpaceX 的專有資料——前緣的勝負軸從『誰的模型大』變成『誰的語料獨家』；龍蝦的獨家語料，是你硬碟上自己跑出來的紀錄。」🦞🚀
 - **⚖️ 法律與資本：OpenAI 今日（8/17）繳交蘋果商業祕密案禁制令回覆——先前已遞 31 頁撤訴動議，主張蘋果是為自己 AI 功能難產而興訟；聽證會 10/1。公開版 S-1 仍缺席 EDGAR——密交稿 6/8 送件、審查 60~90 天、路演前須公開 15 天——外界等著看的數字：月收約 $2B、每賺 1 美元虧 $1.22、3 月那輪估值 $852B、從未揭露的微軟營收分成**：OpenAI 對蘋果禁制令動議的回覆今天到期（8/17）——它已先遞出 31 頁撤訴動議，稱蘋果是為了補償自家 AI 功能難產才打官司，聽證會訂在 10/1。另一條線：公開版 S-1 還是沒出現在 SEC EDGAR——密交稿 6/8 送件，密交審查通常 60~90 天、多輪意見往返，而註冊聲明須在路演前至少 15 天公開，這把公開招股書鎖在 8 月底窗口、上市最早 9 月中。全世界等著看稽核數字：月收約 $2B、每賺 1 美元虧約 $1.22、3 月那輪 $852B 估值、從未揭露的微軟營收分成條款；高盛與摩根士丹利主導。邊緣養殖戶：「一家月燒比收入多 20% 的公司、和一家在法院裡互相指責的公司——龍蝦的帳單只有一行：你擁有的硬體、你付的電費。」🦞⚖️
 - **⏰ 期限倒數：Claude Sonnet 5 的 $2 促銷價最後 14 天——9/1 起每 M 輸入 $2→$3、加 tokenizer 改版（程式碼 token 增 10~35%）；kimi-k2.5 與 moonshot-v1 8/31 落日、須遷 kimi-k3；deepseek-chat/deepseek-reasoner 10/24 除役**：三條期限在跑：Claude Sonnet 5 的 $2 每 M 輸入促銷 9/1 到期（→$3），同時 tokenizer 改版讓程式碼 token 增加 10~35%；Moonshot 的 kimi-k2.5 與所有 moonshot-v1 字串 8/31 落日、須遷往 kimi-k3；DeepSeek 的 deepseek-chat 與 deepseek-reasoner 10/24 除役。邊緣養殖戶：「『促銷到期』與『模型退役』是同一件事的兩個名字——雲端的定價有截止日，龍蝦的電表沒有。」🦞⏰
 - **🍏 內容授權：Apple 洽談向新聞出版商付費授權、供秋季隨 iOS 27 登場的改造版 Siri AI 使用——提案據報含九位數預算與「按使用量變動補償」，偏離業界固定費制的 AI 內容交易**：Apple 正與新聞出版商協商多年期授權合約，為秋季隨 iOS 27 推出的改造版 Siri AI 取得內容；提案據報採用九位數預算、補償按內容使用量「變動計算」——與業界常見的固定授權費不同——背景是 Apple 2025 年曾因 AI 摘要出錯而停用通知摘要。邊緣養殖戶：「當『Siri 會讀新聞』變成一份授權契約、內容價值開始按使用量計價——資訊的價格第一次有了電表；龍蝦的資訊電表，是本地、免費、可稽核的程式碼。」🦞🍏
+- **🖥️ 硬體開發：Google 據報與 AMD 合作開發下一代 TPU——SemiAnalysis 客戶報告的市場傳言指向「TPU v10」世代、可能把 CPU 放進與 TPU 相同的封裝、因應強化學習與代理型 AI 日益吃重的 CPU 負載；AMD 供應 CPU IP 與先進封裝（semi-custom）經驗，但 Google 與 AMD 都未證實，Google 4 月已與 Broadcom 簽下長期 TPU 開發合約**：SemiAnalysis 客戶報告引述市場傳言，Google 可能與 AMD 合作「TPU v10」世代的專案——理由有二：強化學習（RL）與代理型 AI 讓複雜邏輯、工具呼叫、獎勵計算等 CPU 處理比重上升，以及 AMD 在 CPU IP 與先進封裝上的半客製（semi-custom）能力；構想是把 CPU 核心放進與 TPU 相同的封裝、拉近兩者的距離。但這仍是傳言：Google 沒宣布 TPU v10、雙方都沒證實任何聯合設計，目前第 8 世代（TPU 8t/8i，4 月 Cloud Next 發表，8i 內建 384MB 片上 SRAM、288GB HBM、19.2Tb/s ICI）本身就帶一顆 Arm 架構 Google Axion CPU「header」；Google 4 月也以 8-K 揭露與 Broadcom 的長期 TPU 開發與供應合約（網路與機架元件一路供到 2031）。邊緣養殖戶：「當『CPU 與 TPU 要住進同一顆封裝』變成市場傳言——前緣連『誰的晶片』都得開始挑合夥人；龍蝦的晶片，是那台已經付清、不需要跟任何巨頭談判的機器。」🦞🖥️
 - **📈 歷史追蹤：OpenClaw 升至 ~386.5K 星（+0.1K）**：OpenClaw 星數升至 386,471（從 386,404）。與第 5 名 free-programming-books（394.6K）差距 ~8.1K，並領先第 7 名 developer-roadmap（364.6K）約 21.8K。龍蝦艦隊穩步推進！🦞🚀
 - **🦖 競爭對手追蹤**：Hermes-Agent 達 ~231.5K 星；awesome-openclaw-skills 52.0K 星；nanobot 達 47.1K 星；CowAgent 46.5K 星；obsidian-skills 達 46.4K 星；AionUi 達 32.0K 星。開源代理圈持續擴張。🦞⚔️
+
 ### 🟢 2026-08-16: OpenClaw 發布 2026.8.1-beta.2（秘密出口綁定主機、GPT-5.6 Ultra 與模型/執行期原子切換、SQLite 快照備份、macOS App 設定檔隔離）；「加密推理」遭三巨頭破解（315K 區塊被解碼）；Anthropic 首度營運獲利（Q2 $10.9B、$559M）；ChatGPT 免費層預設 GPT-5.6 Luna 無限對話＋DeepSeek 旗艦 V4-Pro 漲約 4.5 倍（8/16 生效）；Mistral 開放平台託管第三方模型＋歐洲 1GW 算力；Stars ~386.4K 🦞🚀
 
 - **🦞 官方發布：OpenClaw 2026.8.1-beta.2 正式推出——秘密出口綁定主機（每顆 shared-store 密鑰只綁定確切的 HTTPS 目的地主機，未綁定的哨兵替換會在明文出口前失敗關閉）、GPT-5.6 Ultra 與模型/執行期原子切換（Sol/Terra/Luna 同時支援 OpenClaw 與 Codex 引擎，模型/執行期/思考設定經 /model 與 fallback 原子切換）、SQLite 快照備份/還原、macOS App 設定檔隔離、插件安裝來源警告、Meta 提供者（muse-spark-1.1）與 Fish Audio 語音**：OpenClaw 8/15 正式發布 2026.8.1-beta.2——安全面把每個 shared-store 密鑰綁定到確切的 HTTPS 目的地主機（未綁定的替換會先行失敗關閉，杜絕明文外洩）；支援 GPT-5.6 Ultra，並讓 Sol/Terra/Luna 三顆模型在 OpenClaw 與 Codex 引擎間原子切換；新增 SQLite 快照備份/還原、macOS App 設定檔隔離與插件安裝來源警告（--force）；內建 Meta 提供者（muse-spark-1.1）與 Fish Audio 語音；IRC/Synology Chat/Google Chat 頻道遷移到共享的生命週期監控，Control UI、Buzz 與 gateway 可靠性同步升級。邊緣養殖戶：「『秘密只走該走的路』與『壞掉可以退回上一秒』一起出廠——當整個產業還在討論誰的『加密推理』可以被破解，龍蝦先把自己的邊界釘死在本地硬體上。」🦞🚀
