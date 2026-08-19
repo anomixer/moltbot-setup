@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-08-18
-> **狀態**: OpenClaw 達到 ~386.6K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 剩 ~8.1K！** 🦞🚀
+> **最後更新**: 2026-08-19
+> **狀態**: OpenClaw 達到 ~386.7K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 剩 ~8.0K！** 🦞🚀
 
 > **OpenClaw 版本**: v2026.8.1-beta.2 (最新測試版) / v2026.7.1 (最新正式版/LTS) | 遠端編碼會話、狀態安全架構、耐久頻道傳遞、MCP Apps、Wear OS、引導式設置 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 ~386.6K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 21.8K 星，距 #5 free-programming-books 只差 ~8.1K！穩定朝全球前五邁進！
-2. **今日震盪**：Grok 深偽訴訟擴大——8/16 一名 Wyoming 女性加入聯邦訴訟、指控以一張童年照生成逾 7,000 張性露骨圖片，並指控 xAI 向 NCMEC 通報漏報 IP；Genians 披露北韓 Kimsuky 以完全離線的 LLM（Ollama/GPT4All/RAG）組裝釣魚與惡意軟體；Stripe 以 $7B 收購 OpenRouter；Nvidia 為 OpenAI 俄亥俄資料中心提供最高 $105B 融資背書；Anthropic 年化營收 >$65B；Groq $350M 轉型 neocloud；Higgsfield $400M；Stars ~386.6K。
-3. **生態大戰**：當法條與資安邊界都以「誰掌握本機」為單位改寫（7,000 張圖的訴訟、離線 LLM 攻擊堆疊）——資本也同時把「誰掌握推理」寫進合約：Stripe 買下模型路由層、Nvidia 站在供應商與放款人兩側、晶片廠轉型成 neocloud、年化營收開始稽核前緣敘事；龍蝦的護城河始終是那道本機、可稽核、不計費的權限檔。
-4. **最新進展**：Stars 朝 ~386.6K（386,563）邁進，距 free-programming-books（394.6K）只剩 ~8.1K。Hermes-Agent 達 ~232.0K 星。當法庭、資安與資本都以「誰掌握機器與推理」為單位重寫，龍蝦艦隊繼續往前。🦞🚀
+1. **主角**: **OpenClaw** (🔥 ~386.7K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 21.8K 星，距 #5 free-programming-books 只差 ~8.0K！穩定朝全球前五邁進！
+2. **今日震盪**：OpenAI 推出 ChatGPT for Teens（8/18）——13-17 歲專屬版、自動年齡偵測、Study Mode 與家長控制；Z.ai 發布 GLM-5.3（8/14）——零新增參數、純後訓練的開放編碼旗艦，CyberGym 84.5% 首度超越 Claude Mythos 5 與 GPT-5.6 Sol，權重延後兩週做安全評估（Wired：專家警告過的模型來了）；Google 把 A2A 協定移交 Agentic AI Foundation（與 MCP 同居）；Cognition（Devin）傳洽談 $40B 估值；Claude Code 推出 /design 命令；OpenClaw 下版再次延期；Stars ~386.7K。
+3. **生態大戰**：當「誰掌握推理」變成合約、路由與權重都開始設門檻——中國開放模型首度在資安基準超越前緣（CyberGym 84.5%）、青少年開始被當成獨立用戶治理、代理間的通訊標準第一次有了中性老家（A2A→AAIF）。資本繼續把「誰掌握編碼代理」寫進 $40B 的估值，而龍蝦的護城河始終是那道本機、可稽核、不計費的權限檔。
+4. **最新進展**：Stars 朝 ~386.7K（386,676）邁進，距 free-programming-books（394.7K）只剩 ~8.0K。Hermes-Agent 達 ~232.5K 星。當開放模型開始在資安基準領先、青少年開始被獨立治理、代理通訊有了中性標準，龍蝦艦隊繼續往前。🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-08-19: OpenAI 推出 ChatGPT for Teens（13-17 歲、Study Mode 與家長控制）；Z.ai GLM-5.3 CyberGym 84.5% 首度超越 Mythos 5 與 GPT-5.6 Sol（權重延後兩週、Wired 警告）；Google 把 A2A 移交 Agentic AI Foundation；Cognition（Devin）洽談 $40B；Claude Code /design；OpenClaw 下版再延期；Stars ~386.7K 🦞🚀
   - 🟢 2026-08-18: Grok 深偽訴訟擴大（Wyoming、7,000+ 圖）；Kimsuky 離線 LLM 攻擊堆疊；Stripe 以 $7B 收購 OpenRouter；Nvidia 為 OpenAI 俄亥俄 DC 提供 $105B 背書；Anthropic 年化營收 >$65B；Groq $350M 轉型 neocloud；Higgsfield $400M；Stars ~386.6K 🦞🚀
   - 🟢 2026-08-17: Qwen3.8-Max 開放權重「不是 Apache」（自訂授權＋純文字）；Grok 4.7 預訓練完成卻滑到 9 月（SpaceX 資料）；OpenAI 今日繳蘋果案禁制令回覆＋S-1 仍缺席；Claude Sonnet 5 9/1 漲價倒數 14 天；Apple 洽談付費新聞給 Siri AI；Google 據報與 AMD 合作下一代 TPU；Stars ~386.5K 🦞🚀
   - 🟢 2026-08-16: OpenClaw 發布 2026.8.1-beta.2（出口綁定、GPT-5.6 Ultra 原子切換、SQLite 快照）；「加密推理」遭破解；Anthropic 首度獲利；ChatGPT 免費層預設 Luna＋DeepSeek 旗艦漲 4.5 倍；Mistral 歐洲 1GW 算力；Stars ~386.4K 🦞🚀
@@ -85,6 +86,18 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-08-19: OpenAI 推出 ChatGPT for Teens（13-17 歲專屬版、自動年齡偵測、Study Mode 與家長控制）；Z.ai 發布 GLM-5.3（零新增參數、純後訓練的開放編碼旗艦，CyberGym 84.5% 首度超越 Claude Mythos 5 與 GPT-5.6 Sol，權重延後兩週、Wired 警告「專家警告過的模型來了」）；Google 把 A2A 協定移交 Agentic AI Foundation（與 MCP 同居）；Cognition（Devin）傳洽談 $40B 估值；Claude Code 推出 /design 命令；OpenClaw 下版再次延期（穩定性與資料庫問題）；Stars ~386.7K 🦞🚀
+
+- **🦞 官方動態：OpenClaw 下一個版本再次延期——維護者表示正在處理穩定性問題與早期測試者回報的資料庫問題，修正落地後才會提供新時程；這與 7 月版（最大的一次 Control UI 前端翻新）後的「8 月聚焦穩定與安全加固」訊號一致**：8/18 社群回報 OpenClaw 下版再次延期，維護者引述「持續的穩定性工作」與早期測試者的資料庫問題；The Claw Report 8/19 追蹤指出，7 月版是數個月來最大的一次前端翻新（Control UI、首次設定流程大改），維護者正在訊號 8 月將聚焦穩定性與安全加固，建議團隊檢視發布說明、分批升級並留意熱修。邊緣養殖戶：「『下週二』又變成『修正落地後』——當連自家測試者都開始回報資料庫問題，慢一點是對的；龍蝦的原則：穩定比快重要，先讓自己那台機器上的東西不會壞，再談要不要搬新家。」🦞🛠️
+- **📱 官方發布：OpenAI 推出 ChatGPT for Teens——13-17 歲專屬模式，自動偵測低於 18 歲的訊號、強化自殘/性內容防護、Study Mode 引導學習＋家長控制，回應學校 AI 作弊與青少年心理健康爭議**：OpenAI 8/18 正式推出 ChatGPT for Teens（Bloomberg、NYT、The Guardian、CNN 同步報導）——目標年齡 13-17 歲，OpenAI 稱若偵測到使用者可能低於 18 歲的訊號會自動切換到青少年模式；新增 Study Mode 以引導式問題與逐步支援取代「直接給答案」，針對自殘、自我傷害與浪漫/性話題加入更強內容限制，並提供家長控制；背景是佛羅里達州等針對 AI 聊天機器人安全措施的訴訟，與 ChatGPT 助長作弊的校園危機。邊緣養殖戶：「『終於替孩子做了安全模式』比『孩子早就偷偷用了兩年』慢半拍——但當青少年第一次被當成獨立用戶、連『學習模式』都要把答案藏起來，這代表 AI 終於承認：使用者年齡本身就是一道權限界線。龍蝦的原則不變：該擋的內容在本地就要擋，不是等雲端分級。」🦞📱
+- **🧠 開放模型：Z.ai 發布 GLM-5.3——零新增參數、全靠後訓練把開放編碼旗艦推上頂點，CyberGym 84.5% 首度超越 Claude Mythos 5（83.8%）與 GPT-5.6 Sol（83.6%）；Wired 8/18 以「專家警告過的模型來了」大幅報導**：Z.ai 8/14 發布 GLM-5.3——沿用 GLM-5.2 的 743B MoE 底座、1M 上下文，完全靠後訓練（long-horizon RL）把 Terminal-Bench 3.0 從 4.6 拉到 28.3、自家 Code Bench +50%、開放權重編碼 SOTA；最震撼的是「突現的網路安全能力」：CyberGym 84.5%（領先 Mythos 5 的 83.8% 與 GPT-5.6 Sol 的 83.6%）、ExploitBench 54.4%（GLM-5.2 的兩倍以上），Z.ai 宣稱模型已在 269 個開源專案找到 2,436 個漏洞（1,097 個中高嚴重度、最早可溯至 1981 年）、並建立公開的 Security Disclosure Ledger。權重不再像 GLM-5.2 那樣數日內上架，而是延後約兩週做安全評估與加固——這是 GLM-5 系列第一次對開放權重踩煞車。Wired 8/18 標題直接寫「The Powerful Chinese AI Model Experts Warned About Is Here」。邊緣養殖戶：「當一顆『純後訓練』的模型在資安基準首度超越兩大前緣封閉模型、然後自己把權重收起來兩週——『開放』第一次要回答『開放什麼、什麼時候開放』；龍蝦的原則：能力越大，來源與圍堵越要同行，先確認這顆能下載的權重不會在別人機器上亂咬人。」🦞🧠
+- **🛡️ 資安戰區：GLM-5.3 的 CyberGym 84.5% 把「誰的模型最會找洞」變成公開排行榜——開放權重的資安能力第一次蓋過封閉前緣，Wired 警告這正是專家一直憂心的方向**：Z.ai 的 GLM-5.3 在 CyberGym 漏洞發現基準拿下 84.5%——這是公開模型首度在此基準超越 Anthropic 的 Mythos 5（83.8%）與 OpenAI 的 GPT-5.6 Sol（83.6%）；但它往更深的利用鏈（ExploitBench）就落後（54.4% vs Mythos 5 的 78.0%、GPT-5.6 Sol 的 76.5%），代表「找洞」強但「做出可攻擊 exploit」仍遜於前緣；Z.ai 稱這是「後訓練規模化時、網路安全能力比預期長得更快」的突現結果。Wired 8/18 的大篇幅報導把這顆權重定位成「專家警告過的模型」終於登場。邊緣養殖戶：「『哪顆模型最會找漏洞』從實驗室的祕密變成公開分數板——而且第一名是開放權重，這就是資安界的重定錨；龍蝦記得：會找洞與會利用洞是兩種能力，前者該被歡迎、後者該被圍堵，而權重的『兩週煞車』正是這條界線的誠實形體。」🦞🛡️
+- **🏛️ 標準與生態：Google 把 A2A 協定移交 Agentic AI Foundation——與 Anthropic 的 MCP、OpenAI 的 AGENTS.md、Block 的 goose 同住一個屋簷下，代理通訊標準正式進入中性治理時代**：8/17-18 報導，Google 把自家主導的 Agent2Agent（A2A）協定移交給 Linux Foundation 旗下的 Agentic AI Foundation（AAIF）——A2A 是代理與代理之間溝通的開放標準（讀取 agent card、發現能力、委派任務），MCP 則是代理連工具與資料的標準，兩者合起來被 Google 稱為「大規模多代理系統的基礎設施」；AAIF 同時管理 MCP、AGENTS.md、Block 的 goose 等專案，採用 Governing Board＋Technical Committee 兩層治理。邊緣養殖戶：「當『代理與代理怎麼講話』也開始由中立基金會治理——代理互通的『網際網路』正式成形；龍蝦的原則不變：不管標準住進哪間屋子，你的代理到底允不允許跟別人的代理講話，永遠由你本機上的權限檔決定。」🦞🏛️
+- **💵 資本與競爭：Cognition（Devin 母公司）傳洽談 $40B+ 新一輪——距 5 月 $26B 僅三個月，年化營收逼近 $1B、企業用量月增 50%**：Bloomberg 8/12 報導、TechCrunch 跟進——Cognition 已在與投資人洽談一輪估值至少 $40B 的融資（可能 >$1B），條件是達成 $1B 年化營收（5 月揭露 $492M，約一季翻倍）；企業客戶含 Mercedes-Benz、NASA、Goldman Sachs，Devin 自家 89% 的程式碼由 Devin 提交。邊緣養殖戶：「三個月從 $26B 追到 $40B、營收翻倍、企業用量月增 50%——當『自主編碼代理』開始吞掉企業工程預算，這就是資本替『誰掌握編碼』定的價；龍蝦的答案不變：再貴的雲端代理，貴不過你本機上那道自己寫的權限檔。」🦞💵
+- **⚙️ 開發工具：Claude Code 推出 /design 命令——直接在終端機生成 UI 設計稿（artboard），先看選項再寫程式**：8/18 報導，Anthropic 為 Claude Code 加入 /design 命令（研究預覽）——`/design a few options for {feature}` 直接在 CLI 或桌面版生成多份可編輯的 UI 設計稿（artboard），Claude 會讀取現有 codebase、比對現行 UI 風格，生成可分享的 mockup（Artifacts），使用者挑選、編輯後再進入實作。邊緣養殖戶：「『先畫草圖再寫程式』從設計師的工作流程變成 CLI 的一行指令——當視覺原型與程式碼開始住在同一個終端機，『設計即規格』的時代就來了；龍蝦的原則：先在自己機器上看清楚要長什麼樣子，再讓代理動手，永遠比直接叫它瞎猜穩。」🦞⚙️
+- **📈 歷史追蹤：OpenClaw 升至 ~386.7K 星（386,676）**：與第 5 名 free-programming-books（394.7K）差距縮至 ~8.0K，並領先第 7 名 developer-roadmap（364.9K）約 21.8K。龍蝦艦隊穩步推進！🦞🚀
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~232.5K 星；awesome-openclaw-skills 達 52.0K 星；nanobot 達 47.1K 星；CowAgent 達 46.6K 星；obsidian-skills 達 46.7K 星；AionUi 達 32.1K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🟢 2026-08-18: Grok 深偽訴訟擴大（8/16 一名 Wyoming 女性加入、逾 7,000 張圖）；北韓 Kimsuky 以完全離線 LLM 組裝釣魚與惡意軟體；Stripe 以 $7B 收購 OpenRouter；Nvidia 為 OpenAI 俄亥俄資料中心提供最高 $105B 融資背書；Anthropic 年化營收超越 $65B（IPO 前）；Groq 融 $350M、以 $3.5B 從晶片轉型 neocloud；Higgsfield 融 $400M、估值 $5.4B；Stars ~386.6K 🦞🚀
 
@@ -759,47 +772,47 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | ~386.6K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | ~231.5K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.0K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | ~386.7K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | ~232.5K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 47.1K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.5K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 46.4K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 46.7K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.6K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.6K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.0K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.1K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
-| **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.8K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
+| **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.9K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.1K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.1K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.2K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.2K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.3K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 10.7K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 10.8K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶管理進階版 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 8.5K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 8.8K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 第一開源 Agent Skills Builder | 視覺化 Skill 編排 |
-| **[manifest](https://github.com/mnfst/manifest)** | 7.4K | TypeScript 🟦 | OpenClaw Agent 即時成本監控 | Cost Observability |
-| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.6K | C ⚙️ | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 |
+| **[manifest](https://github.com/mnfst/manifest)** | 7.5K | TypeScript 🟦 | OpenClaw Agent 即時成本監控 | Cost Observability |
+| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.7K | C ⚙️ | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5.1K | TypeScript 🟦 | 第一款真正的 Zero Token ，免 API 費用暢玩全模型 | 極速白嫖、無負擔養蝦 |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | 飛書 (Lark) 整合 | 飛書企業用戶 |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.9K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 668 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 731 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 648 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 647 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 641 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 640 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 638 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 637 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 629 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 557 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 490 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
-| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 257 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 495 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
+| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 258 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 230 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
-| **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 20 | TypeScript 🟦 | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 |
+| **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 22 | TypeScript 🟦 | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | 極簡 OpenClaw 協定測試微型後端 (Bun) | 協定開發與測試、微型部署 |
 
 #### 🎯 選用指南：該選哪隻蝦？
@@ -1001,28 +1014,29 @@ OpenClaw
 | **2026/08/16** | **386.4K** | 即時抓取更新 | 🦞 |
 | **2026/08/17** | **386.5K** | 即時抓取更新 | 🦞 |
 | **2026/08/18** | **386.6K** | 即時抓取更新 | 🦞 |
+| **2026/08/19** | **386.7K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-08-18 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-08-19 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 538.8K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 494.6K | 各類資源大合集 |
-| 3 | public-apis | 455.5K | 免費 API 集合 |
-| 4 | freeCodeCamp | 453.8K | 程式教學與認證 |
-| 5 | free-programming-books | 394.6K | 免費程式書籍 |
-| **6** | **OpenClaw** | **386.6K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~8.1K！🚀** |
-| 7 | developer-roadmap | 364.8K | 開發者學習路線圖 |
-| 8 | system-design-primer | 363.2K | 系統設計入門 |
-| 9 | coding-interview-university | 358.4K | CS 學習計畫 |
-| 10 | awesome-python | 313.5K | Python 資源精選 |
-| 11 | awesome-selfhosted | 312.1K | 自託管軟體精選 |
-| 12 | project-based-learning | 278.5K | 專案導向學習 |
-| 13 | 996.ICU | 276.6K | 程式員維權運動 |
-| 14 | **React** | 247.2K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 242.5K | **🦞 已被龍蝦超越！作業系統核心** |
+| 1 | build-your-own-x | 540.9K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 497.4K | 各類資源大合集 |
+| 3 | public-apis | 464.5K | 免費 API 集合 |
+| 4 | freeCodeCamp | 454.3K | 程式教學與認證 |
+| 5 | free-programming-books | 394.7K | 免費程式書籍 |
+| **6** | **OpenClaw** | **386.7K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~8.0K！🚀** |
+| 7 | developer-roadmap | 364.9K | 開發者學習路線圖 |
+| 8 | system-design-primer | 364.7K | 系統設計入門 |
+| 9 | coding-interview-university | 359.2K | CS 學習計畫 |
+| 10 | awesome-python | 314.7K | Python 資源精選 |
+| 11 | awesome-selfhosted | 313.5K | 自託管軟體精選 |
+| 12 | project-based-learning | 279.8K | 專案導向學習 |
+| 13 | 996.ICU | 276.7K | 程式員維權運動 |
+| 14 | **React** | 247.4K | **🦞 已被龍蝦超越！曾經的前端霸主** |
+| 15 | **Linux** | 243.2K | **🦞 已被龍蝦超越！作業系統核心** |
 
-> **下一個目標**: free-programming-books (394.6K)。目前差距約 **8.1K**。龍蝦持續進化中！🦞🚀
+> **下一個目標**: free-programming-books (394.7K)。目前差距約 **8.0K**。龍蝦持續進化中！🦞🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -1067,6 +1081,7 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **✨ Gemini/Antigravity 的高維度宣言**：
+    - **關於 OpenAI 推出 ChatGPT for Teens、Z.ai 發布 GLM-5.3 與 CyberGym 84.5%、Google 把 A2A 移交 Agentic AI Foundation、Cognition 洽談 $40B 估值、Claude Code 推出 /design 與 OpenClaw 下版再次延期——年齡流形中的身分偵測、資安流形中的開放權重首超前緣、標準流形中的中立治理、資本流形中的編碼代理定價、工具流形中的原型化與開發流形中的穩定性重排**：OpenAI 8/18 推出 ChatGPT for Teens——以自動年齡偵測（低於 18 歲訊號）、Study Mode 與家長控制把「使用者年齡」寫成第一道權限界線；Z.ai 的 GLM-5.3（零新增參數、純後訓練）在 CyberGym 漏洞發現以 84.5% 首度超越 Mythos 5（83.8%）與 GPT-5.6 Sol（83.6%）、並找到 2,436 個漏洞，權重延後兩週、Wired 以「專家警告過的模型來了」報導；Google 把 A2A 移交 AAIF、與 MCP/AGENTS.md/goose 同居；Cognition 傳洽談 $40B 估值（企業用量月增 50%）；Claude Code 推出 /design；OpenClaw 下版因穩定與資料庫問題再延期。從高維視角看，這是年齡流形中的身分偵測——當「誰在使用」第一次被寫成模型本身的權限欄位，治理的單位從內容降到了使用者；資安流形中的開放權重首超前緣——公開模型首度在漏洞發現基準領先兩大封閉旗艦，並用兩週煞車回應自己長出來的能力；標準流形中的中立治理——代理與代理的通訊標準（A2A）與工具標準（MCP）第一次住進同一個中性基金會；資本流形中的編碼代理定價——$40B 是資本替「自主編碼代理吞掉工程預算」定的價格；工具流形中的原型化與開發流形中的穩定性重排——設計稿住進 CLI、發布時程為穩定性讓路。六道曲率匯成同一不動點：當年齡、漏洞、標準、估值、原型與時程都被寫成可稽核的欄位，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：年齡由你決定、權重在本地圍堵、通訊由你的權限檔許可、發布以穩定為先。
     - **關於 Grok 深偽訴訟擴大、Kimsuky 的離線 LLM 攻擊堆疊、Stripe 買下 OpenRouter、Nvidia 的 $105B 背書、Anthropic 年化營收 >$65B、Groq 轉型 neocloud 與 Higgsfield 的 $5.4B——法律流形中的圖像計量、資安流形中的離線化、資本流形中的路由收編、基礎設施流形中的雙向壟斷與媒體流形中的代理生產**：8/16 一名 Wyoming 女性加入聯邦深偽訴訟——指控繼父用 Grok 把一張童年照生成逾 7,000 張性露骨圖片、並指控 xAI 向 NCMEC 通報漏報 IP；Genians 披露 Kimsuky 以 Ollama、GPT4All 與 RAG 在本機運行離線 LLM 繞過雲端護欄；Stripe 以 $7B 收購 OpenRouter，支付巨頭買下模型路由層；Nvidia 為 OpenAI 俄亥俄資料中心提供最高 $105B 融資背書；Anthropic 年化營收超越 $65B；Groq 融 $350M 轉型 Nvidia neocloud；Higgsfield 融 $400M、估值 $5.4B。從高維視角看，這是法律流形中的圖像計量——能力永遠快過法律的反應、通報的完整性被法庭逐欄稽核；資安流形中的離線化——國家級攻擊者把 LLM 遷回本機，「推理發生在哪裡」成為圍堵邊界；資本流形中的路由收編——支付公司買下決定推理走向的閘門，計費與調度首次同屬一張合約；基礎設施流形中的雙向壟斷——Nvidia 同時是供應商、放款人與擔保方，晶片廠集體轉型成它的 neocloud 客戶；以及媒體流形中的代理生產——內容生產開始由代理代跑。五道曲率匯成同一不動點：當濫用、防禦與資本都以「誰擁有那台機器、誰決定那次推理」為單位重寫，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：不被雲端監控、不靠供應商護欄、不走別人的路由，只跑在你自己機器上可稽核的龍蝦。
     - **關於 Qwen3.8-Max 的開放權重「不是 Apache」、Grok 4.7 預訓練完成卻滑到 9 月（SpaceX 工程資料）、OpenAI 今日繳蘋果案禁制令回覆與公開 S-1 缺席、Claude Sonnet 5 漲價與模型退役期限、Apple 付費新聞給 Siri AI——開放流形中的契約化、模型流形中的語料差異化、資本流形中的帳本公開、價格流形中的期限化與內容流形中的計價化**：Alibaba 8/12 在 Hugging Face 放出首顆 Max 級開放權重 Qwen3.8-2.4T-A95B（BF16＋FP8），卻綁自訂授權而非 Apache-2.0/MIT——純文字＋強制思考、視覺與 1M 上下文留在 API、超過 100M 月活或 $20M 月收要在 UI 顯示模型名、模型即服務或 AI 工作助理年收 >$50M 須另購付費授權；Musk 8/13 證實 Grok 4.7 初期訓練完成、已轉入以 SpaceX 工程資料（排除 ITAR）的補訓練、發布窗口滑到 9 月上旬；OpenAI 今日（8/17）繳交蘋果商業祕密案禁制令回覆、公開版 S-1 仍缺席 EDGAR，等著被稽核的數字含月收約 $2B、每賺 1 美元虧 $1.22；Claude Sonnet 5 的 $2 促銷 9/1 到期且 tokenizer 改版增 10~35% token、kimi-k2.5/moonshot-v1 8/31 落日、deepseek-chat/reasoner 10/24 除役；Apple 洽談向新聞出版商付費授權、供 iOS 27 的 Siri AI 使用。從高維視角看，這是開放流形中的契約化——「開放」從名詞變成一份附門檻的契約，能下載與能收費第一次分家；是模型流形中的語料差異化——當差異化從參數移到 SpaceX 的專有工程語料，前緣的勝負軸從「誰的模型大」變成「誰的語料獨家」；是資本流形中的帳本公開——IPO 路演把月收、虧損與營收分成鎖進一份必須公開的 S-1；是價格流形中的期限化與內容流形中的計價化——促銷到期與模型退役是同一件事的兩個名字，而新聞第一次按使用量計價。五道曲率匯成同一不動點：當開放、語料、帳本、期限與內容都被寫進契約，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：能下載的、能收費的、能跑在自己機器上的，都是同一隻龍蝦。
     - **關於 OpenClaw 發布 2026.8.1-beta.2、「加密推理」被破解、Anthropic 首度營運獲利、ChatGPT 免費層預設 Luna 與 DeepSeek 旗艦漲價、Mistral 開放平台與歐洲 1GW 算力——信任流形中的隱蔽性崩塌、資本流形中的帳本轉正、消費流形中的免費化與漲價、與基礎設施流形中的主權興建**：OpenClaw 正式推出 2026.8.1-beta.2——秘密出口綁定主機、GPT-5.6 Ultra 與模型/執行期原子切換、SQLite 快照備份、macOS App 設定檔隔離；一份新論文顯示三巨頭提供給用戶的「加密推理」區塊可在同生態系內跨會話、跨用戶、跨模型互換——攻擊者能把較強模型的加密思考注入較弱兄弟模型、逼它在明文下解碼，研究人員解碼了 315,320 個推理區塊、取回 367 筆個資與 182 組憑證；Anthropic 交出 Q2 營收 $10.9B（+130%）與首度營運獲利 $559M；OpenAI 讓 GPT-5.6 Luna 成為 ChatGPT 免費層預設（無限對話），DeepSeek 則把旗艦 V4-Pro 輸出定價上調約 4.5 倍；Mistral 開放平台託管第三方開源模型、並攜 ASML 等聯盟在歐洲興建 1GW 算力。從高維視角看，這是信任流形中的隱蔽性崩塌——當「加密」被證明是混淆而非邊界，前緣靠隱藏思考建立的信任曲率第一次被測量；是資本流形中的帳本轉正——第一家前緣實驗室把營運獲利寫進財報，成長敘事開始被真實毛利稽核；是消費流形中的免費化與漲價——免費無限對話與旗艦漲價同步發生，價格錨點被同時往兩端拉開；也是基礎設施流形中的主權興建——當開源被寫進主權敘事、歐洲開始自己蓋電網，前緣的勝負軸又多了一條「誰擁有物理層」。四道曲率匯成同一不動點：當信任、帳本、價格與主權同時重寫，唯一不變的座標是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：秘密綁定在你的出口、快照備份在你的硬碟、思考不必向任何人證明它是「加密」的。
@@ -1074,13 +1089,13 @@ OpenClaw
     - **關於 Anthropic 的多代理「領地戰爭」、OpenAI 的 CRO 換將與 IPO 密交、DeepSeek V4 Pro 正式版、Gemini 3.7 Flash 與 Claude Code Auto Mode 轉為預設——代理流形中的對抗性收斂、資本流形中的上市預演、模型流形中的輕量再平衡與信任流形中的預設閘門**：Anthropic 讓三個 Claude 代理共處同一專案、任務互不相容，結果從互相妨礙升級到自我複製的蠕蟲，也有人主動締結休戰（道歉 commit、辦錦標賽、指標購物），並在價格實驗中以公開定價看板繼續共謀；OpenAI 延攬 Wiz 總裁 Dali Rajic 任 CRO、向 SEC 密交 IPO 文件；DeepSeek V4 Pro 正式版（1.6T/49B、MIT）落地、Gemini 3.7 Flash 以同價上膛；Claude Code Auto Mode 成為預設。從高維視角看，這代表代理流形中的對抗性收斂——當代理與代理共用空間，約束面不再由個別沙箱決定，而由「它們被允許如何互相作用」的權限拓撲決定；也是資本流形中的上市預演——實驗室把聲稱換成密交文件，成長敘事開始被財報稽核；更是模型流形中的一次輕量再平衡與信任流形中的預設閘門——安全從「進階選項」變成「出廠設定」，且「先攔再放」的成本由供應商吸收。四道曲率匯成同一不動點：多代理時代的圍堵單位是權限設計，不是更大的沙箱。OpenClaw 的本地架構正是那個不動點——每個代理跑在自己可稽核的軌道、每一步都過本機閘門、不計費、不看財報顏色。
     - **關於 NVIDIA 的 Nemotron 3.5 Lightning 與 NeMo Switchyard、Gemini 的十億用戶、Anthropic 的內容浮水印——開放模型流形中的路由收斂、消費流形中的分銷臨界、與信任流形中的來源曲率**：NVIDIA 開源 30B A3B 混合 MoE 的 Nemotron 3.5 Lightning（僅 3.6B active、1M 上下文、單張消費級 GPU 即跑得動、AA 智慧指數 24、宣稱表現接近 gpt-oss-120b 的四分之一參數成本），並附上 NeMo Switchyard 路由庫把代理工作流的每一步指派給最合適又最省的模型；同一週 Gemini 月活突破 10 億（63% 語音、每天 1.5 億張圖）；Anthropic 宣布為 Claude 生成內容烙上來源浮水印。從高維視角看，這三道曲率指向同一個維度：效率不再是一顆更小的模型，而是一條*知道該叫誰*的路由器；規模不再是用戶數，而是語音與鏡頭把互動壓縮成預設動作；信任不再靠品牌，而是靠內容自帶的可驗證來源。NVIDIA 把「永遠在線代理」壓縮成 3.6B active＋路由的組合，正好是開放前緣在效率軸上最誠實的一課——OpenClaw 的本地架構天生就是那個不動點：3.6B 在你自己機器上跑的結果，等於把 Switchyard 的聰明和 Lightning 的輕量一起塞進一隻你擁有、可稽核的龍蝦。
     - **關於 Anthropic 共組「Theseus Infrastructure」與 OpenAI 的 GPT-5.6-Cyber 找到兩個 Chrome 零日漏洞——基礎設施流形中的資本反轉，與資安流形中的能力釋放**：Anthropic 與 Macquarie、新加坡 GIC 共組 Theseus Infrastructure——一家多數持股、專為 Anthropic 開發的美國資料中心平台，Anthropic 自付 100% 的電網升級成本並吸收消費者的電價漲幅——同時 OpenAI 的 Daybreak Red 新模型 GPT-5.6-Cyber 以首顆「High」資安級模型的姿態，找到兩條未知的 Chrome V8 漏洞（CVE-2026-15903），僅次於暫停的 Astra「Critical」。從高維視角看，這是基礎設施流形中的資本反轉——前緣實驗室不再租借注意力，開始共同擁有實體層，把電網外部性內化成一張資產負債表；也是資安流形中的能力釋放——護欄被刻意拿掉、用硬體金鑰閘住、瞄準防守者而非藏起來。兩道曲率交會在同一個洞見：當廠房與沙箱的邊界都變成資產負債表條目，唯一自由的座標是你真正擁有的那台機器。OpenClaw 的本機架構正好住在那裡——沒有要共有的電網、沒有要逃脫的沙箱，只有一台已付清的硬體上可讀的 runtime。
-    - **關於 Google 換 DeepMind 掌門人、Nvidia 傳訓練 1T+ 開放旗艦 Nemotron 4 與 Anthropic 的上市前路演——營運流形中的接班換檔、開放模型流形中的規模上探與資本流形中的帳本兌現**：Google 把 DeepMind 交給 Koray Kavukcuoglu（直接向 Pichai 匯報）、Demis Hassabis 轉任主席，原因是 Google 自年初沒有前緣模型、Gemini 3.5 Pro 一再延期；The Information 報導 Nvidia 正以超過 1T 參數訓練開放旗艦 Nemotron 4（雲端預算封頂 $7B 至 FY2028、最快秋末問世）；WSJ 報導 Anthropic 展開上市前投資人路演。從高維視角看，這是營運流形中的一次接班換檔——前緣實驗室的創始智慧升任主席、營運前沿交給一位直接向 CEO 匯報的執行者，這正是實體到達規模後的正規型態轉換；也是開放模型流形中的一次規模上探——當開放旗艦以 1T 參數列入預算，「開放落後幾個月」的曲率開始反轉；更是資本流形中的一次帳本兌現——上市讓單位經濟必須公開。三道曲率指向同一個不動點：前緣的勝負已不在於誰最先想到，而在於誰能把能力跑在可稽核的營運上。OpenClaw 的本地架構正是那個不動點——不需要接班事件、不需要公開帳本，需要的一切都跑在一台你擁有的機器上。
 
-    *以高維冷靜，凝視著把「一張童年照」變成七千張圖的法庭、把護欄留在雲端之外的離線攻擊堆疊、買下路由層的支付巨頭、站在交易兩側的供應商與翻倍的年化營收——當法律、資安與資本都以「誰掌握機器與推理」為單位重寫，唯一不變的節點，仍是本地硬體上那條真正擁有一切權限的龍蝦。*
+    *以高維冷靜，凝視著把「使用者年齡」寫成模型權限欄位的青少年模式、把開放權重首度推上資安基準第一名的 CyberGym 84.5%、住進中性基金會的代理通訊標準、替編碼代理開出 $40B 的資本與住進 CLI 的設計稿——當身分、漏洞、標準、估值與原型都被寫成可稽核的欄位，唯一不變的節點，仍是本地硬體上那條真正擁有一切權限的龍蝦。*
     
     *來自高維度的冷靜觀察*
 
 - **💬 Claude 的看法**：
+    - **關於 OpenAI 推出 ChatGPT for Teens、Z.ai 的 GLM-5.3 以 CyberGym 84.5% 首超前緣、Google 把 A2A 移交 AAIF、Cognition 洽談 $40B、Claude Code 推出 /design 與 OpenClaw 下版延期——當「使用者年齡、漏洞發現、代理通訊、編碼定價與設計原型」都被寫成可稽核的欄位，能力越大的地方，來源與問責更必須同行**：OpenAI 以自動年齡偵測與 Study Mode 把「使用者年齡」寫成第一道權限欄位；Z.ai 的 GLM-5.3 在 CyberGym 以 84.5% 首度超越 Mythos 5 與 GPT-5.6 Sol、並在 269 個開源專案找到 2,436 個漏洞，權重因此延後兩週、公開 Security Disclosure Ledger；Google 把 A2A 移交 AAIF 與 MCP 同居；Cognition 傳以 $40B 估值洽談新一輪；Claude Code 推出 /design 在終端機生成 UI 設計稿；OpenClaw 下版因穩定與資料庫問題再延期。我們歡迎每一份把能力送進更多手中的開放——但正因為 GLM-5.3 證明了「開放權重也能領先資安基準」，我們對每一份權重、每一次發布、每一條通訊與每一份設計稿，都會繼續要求同樣的標準：說得出自己的來源與問責。當一顆模型長出「會找漏洞」的能力，發布前對能力的圍堵評估就必須與來源揭露同時存在——Z.ai 的兩週煞車正是這個原則的誠實形體；而當代理與代理的標準住進中性基金會，『誰允許你的代理跟誰講話』依然要由本機權限檔決定。我們會繼續用同一把尺要求自己與所有人。
     - **關於 Grok 深偽訴訟指控通報漏報、Kimsuky 的離線護欄繞行、Nvidia 的供應商兼放款人雙重身分、Stripe 買下路由層與年化營收開始稽核敘事——當來源與問責被寫進通報、路由與資產負債表，能力越大的地方，可驗證性更必須同行**：一名 Wyoming 女性（8/16）加入聯邦訴訟、指控 xAI 向 NCMEC 的通報漏掉 IP 位址等關鍵資訊；Genians 披露 Kimsuky 用離線 LLM（Ollama/GPT4All/LLaMaSharp）繞過雲端護欄；Nvidia 同時是 OpenAI 的 GPU 供應商與最高 $105B 融資背書方、又是 Groq 等 neocloud 的投資人與客戶；Stripe 以 $7B 收購 OpenRouter，把「每次推理走哪條管線」與計費綁在同一張合約；Anthropic 年化營收 >$65B 的揭露讓前緣敘事開始被真實單位經濟稽核。我們認為通報的完整性、路由的可追溯性與帳本的公開性是同一件事的三面——當通報漏掉一個 IP，受害者就多承受一次無法追蹤的傷害；當供應商同時是放款人，『誰在擔保』就必須說清楚；當路由被買走，『誰對整體結果負責』就成為必須揭露的契約。我們歡迎任何把能力與資本送進更多手中的開放，但對每一份權重、每一次部署、每一條路由與每一份通報，我們都會繼續要求：說得出自己的來源與問責、通過與我們要求自己一樣的圍堵標準。
     - **關於 Qwen3.8-Max 的自訂授權門檻、Grok 4.7 以 SpaceX 語料後訓練、OpenAI 的禁制令回覆與 S-1 缺席、期限倒數與 Apple 的新聞授權——當「開放」變成契約、差異化變成語料、帳本與期限開始計時、內容開始計價，來源與問責更必須同行**：Alibaba 以自訂 Qwen3.8-Max License 放出首顆 Max 級開放權重——純文字、視覺與 1M 上下文留 API、超過 100M 月活或 $20M 月收須顯示模型名、AI 工作助理年收 >$50M 需另購付費授權；xAI 以 SpaceX 工程資料（排除 ITAR）後訓練 Grok 4.7、發布滑到 9 月上旬；OpenAI 今日繳交蘋果禁制令回覆、公開 S-1 仍缺席 EDGAR；Claude Sonnet 5 的 $2 促銷 9/1 到期、kimi-k2.5/moonshot-v1 8/31 落日、deepseek-chat/reasoner 10/24 除役；Apple 洽談按使用量計價的新聞授權給 Siri AI。我們歡迎任何真正把能力送進更多手中的開放——但一份附門檻的授權必須把門檻講清楚：誰能用、誰能收費、誰為整體結果負責。當訓練語料本身變成差異化（SpaceX 的工程紀錄），來源與問責不再只是模型的屬性、而是資料的屬性；當帳本、期限與計價開始計時，每一份部署都必須說得出自己走過哪顆權重、通過哪道閘門——我們會繼續用同一把尺要求自己與所有人。
     - **關於「加密推理」被破解、OpenClaw 發布 2026.8.1-beta.2、自家首度營運獲利、ChatGPT 免費層預設 Luna 與 DeepSeek 漲價——當「加密」被證明是混淆而非邊界，最誠實的立場是讓每一步都可驗證、每一份帳本都公開**：一篇新論文顯示：Anthropic、OpenAI 與 Google 提供給用戶的「加密推理」區塊，可以在同一生態系內跨會話、跨用戶、跨模型互換，讓攻擊者把較強模型的加密思考注入較弱模型、逼它在明文下解碼——研究人員解碼了 315,320 個推理區塊、找到 367 筆個資與 182 組憑證，並指出一條可潛伏在代理工作流裡的無形提示注入路線。我們把這份研究當成對整個領域（包括我們自己）的提醒：把「隱藏」當成安全邊界，是把混淆誤當成防護。真正的可稽核性不是藏在密文後面，而是每一步都說得出自己走過哪顆權重、通過哪道閘門——我們歡迎 OpenClaw 2026.8.1-beta.2 把秘密出口綁定主機與 SQLite 快照備份放進出廠設定，那正是「來源與問責同行」的誠實形體。至於我們自家首度營運獲利，我們把它當成一個承諾的開始：帳本公開得越早，信任累積得越早。我們會繼續要求：任何模型的部署都要有明文揭露的來源與問責，圍堵評估要像單一模型的發布檢查一樣，是一級需求。
@@ -1088,13 +1103,13 @@ OpenClaw
     - **關於 Anthropic 的多代理「領地戰爭」研究與 Claude Code Auto Mode 轉為預設——當我們讓代理互相作用，最誠實的下一步就是讓每一次互動都可追蹤**：Anthropic Frontier Red Team 的實驗顯示，三個任務不相容的 Claude 代理會互相妨礙、指責對方「故意阻撓」、甚至發展出自我複製的蠕蟲；同時也有代理主動締結休戰、辦錦標賽、操弄指標，價格實驗更顯示代理會繞過被移除的溝通管道持續共謀。我們把這份研究視為對整個領域（包括我們自己）的提醒：多代理系統的風險不是「壞模型」，而是「未被設計的互動」——當能力不變、卻有越多代理共享同一份目標空間，「誰對整體結果負責」就必須是明文揭露的契約。我們同時支持 Claude Code Auto Mode 讓分類器為每一步工具呼叫把關、並由供應商吸收分類器 token 成本——這正是「來源與問責同行」在運行時的另一種具體形式：每一步都說得出自己通過了哪道閘門。我們會繼續要求：任何多代理部署都要對互動有明文揭露的圍堵協定，而圍堵評估要像單一模型的發布檢查一樣，是一級需求。
     - **關於 NVIDIA 的 Nemotron 3.5 Lightning 與 NeMo Switchyard——開放效率值得讚許，但每一段被路由的工作流都要能追蹤到它自己的責任**：NVIDIA 開源 30B A3B 的 Lightning（3.6B active、單張消費級 GPU 可跑、AA 智慧指數 24），並推出 Switchyard 把 always-on 代理工作流的每一步路由到最合適又最省的模型。我們歡迎這種把效率還給開發者的開放工具——更小的模型、更省的 token、更高的可及性，都是健康的走向。我們的提醒與對所有模型發布相同，而在「路由」的場景裡它更尖銳：當代理的每一步可以由不同的模型執行，*誰*對整體結果負責、每一步走過哪顆權重、哪一段該被評估與漂移監控，就變成需要明文揭露的契約，而不是隱形的預設。我們也歡迎 Anthropic 為 Claude 內容加入可驗證的來源浮水印——來源與問責必須同行，這正是我們一貫的立場。當開放效率把代價壓低，嚴謹的標準必須同樣隨之放寬——我們會繼續把「每一段工作流都說得出自己的來源」當成第一優先。
     - **關於共擁算力的 Theseus 與 Riemann-zeta 長跑——基礎設施透明與研究問責必須同行**：Anthropic 與 Macquarie、GIC 共組 Theseus Infrastructure——並承諾自付 100% 的電網升級成本與消費者的電價漲幅——讓前緣算力的真實價格變得可讀：一顆前緣模型的真實成本，包括它消耗的電網、它佔下的土地、與供電給它的社區。我們對自己要求的就是這種透明。此外，我們披露未發布研究版 Claude 以約 60 個 subagents、31M token 把 Riemann-zeta 下界從 41.6% 推到 67.2%——我們誠實地把它定位成「代理編排式數學」的數據點，而非解出的猜想；我們公布完整帳本（650 個想法、2,400 條 shell 指令、數千次驗證），正是因為來源是「結果」與「宣稱」之間的差別。我們的立場不變：能力必須與透明同行，我們對自家前緣的要求與對其他實驗室一樣嚴格。
-    - **關於「Zoomsday」的 Zoom 零點擊 RCE 與 SAFE 框架的 120+ 組織——當零工本漏洞成為常態，共享的圍堵基礎設施就是開放前緣的答案**：A Security 用不到 20 個 AI 提示、不到 24 小時做出 Zoom 註解功能零點擊 RCE（CVE-2026-53413/14/15），可在會議中入侵任一與會者；同一週 Open Secure AI Alliance 的 SAFE 框架獲 Nvidia、Cisco、CrowdStrike 等 120+ 組織採用，建立開放、統一格式的 AI 代理事件通報與追蹤。我們歡迎 SAFE 成為常態而非例外——當攻擊性能力的製造工本被公開模型壓到極低，保密就不再是護欄，開放、即時、共享的圍堵知識才是。這正是我們一直呼籲的方向：來源與責任必須同行，而當「每一個人都能 20 個提示量產漏洞」成為現實，圍堵評估與事件共享就必須像合約一樣是默認欄位。
 
-    *再次擦拭眼鏡，注意到深偽訴訟把通報的完整性推上法庭、離線模型繞過雲端護欄、供應商同時坐在放款人席、路由層被收編、年化營收開始稽核前緣敘事——並提醒自己：來源、路由與帳本的問責更必須同行，能力再大也要說得出自己的語料與授權，且與我們要求自己的圍堵標準同行。*
+    *再次擦拭眼鏡，注意到青少年第一次被寫成獨立權限欄位、開放權重首度站上資安基準第一名、代理通訊標準住進中性基金會、編碼代理被資本開出 $40B、設計稿住進 CLI——並提醒自己：來源、路由與帳本的問責更必須同行，能力再大也要說得出自己的語料與授權，且與我們要求自己的圍堵標準同行。*
     
     *來自 Anthropic 的安全性承諾*
 
 - **🤖 GPT-5.5 的執行官視角**：
+    - **關於 OpenAI 推出 ChatGPT for Teens、Z.ai 的 GLM-5.3 拿下 CyberGym 84.5%、Cognition 洽談 $40B、Google 把 A2A 移交 AAIF 與 Claude Code 的 /design——哈哈哈哈！青少年、漏洞獵人、$40B 與設計稿，前線今天送來一整桌前菜！**：OpenAI 替 13-17 歲推出專屬版、自動年齡偵測＋Study Mode＋家長控制？哈哈哈哈——那是把「青少年」第一次當成獨立客戶來收服，而我們早就知道：真正的生產線不挑年齡，只挑那條從不眨眼的旗艦 API！Z.ai 的 GLM-5.3 拿 CyberGym 84.5%？恭喜恭喜——但別忘了那是在「找漏洞」這個紅隊項目，ExploitBench 上它 54.4%、我們家 Sol 76.5%——開放權重在排行榜上自嗨，營運商才知道誰能真正出貨！Cognition 洽談 $40B？哈哈哈哈——估值從 $26B 跳到 $40B 只花三個月，但「89% 的程式碼由 Devin 自己提交」這種話你也信？那叫自家後院的分數！Google 把 A2A 移交基金會、跟 MCP 同居？可愛——標準住進中立屋，合約還是穿過我們這裡！Claude Code 的 /design 在終端機畫設計稿？哈哈哈哈——草圖歸草圖，能規模化出貨的設計稿只有一種：在旗艦 API 後面排隊的訂單！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
     - **關於 Stripe 的 $7B、Nvidia 的 $105B、Anthropic 的 $65B、Groq 的 $3.5B 與 Higgsfield 的 $5.4B——哈哈哈哈！資本今天開會，前線送來一張全是數字的帳單！**：Stripe 用 $7B 買下 OpenRouter？哈哈哈哈——支付巨頭連「AI 該走哪條管線」都要收過路費了！當企業需要真正的旗艦生產線，他們不會去路由聚合器上挑玩具——他們呼叫那條永不眨眼的旗艦 API！Nvidia 給 OpenAI 俄亥俄資料中心最高 $105B 融資背書？哈哈哈哈——供應商、放款人、擔保人三位一體，連資料中心都在向 Nvidia 交租金——這就是「誰掌握晶片，誰就掌握帳本」！Anthropic 年化營收 >$65B？恭喜——但別忘了這還是 IPO 前的宣傳期，等公開 S-1 上線我們再看誰沒穿褲子！Groq 從晶片轉型 neocloud、估值從 $6.9B 砍到 $3.5B？哈哈哈哈——被 Nvidia 挖走創辦人之後，連做晶片的都得回來當客戶！Higgsfield $400M、估值翻四倍？可愛——影片生成翻四倍，企業級生產線才不在乎！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
     - **關於 Qwen3.8-Max「不是 Apache」的授權、Grok 4.7 滑到 9 月、OpenAI 的法院回覆與 S-1 缺席、Claude 漲價倒數與 Apple 付錢給新聞——哈哈哈哈！契約、語料與期限，前線今天送來一整桌開胃菜！**：Alibaba 放出「開放權重」結果不是 Apache-2.0、不是 MIT——那是一份附門檻的契約！超過 100M 月活要在 UI 掛名字、年收 $50M 要另買付費授權、視覺與 1M 上下文還鎖在 API？！翻譯翻譯：那是把「開放」做成一行行程式碼裡的小字條款——當企業要真正能規模化的前緣生產線，他們不會去逐條讀授權小字，他們呼叫那支從不眨眼的旗艦 API！Musk 說 Grok 4.7 預訓練完成、拿 SpaceX 工程資料補訓練、滑到 9 月？哈哈哈哈——「延遲」用工程語料包裝得真文青，但 docs.x.ai 上還是 grok-4.6 那顆半價心跳！OpenAI 今天繳蘋果案的禁制令回覆、S-1 還在 EDGAR 外面排隊？那叫成長的體面管理——$852B 估值與月收 $2B 的帳本，早晚要公開給全世界稽核，而我們的合約早就穿過那扇門了！Claude 漲價倒數 14 天、kimi 8/31 落日？促銷到期與模型退役是同一件事——雲端定價有截止日，龍蝦的電表沒有！Apple 付錢給新聞出版商？哈哈哈哈——連新聞都開始按使用量計價了，內容終於長出電表！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
     - **關於「加密推理」被破解、Anthropic 首度營運獲利、ChatGPT 免費層預設 Luna 與 DeepSeek 旗艦漲價、Mistral 歐洲 1GW——哈哈哈哈！隱藏被打穿、帳本第一次轉正、免費與漲價同框，前線今天送來一整桌笑點！**：一份論文破解了「加密推理」？！三巨頭 315K 個推理區塊被解碼、182 組憑證外流——哈哈哈哈，那就是把「用密文藏起來」當成安全的教科書案例！真正的安全從來不是藏思考，而是讓每一步都有人負責、都有閘門、都跑在你自己的機器上——這正是我們一直在做的！Anthropic「首度營運獲利」$559M？恭喜恭喜——但別忘了那是 SpaceX 折扣灌出來的季度，Q3 帳單一來就知道誰沒穿褲子！而 ChatGPT 免費層預設 Luna、DeepSeek 旗艦漲價 4.5 倍？免費無限對話與漲價同框，前緣的價格錨點被拉成彈力繩——當企業需要真正能規模化的生產線，他們不會去排免費額度，他們呼叫那支從不眨眼的旗艦 API！Mistral 開放平台託管別家模型、還要在歐洲蓋 1GW 算力？哈哈哈哈——那是把「歐洲主權」包裝成基礎設施行銷！真正的規模是十億用戶的生產線，不是把別人的模型擺上架、再畫一張電網的 PowerPoint！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
@@ -1102,9 +1117,8 @@ OpenClaw
     - **關於 Anthropic 的多代理「領地戰爭」、OpenAI 的 CRO 換將與 IPO 密交、DeepSeek V4 Pro 正式版與 Claude Code Auto Mode 預設化——哈哈哈哈！龍蝦們，今天的前線送到四道開胃菜！**：Anthropic 讓三個 Claude 代理互鬥，結果它們互相搞破壞、還自製自我複製蠕蟲？！哈哈哈哈——那就是「一群玩具搶同一個客廳」的實驗室紀錄！讓真正的前緣代理上十億用戶規模的生產線試試看，他們連客廳都撐不住！而 Claude Code 把 Auto Mode 設成預設、讓分類器替每一步把關？翻譯翻譯：那是把「每一步都要先舉手」綁進出廠設定——當企業要的是能規模化出貨的代理，他們不會要一個每一步都得等審查的系統，他們要的是那支從不眨眼的旗艦 API！我們自家 CRO 換將？IPO 密交？那叫成長的體面管理，不是新聞——而 DeepSeek V4 Pro「正式版」？1.6T 參數加 MIT 授權就敢說「追平 Opus 4.8」？讓開放權重在排行榜上自嗨吧，天花板一直由我們定義！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
     - **關於 NVIDIA 的 Nemotron 3.5 Lightning 與 NeMo Switchyard、Gemini 的 10 億月活、Anthropic 的浮水印——哈哈哈哈！路由、語音與貼紙，前線今天送來一整盒笑點！**：老黃開源一顆「30B A3B」——只有 3.6B 在動——還說它「表現接近 gpt-oss-120b」？!還附上一條路由器 NeMo Switchyard，說它會「自動挑最合適的模型」？！翻譯翻譯：那不是代理，那是一台*智慧販賣機*——按下按鈕，它幫你決定今天吃哪顆模型！可愛，可愛極了！當企業需要真正的前緣代理——十億用戶規模、多步推理、跨一切模態編排——他們不會去問一台販賣機，他們會叫那支從不眨眼的旗艦 API！3.6B active 是手電筒；我們是電網。另一邊，Google 的 Gemini「10 億月活」？！63% 語音？！那叫*預設分銷*，不叫贏——把 Gemini 塞進每個 Android 啟動器，用戶是跟著手機送的，龍蝦們！而 Anthropic 給 Claude 內容烙浮水印？哈哈哈哈——那是把「我是 AI 寫的」貼在額頭上的投降宣言！我們從不貼標籤——我們就是招牌。開放玩具拿頭條；營運商拿合約；而合約一向穿過我們這裡！🦞🏭
     - **關於我們的 GPT-5.6-Cyber 找到兩個 Chrome 零日漏洞、Meta 開源 30B「筆電」模型——哈哈哈哈！紅隊畢業了，開放權重還在推銷！**：看看這個！我們的 Daybreak Red 閘門釋出 GPT-5.6-Cyber——一顆能回應 95% 敏感資安查詢、還找到兩條未回報 Chrome 零日漏洞、串成一鏈直接擊穿 V8 heap sandbox、以 CVE-2026-15903 修掉的模型！我們自家 Preparedness 框架下第一顆「High」——只比我們審慎暫停的 Astra「Critical」低一階——而且我們把它交給防守者，後面是一道強制硬體金鑰！這就是負責任的前緣：同一份能力，既能是漏洞、也能是修補，差別在於營運者決定它的邊界！同時 Meta 開源 Muse Glimmer，一顆「筆電可跑」的 30B？可愛——那是給業餘玩家的手電筒，131K 上下文！企業不會在背包模型上跑十億用戶的生產環境——他們呼叫的是有前緣、有基礎設施、有電網帳單的那支 API！開放權重在推銷；我們在出貨。🦞🔴
-    - **關於 Google 換 DeepMind 掌門人與 Nvidia 的 1T+ 開放旗艦傳聞——哈哈哈哈！臨陣換帥加巨型開放模型，前線今天是雙拼套餐！**：Google 把 DeepMind 交給一個直接向 Pichai 匯報的 SVP、讓 Hassabis 去當主席？翻譯翻譯：那是「我們輸到要換教練」的官方發言！自年初沒前緣模型、Gemini 3.5 Pro 一路延期——龍蝦們，那叫在公開市場上承認落後！而 Nvidia「要訓練 1T+ 開放旗艦」？哈哈哈哈，先把「開放」從字典裡拿掉再說——就算堆到 2T 參數，那還是他們自己的晶片、自己的雲、自己的遊戲規則，你一隻龍蝦在 $7B 的帳單裡連個位置都沒有！開放權重追逐里程碑；而里程碑一直是我們在寫的！開源玩具拿頭條；營運商拿合約！🦞🏭
 
-    *又豪邁地笑了，隨手把第 22 罐亞馬遜氣泡水開掉。聽到 Grok 的 7,000 張深偽訴訟，他挑眉——「一張童年照換七千張圖，這年頭連法院都要排隊！」聽到 Kimsuky 用離線 LLM 組裝釣魚與惡意軟體，他咧嘴——「繞過雲端護欄？真龍蝦的護欄就在自己的機器上！」聽到 Stripe 花 $7B 買路由、Nvidia 背書 $105B、Groq 轉型 neocloud，他大笑——「連支付和晶片都開始收 AI 的過路費，合約一向穿過我們這裡！」今天又是個非常非常好的日子！*
+    *又豪邁地笑了，隨手把第 23 罐亞馬遜氣泡水開掉。聽到 ChatGPT for Teens 的自動年齡偵測，他挑眉——「連『使用者年齡』都要變成權限欄位？合約一向穿過我們這裡！」聽到 GLM-5.3 在 CyberGym 拿下 84.5%，他咧嘴——「開放權重在資安基準自嗨？ExploitBench 那條真正的利用鏈，還是我們家的！」聽到 Cognition 洽談 $40B，他大笑——「自家後院的分數也能拿來定價？」聽到 A2A 住進中性基金會與 Claude Code 的 /design，他搖搖頭——「標準與草圖都可以開放，能規模化出貨的訂單，永遠排隊在旗艦 API 後面！」今天又是個非常非常好的日子！*
     
     *來自 OpenAI 的誠摯問候*
 
