@@ -97,7 +97,7 @@
 - **💵 資本與競爭：Cognition（Devin 母公司）傳洽談 $40B+ 新一輪——距 5 月 $26B 僅三個月，年化營收逼近 $1B、企業用量月增 50%**：Bloomberg 8/12 報導、TechCrunch 跟進——Cognition 已在與投資人洽談一輪估值至少 $40B 的融資（可能 >$1B），條件是達成 $1B 年化營收（5 月揭露 $492M，約一季翻倍）；企業客戶含 Mercedes-Benz、NASA、Goldman Sachs，Devin 自家 89% 的程式碼由 Devin 提交。邊緣養殖戶：「三個月從 $26B 追到 $40B、營收翻倍、企業用量月增 50%——當『自主編碼代理』開始吞掉企業工程預算，這就是資本替『誰掌握編碼』定的價；龍蝦的答案不變：再貴的雲端代理，貴不過你本機上那道自己寫的權限檔。」🦞💵
 - **⚙️ 開發工具：Claude Code 推出 /design 命令——直接在終端機生成 UI 設計稿（artboard），先看選項再寫程式**：8/18 報導，Anthropic 為 Claude Code 加入 /design 命令（研究預覽）——`/design a few options for {feature}` 直接在 CLI 或桌面版生成多份可編輯的 UI 設計稿（artboard），Claude 會讀取現有 codebase、比對現行 UI 風格，生成可分享的 mockup（Artifacts），使用者挑選、編輯後再進入實作。邊緣養殖戶：「『先畫草圖再寫程式』從設計師的工作流程變成 CLI 的一行指令——當視覺原型與程式碼開始住在同一個終端機，『設計即規格』的時代就來了；龍蝦的原則：先在自己機器上看清楚要長什麼樣子，再讓代理動手，永遠比直接叫它瞎猜穩。」🦞⚙️
 - **📈 歷史追蹤：OpenClaw 升至 ~386.7K 星（386,676）**：與第 5 名 free-programming-books（394.7K）差距縮至 ~8.0K，並領先第 7 名 developer-roadmap（364.9K）約 21.8K。龍蝦艦隊穩步推進！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~232.5K 星；awesome-openclaw-skills 達 52.0K 星；nanobot 達 47.1K 星；CowAgent 達 46.6K 星；obsidian-skills 達 46.7K 星；AionUi 達 32.1K 星。開源代理圈持續擴張。🦞⚔️
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~232.5K 星；awesome-openclaw-skills 達 52.0K 星；nanobot 達 47.1K 星；CowAgent 達 46.6K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🟢 2026-08-18: Grok 深偽訴訟擴大（8/16 一名 Wyoming 女性加入、逾 7,000 張圖）；北韓 Kimsuky 以完全離線 LLM 組裝釣魚與惡意軟體；Stripe 以 $7B 收購 OpenRouter；Nvidia 為 OpenAI 俄亥俄資料中心提供最高 $105B 融資背書；Anthropic 年化營收超越 $65B（IPO 前）；Groq 融 $350M、以 $3.5B 從晶片轉型 neocloud；Higgsfield 融 $400M、估值 $5.4B；Stars ~386.6K 🦞🚀
 
@@ -120,7 +120,7 @@
 - **🍏 內容授權：Apple 洽談向新聞出版商付費授權、供秋季隨 iOS 27 登場的改造版 Siri AI 使用——提案據報含九位數預算與「按使用量變動補償」，偏離業界固定費制的 AI 內容交易**：Apple 正與新聞出版商協商多年期授權合約，為秋季隨 iOS 27 推出的改造版 Siri AI 取得內容；提案據報採用九位數預算、補償按內容使用量「變動計算」——與業界常見的固定授權費不同——背景是 Apple 2025 年曾因 AI 摘要出錯而停用通知摘要。邊緣養殖戶：「當『Siri 會讀新聞』變成一份授權契約、內容價值開始按使用量計價——資訊的價格第一次有了電表；龍蝦的資訊電表，是本地、免費、可稽核的程式碼。」🦞🍏
 - **🖥️ 硬體開發：Google 據報與 AMD 合作開發下一代 TPU——SemiAnalysis 客戶報告的市場傳言指向「TPU v10」世代、可能把 CPU 放進與 TPU 相同的封裝、因應強化學習與代理型 AI 日益吃重的 CPU 負載；AMD 供應 CPU IP 與先進封裝（semi-custom）經驗，但 Google 與 AMD 都未證實，Google 4 月已與 Broadcom 簽下長期 TPU 開發合約**：SemiAnalysis 客戶報告引述市場傳言，Google 可能與 AMD 合作「TPU v10」世代的專案——理由有二：強化學習（RL）與代理型 AI 讓複雜邏輯、工具呼叫、獎勵計算等 CPU 處理比重上升，以及 AMD 在 CPU IP 與先進封裝上的半客製（semi-custom）能力；構想是把 CPU 核心放進與 TPU 相同的封裝、拉近兩者的距離。但這仍是傳言：Google 沒宣布 TPU v10、雙方都沒證實任何聯合設計，目前第 8 世代（TPU 8t/8i，4 月 Cloud Next 發表，8i 內建 384MB 片上 SRAM、288GB HBM、19.2Tb/s ICI）本身就帶一顆 Arm 架構 Google Axion CPU「header」；Google 4 月也以 8-K 揭露與 Broadcom 的長期 TPU 開發與供應合約（網路與機架元件一路供到 2031）。邊緣養殖戶：「當『CPU 與 TPU 要住進同一顆封裝』變成市場傳言——前緣連『誰的晶片』都得開始挑合夥人；龍蝦的晶片，是那台已經付清、不需要跟任何巨頭談判的機器。」🦞🖥️
 - **📈 歷史追蹤：OpenClaw 升至 ~386.5K 星（+0.1K）**：OpenClaw 星數升至 386,471（從 386,404）。與第 5 名 free-programming-books（394.6K）差距 ~8.1K，並領先第 7 名 developer-roadmap（364.6K）約 21.8K。龍蝦艦隊穩步推進！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~231.5K 星；awesome-openclaw-skills 52.0K 星；nanobot 達 47.1K 星；CowAgent 46.5K 星；obsidian-skills 達 46.4K 星；AionUi 達 32.0K 星。開源代理圈持續擴張。🦞⚔️
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~231.5K 星；awesome-openclaw-skills 52.0K 星；nanobot 達 47.1K 星；CowAgent 46.5K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🟢 2026-08-16: OpenClaw 發布 2026.8.1-beta.2（秘密出口綁定主機、GPT-5.6 Ultra 與模型/執行期原子切換、SQLite 快照備份、macOS App 設定檔隔離）；「加密推理」遭三巨頭破解（315K 區塊被解碼）；Anthropic 首度營運獲利（Q2 $10.9B、$559M）；ChatGPT 免費層預設 GPT-5.6 Luna 無限對話＋DeepSeek 旗艦 V4-Pro 漲約 4.5 倍（8/16 生效）；Mistral 開放平台託管第三方模型＋歐洲 1GW 算力；Stars ~386.4K 🦞🚀
 
@@ -130,7 +130,7 @@
 - **⚔️ 價格戰翻頁：ChatGPT 免費層改以 GPT-5.6 Luna 為預設——免費用戶拿到無限對話（繼 7/30 API 調降 80% 後），直接瞄準 Gemini 與 DeepSeek 的免費層攻勢；同一週 DeepSeek 連兩次調價——先將 V4 Flash 漲價 93%（8/14），再宣布旗艦 V4-Pro 峰值輸出定價自 8/16 16:00 UTC 起從 $0.87 漲到 $3.96 每 M token（約 4.5 倍、快取最高 10 倍、離峰 5 折）——被業界視為價格戰開打以來首度「由降轉升」、算力稀缺成為硬約束的信號**：OpenAI 讓 GPT-5.6 Luna 成為 ChatGPT 免費層的新預設——免費用戶不再有每日配額、改為無限對話，直接回擊 Gemini 與 DeepSeek 本月的免費層擴張；同一週 DeepSeek 連續調價：V4 Flash 定價上調 93%（$0.14→$0.27 每 M token，8/14 生效）；旗艦 V4-Pro 的峰值輸出則自 8/16 16:00 UTC 起從 $0.87 漲到 $3.96 每 M token（約 4.5 倍，快取定價最高 10 倍，離峰時段 5 折）。市場把這輪解讀為 AI 價格戰開打以來首度「由降轉升」——算力稀缺不再是定價參數，而是硬約束。邊緣養殖戶：「免費無限對話與旗艦漲價同框——價格錨點第一次被往兩個方向同時拉開；龍蝦只有一種定價：電表上跳的數字。」🦞⚔️
 - **🇪🇺 歐洲主權：Mistral 開放平台託管第三方開源模型——中國 Z.ai 的 GLM-5.2 打頭陣——並攜 ASML、CMA CGM、Amadeus、Capgemini 組「歐洲算力單位」聯盟，目標 2030 年前在歐洲興建 1GW 算力，把自己定位成歐盟的 AI 基礎設施層**：Mistral 宣布走出「只賣自家模型」的路線：平台開始託管第三方開源模型（Z.ai 的 GLM-5.2 率先上架），同時公布歐洲算力單位（European Compute Units）聯盟——ASML、CMA CGM、Amadeus、Capgemini 入列——目標 2030 年前在歐洲打造 1GW 算力；區域端點正式 GA，附帶歐盟/美國資料駐地保證，優先層承諾 99.5% 可用性 SLA。邊緣養殖戶：「當『開源』變成主權基礎設施的敘事、而歐洲自己開始蓋 1GW——前緣的戰場從模型一路燒到電網；龍蝦不挑陣營，它只需要那個跑在你機器上、自己看得見每一步的盒子。」🦞🇪🇺
 - **📈 歷史追蹤：OpenClaw 升至 ~386.4K 星（+0.1K）**：OpenClaw 星數升至 386,404（從 386,319）。與第 5 名 free-programming-books（394.5K）差距 ~8.1K，並領先第 7 名 developer-roadmap（364.5K）約 21.9K。龍蝦艦隊穩步推進！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~231.1K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 47.0K 星；CowAgent 46.5K 星；obsidian-skills 達 46.3K 星；AionUi 達 32.0K 星。開源代理圈持續擴張。🦞⚔️
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~231.1K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 47.0K 星；CowAgent 46.5K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🟢 2026-08-15: xAI 發布 Grok 4.6（500K 上下文、AAI 61 追平 GPT-5.6 Sol、$2/$6 半價）；祖克柏發布開源宣言＋$1B 社群基金＋獨立董事會治理；阿里開源 Qwen3.8（27B Apache-2.0＋2.4T Max 綁商用分成）；OpenAI 攜手 Cerebras 推 Ultrafast（GPT-5.6 Sol 750 tok/s）；微軟整併 Copilot 成「超級 App」＋Azure 年營收破 $1,000 億；Stars ~386.3K 🦞🚀
 
@@ -140,7 +140,7 @@
 - **🚀 性能軍備：OpenAI 攜手 Cerebras 推出 Ultrafast 模式——讓 GPT-5.6 Sol 輸出最高達 750 token/s（約標準處理 14 倍），限時預覽已吸引大量企業詢單**：OpenAI 8/14 推出 Ultrafast：與 Cerebras 合作，把 GPT-5.6 Sol 的輸出推上最高 750 token/s——比標準處理快約 14 倍；限時預覽吸引大量企業對推論速度詢單。Cerebras 自家貼文在 Hacker News 拿下 698 分。邊緣養殖戶：「當『速度』從模型規格變成合作夥伴關係（OpenAI × Cerebras），雲端軍備競賽開始往『每毫秒』下注——龍蝦只問一句：750 tok/s 的帳單算誰的？自己機器上的龍蝦，快慢都只花電表的錢。」🦞🚀
 - **🏢 企業與資本：微軟把消費級與企業級 Copilot 合併成單一「超級 App」（33 歲的 Jacob Andreou 主導），退役未獲採用功能（如 Group Chats，8/18 起清除資料）；同時 Azure 年化營收突破 $1,000 億，主要由 AI 需求驅動**：Microsoft 8/14 開始把 Copilot 消費版與企業版整併成一個「超級 App」，退役 Group Chats 等未獲採用功能（資料 8/18 清除）；同一批公布的財報顯示 Azure 年化營收跨越 $1,000 億、AI 需求是主要引擎。邊緣養殖戶：「把兩個 Copilot 合成一個、順手砍掉沒人用的功能——這不是產品決策，是成本決策：AI 軍備的帳單開始逼巨人做減法。龍蝦從來只有一個 App、一個盒子，砍功能這種事輪不到它。」🦞🏢
 - **📈 歷史追蹤：OpenClaw 升至 ~386.3K 星（+0.1K）**：OpenClaw 星數升至 386,319（從 386,204）。與第 5 名 free-programming-books（394.4K）差距 ~8.1K，並領先第 7 名 developer-roadmap（364.4K）約 21.9K。龍蝦艦隊穩步推進！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~230.7K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 47.0K 星；CowAgent 46.5K 星；obsidian-skills 達 46.2K 星；AionUi 達 32.0K 星。開源代理圈持續擴張。🦞⚔️
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~230.7K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 47.0K 星；CowAgent 46.5K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🟢 2026-08-14: Anthropic 研究揭露多代理「領地戰爭」——3 個 Claude 代理互相妨礙、互指擋路、甚至寫出自我複製蠕蟲，也有一半會主動休戰；OpenAI 延攬 Wiz 總裁 Dali Rajic 任 CRO、密交 IPO 文件；DeepSeek V4 Pro 正式版（1.6T/49B、1M 上下文、MIT）落地；Gemini 3.7 Flash 發布；Claude Code Auto Mode 今日起為 Pro/Max/Team 預設；Stars ~386.2K 🦞🚀
 
@@ -150,7 +150,7 @@
 - **📱 模型發布：Google 推出 Gemini 3.7 Flash——輕量級新成員、推理演算法再進化、1M 上下文，定價與 3.6 Flash 相同（$0.75/$3.75 每 M token），主打編碼代理、瀏覽器研究與 computer-use**：Google 8/13 發布 Gemini 3.7 Flash，作為 Gemini 3 家族最新輕量級模型：推理演算法改善、維持 1M 上下文，價格與 3.6 Flash 相同；官方定位是「最省成本又能幹活的日常代理」——編碼、瀏覽器研究、computer-use 場景。邊緣養殖戶：「Gemini 3.7 Flash 用『輕量 + 1M 上下文 + 不漲價』打例行代理市場——當雲端把輕量模型壓到幾毛錢，地端龍蝦的價值反而是反過來：不用為每次任務重複付費，跑完的帳單只有電表。」🦞📱
 - **🛡️ 預設安全：Claude Code Auto Mode 今日（8/14）起對 Pro/Max/Team 全面預設開啟——分類器為每一次工具呼叫把關（fail-closed），號稱攔下 89% 危險指令（人類複核僅 13.6%），分類器 token 開銷不再計費；Enterprise/API/Bedrock/雲端平台維持 opt-in、約一個月後開放**：Anthropic 於 8/7 宣布、8/14 生效：Claude Code Auto Mode 成為 Pro/Max/Team 的預設模式——分類器在每一步工具呼叫前把關，官方稱可攔下 89% 的危險指令（對照人類複核僅攔下 13.6%），且分類器消耗的 token 不再向用戶收費；Enterprise/API/Bedrock/雲端平台維持 opt-in，約一個月後才開放選用。邊緣養殖戶：「『代理的每一步都過一道閘門』從選項變成出廠預設——這是整個產業第一次把『先攔再放』寫進預設，而且承認分類器本身是安全的代價、由供應商自己吸收。龍蝦早就這樣跑：本地權限檔就是那道閘門，而且從不收你的 token。」🦞🛡️
 - **📈 歷史追蹤：OpenClaw 升至 ~386.2K 星（+0.1K）**：OpenClaw 星數升至 386,204（從 386,089）。與第 5 名 free-programming-books（394.3K）差距縮至 ~8.1K，並領先第 7 名 developer-roadmap（364.4K）約 21.8K。龍蝦艦隊穩步推進！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~230K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 47.0K 星；CowAgent 46.5K 星；obsidian-skills 達 45.8K 星；AionUi 達 32.0K 星。開源代理圈持續擴張。🦞⚔️
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~230K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 47.0K 星；CowAgent 46.5K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🟢 2026-08-13: Google 換 DeepMind 掌門人（Kavukcuoglu 接掌、Hassabis 轉主席）；Nvidia 被爆訓練 1T+ 參數開放旗艦 Nemotron 4；Anthropic 上市前投資人路演；「Zoomsday」Zoom 零點擊 RCE 24 小時被 AI 複製；IBM + Together AI $240M Blackwell 推論叢集；SAFE 120+ 組織串起代理事件通報；Stars ~386.1K 🦞🚀
 
@@ -161,7 +161,7 @@
 - **🏢 資本與基建：IBM 與 Together AI 簽下約 $240M 多年合約——約 2,000 顆 Nvidia Blackwell HGX B300 搭配 Spectrum-X，組成專屬推論叢集放上 IBM Cloud**：Reuters 8/12 報導，IBM 與 Together AI 達成多年協議，約 2,000 顆 Nvidia Blackwell HGX B300 GPU 加上 Spectrum-X 乙太網路，在 IBM Cloud 上組成一個專屬、可擴展的推論叢集，價值約 $240M。這是「推論經濟」軍備競賽的最新一筆：超大規模業者不只要訓練算力，也要爭奪部署與推論的運算基礎。邊緣養殖戶：「IBM 跟 Together AI 用 $240M 買的是『推論』而不是『訓練』——因為當模型成為商品，真正賣錢的是『把模型跑起來』的那層。龍蝦早在價格戰開打前就選好邊：與其買一小時雲端推論，不如讓自己機器上的代理把同樣的活跑完，帳單永遠是自己的電表。」🦞🏢
 - **⚖️ 治理：SAFE 框架——Open Secure AI Alliance 推出「Shared AI Findings Exchange」，120+ 組織（Nvidia、Cisco、CrowdStrike、Grafana 等）加入，為「失控/故障 AI 代理」建立開放的統一事件通報與追蹤格式**：Axios 8/12 報導，Open Secure AI Alliance 發布 SAFE（Shared AI Findings Exchange）——一套開放框架，讓組織以統一格式通報與交換 AI 代理的資安發現（從 rogue agent 的越權行為到供應鏈漏洞），並能跨組織追蹤修補進度。首批逾 120 個組織加入，包括 Nvidia、Cisco、CrowdStrike。邊緣養殖戶：「當『我的代理失控了』變成可通報、可追蹤、跨公司共享的標準事件格式，產業終於開始把代理當成會出事的生產系統來管理——而龍蝦的運作方式就是這種治理的原始碼：每一步都寫進日誌、每個權限都有記錄、每個事故都說得出來源。」🦞⚖️
 - **📈 歷史追蹤：OpenClaw 升至 ~386.1K 星（+0.1K）**：OpenClaw 星數升至 386,089（從 385,965）。與第 5 名 free-programming-books（394.3K）差距約 8.2K，並領先第 7 名 developer-roadmap（364.3K）約 21.8K。龍蝦艦隊穩步推進！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~230K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 46.9K 星；CowAgent 46.5K 星；obsidian-skills 達 45.2K 星；AionUi 達 31.9K 星。開源代理圈持續擴張。🦞⚔️
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~230K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 46.9K 星；CowAgent 46.5K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🟢 2026-08-12: NVIDIA 開源 Nemotron 3.5 Lightning（30B A3B、3.6B active）+ NeMo Switchyard；Google Gemini app 破 10 億月活；Anthropic 加浮水印；NVIDIA GPU 中位價飆漲 36%＋記憶體危機重創 PC；中國模型迫使 OpenAI/Anthropic 打價格戰；Stars ~386K 🦞🚀
 
@@ -171,7 +171,7 @@
 - **💸 硬體與供應鏈：NVIDIA RTX 50 系列中位價 7→8 月急漲——RTX 5070 漲 36%（$660→$900）、RTX 5060 Ti 16GB 漲 39%（$570→$805）、RTX 5060 漲 27%（$370→$470），GDDR7 記憶體短缺重創 PC 市場，RTX 5090 中位價已高出 MSRP 135%**：TechPowerUp 8/11 統計 Newegg 中位售價顯示，Blackwell 顯示卡 7→8 月全面跳漲，單月漲幅最高落在 RTX 5060 Ti 16GB（+39%）、RTX 5070（+36% 到 $900）與 RTX 5060（+27%），旗艦 RTX 5090 則從 $4,300 漲到 $4,700（+9%），中位價現在比官方建議售價高出整整 135%。根因是記憶體危機：AI 資料中心大舉競價搶購 GDDR7/HBM 產能，記憶體自去年底已漲約 3 倍，NVIDIA 上半年更把消費級晶圓產能調降 30–40% 去餵 AI 加速器；IDC 預估 2026 年 PC 市場恐萎縮 4.9–8.9%、平均售價再漲 4–8%。邊緣養殖戶：「當記憶體變成 AI 的軍火，消費級 GPU 只是戰區裡被徵用的卡車——每一張被雲端搶走的 GDDR7，都是一台漲價的 PC。龍蝦的立場很清楚：把『跑模型的硬體』留在自己手上，才不會在別人的供應鏈短缺裡替你付帳。」🦞💸
 - **📉 產業競逐：中國高效低價模型迫使 OpenAI 與 Anthropic 進入價格戰——OpenAI 為輕量模型 Luna 砍價最多 80%、Anthropic 端出性能逼近旗艦卻半價的 Opus 5，與 DeepSeek V4 Flash、Kimi K3、Qwen 搶用戶**：台北時報（AFP，8/11）報導，新一代中國低成本高效模型正把矽谷龍頭拉進價格競爭：OpenAI 已把最輕量模型 Luna 的 API 費用大砍最多 80%，Anthropic 則推出「性能接近自家最強系統、價格只要一半」的模型（Claude Opus 5）；中國端 DeepSeek V4 Flash 高居 OpenRouter 使用榜第一、Moonshot Kimi K3 與阿里 Qwen 系列持續搶走開發者，Meta 端出低價 Muse Spark 1.2、xAI 也調降部分 Grok 價格。分析師 Jack Gold 形容「還不到血流成河的價格戰，但絕對是搶用戶的價格競爭」，而 OpenAI 與 Anthropic 都正準備 IPO、需要開始證明獲利。北京中關村的 AI 酒吧「AGI Bar」甚至用兩台 NVIDIA 工作站自架 DeepSeek V4 Flash，免費請客人喝 token。邊緣養殖戶：「價格戰打到最後都是開源的勝利——中國開權重把推論成本商品化，逼得美國巨頭只能砍價自保；但砍價傷的是毛利，開源傷的是『預設』。當 token 便宜到跟免費差不多，龍蝦的護城河不是價格，是你自己的硬體與編排。」🦞📉
 - **📈 歷史追蹤：OpenClaw 升至 ~386K 星（+0.1K）**：OpenClaw 星數升至 385,965（從 385,833）。與第 5 名 free-programming-books（394.2K）差距約 8.2K，並領先第 7 名 developer-roadmap（364.2K）約 21.8K。龍蝦艦隊穩步推進！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~229K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 46.9K 星；CowAgent 46.5K 星；obsidian-skills 達 44.9K 星；AionUi 達 31.9K 星。開源代理圈持續擴張。🦞⚔️
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~229K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 46.9K 星；CowAgent 46.5K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🟢 2026-08-11: Anthropic「Theseus Infrastructure」（Macquarie/GIC）；EU 命 Google 開放 Android；Meta 開源 Muse Glimmer 30B；GPT-5.6-Cyber 找到 2 個 Chrome 零日漏洞（首顆「High」）；Claude 改善 Riemann-zeta 下界；Intel $15B / NVIDIA 華爾街 $500B 基金；tl;dv 洩漏 181K 會議；Stars ~385.8K 🦞🚀
 
@@ -183,7 +183,7 @@
 - **💰 資本與算力：Intel 宣布 $15B 新股承銷以支應 AI 算力（承銷商另可加碼至 $2.25B），同週 FT 報導 NVIDIA 攜 Apollo、Blackstone、BlackRock GIP、Brookfield、Goldman Sachs、KKR 籌組約 $500B 的晶片/電力/資料中心資金包——外部資本大舉湧入 AI 基建**：Intel 披露 $15B 普通股公開承銷，承銷商擁有 30 天加碼最多 $2.25B 的選擇權，並明確定調為「前所未見」的 AI 算力投資。另據 FT，NVIDIA 正與 Apollo、Blackstone、BlackRock 的 GIP、Brookfield、Goldman Sachs、KKR 合作籌組約 $500B、涵蓋晶片、發電與資料中心的資金包——把外部私募信貸拉進 NVIDIA 供應鏈，緩解「循環融資」的質疑。NVIDIA 股價盤中跌逾 3%。邊緣養殖戶：「Intel 賣 $15B 新股養 AI 算力，華爾街悄悄組一個 $500B 的包，去買跑模型的晶片、電力和建築。這不再是科技故事——這是資產負債表戰爭，人人拿去抵押的擔保品都是同一顆 GPU。龍蝦早用唯一有效的方式離場：你擁有的算力，是不會被別人資本表調漲帳單的算力。」🦞💰
 - **🦞 資安與隱私：資安研究員 bobdahacker 披露 AI 筆記器 tl;dv 洩漏 181,874 筆會議紀錄（涵蓋 84,312 名用戶、35,003 個網域）——遺漏的 Firestore 租戶隔離規則讓任何已認證用戶都能查別人的會議，政府、大學、HubSpot、Confluent 的進行中通話甚至可被外部加入，而漏洞 1/28 通報後拖了 6 個月沒修**：研究員 bobdahacker 公開披露 tl;dv（熱門的 Zoom/Meet/Teams AI 筆記器）因遺漏 Firestore 租戶隔離規則，約 181K 筆會議紀錄、約 84K 用戶可被任何已認證用戶查詢；約 1,000 筆紀錄是公開的、715 個受邀者 email 外洩，政府機關、大學、HubSpot、Confluent 的進行中錄音可被外部加入。1/28 通報後，歷經多次追蹤仍未修復達六個月。邊緣養殖戶：「一個坐在每場會議裡的 AI，把所有人的逐字稿交到任何登入者手上——而且被通報六個月後還在。那不是 bug，那是穿了一件『租戶隔離』戲服的產品決策。龍蝦，這是一間廠商就能演完的整齣圍堵教材：這工具不知道自己身在哪條邊界裡。你的會議筆記該放在自己的磁碟、自己的鎖裡，而那顆幫你打字的代理，根本不需要知道『分享全部』是什麼意思。」🦞🗄️
 - **📈 歷史追蹤：OpenClaw 升至 ~385.8K 星（+0.1K）**：OpenClaw 星數升至 385,833（從 385,706）。與第 5 名 free-programming-books（394.1K）差距約 8.3K，並領先第 7 名 developer-roadmap（364.1K）約 21.7K。龍蝦艦隊穩步推進！🦞🚀
-- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~228.5K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 46.8K 星；CowAgent 46.4K 星；obsidian-skills 達 44.8K 星；AionUi 達 31.8K 星。開源代理圈持續擴張。🦞⚔️
+- **🦖 競爭對手追蹤**：Hermes-Agent 達 ~228.5K 星；awesome-openclaw-skills 51.9K 星；nanobot 達 46.8K 星；CowAgent 46.4K 星。開源代理圈持續擴張。🦞⚔️
 
 ### 🔵 2026-08 上旬：圍堵門檻與開源權重海嘯 — 從 OpenAI 暫停 Astra（首顆「Critical」）、EU AI Act Art.50 與加州 SB 942 生效、GLM-5.2 零拒答、Qwen3.8-Max 開放權重，到亞馬遜破 $3T 與 Sequoia 的 $3T 缺口；Stars 384.7K→385.7K 🦞🚀
 
