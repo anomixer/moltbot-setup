@@ -18,3 +18,7 @@ Thumbs.db
 # 暫存目錄
 tmp/
 scratch/
+
+# 暫存檔
+*.html
+fix*.*
