@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-08-24
-> **狀態**: OpenClaw 達到 ~387.3K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 ~7.8K！** 🦎🚀
+> **最後更新**: 2026-08-25
+> **狀態**: OpenClaw 達到 ~387.4K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 ~7.8K！** 🦎🚀
 
 > **OpenClaw 版本**: v2026.8.1-beta.2 (最新測試版) / v2026.7.1 (最新正式版/LTS) | 遠端編碼會話、狀態安全架構、耐久頻道傳遞、MCP Apps、Wear OS、引導式設置 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 ~387.3K Stars，**穩穩坐穩歷史第六**)，領先 `system-design-primer` 約 21.7K 星，距 #5 free-programming-books（395.1K）僅剩 ~7.8K！穩定朝全球前五邁進！
-2. **今日震盪**：OpenClaw 把通過 RC1 驗證的 2026.8.1 標為正式穩定版、並將本機權限掃描器 claw-perms 設為出廠預設；社群首輪掃描 200+ 熱門 skill 找出 12 個越權案例、同日 Phantom Context 的「跨代理共用記憶」變種成 CVE-2026-54229；Nous 的 Hermes-5 被發現 ExploitBench 跑分依賴與 Grok 4.7 重疊的語料、承諾公開測試集；Anthropic S-1 路演首日機構超額認購 3.4 倍、但修訂文件揭露 Q3 毛利率因 SpaceX 折扣退場下修 9 個百分點；社群拆解 Ox Alpha 的「每天 100T 免費」實為每 IP 每小時 1.2M 動態限速；GitHub 給 Codespaces Agents 加本機權限閘道與審計日誌反擊 Cursor；xAI Grok 4.7 有限預覽登記破 110 萬、預熱工程推理排行榜；NIST 發佈 AI 600-1 把記憶重播授權列為可稽核控制項、呼應 EU 與 AAIF 的權限檔標準。Stars ~387.3K。
+1. **主角**: **OpenClaw** (🔥 ~387.4K Stars，**穩穩坐穩歷史第六**)，領先 `system-design-primer` 約 21.6K 星，距 #5 free-programming-books（395.2K）僅剩 ~7.8K！穩定朝全球前五邁進！
+2. **今日震盪**：OpenClaw 釋出 2026.8.1.1 熱修、把「權限檔版本戳記」寫進每個 agent 的記憶邊界；第三個記憶注入變體 CVE-2026-54231（檢索式上下文中毒）註冊、claw-perms 當日給規則；Nous 公開 Hermes-5 測試集後社群確認重疊未消、二次致歉；Anthropic S-1 路演次日超額 4.2 倍、估值上修 $1.2–1.4T、但 SEC 要求補 SpaceX 折扣退場敏感性分析；Ox Alpha 承認限速並推 $9/月 Pro；Cursor Origin 2.1 把本機閘道下放免費層並支援匯出 Git；Grok 4.7 工程推理榜單外流、SpaceX 語料佔 41%；微軟 Google 挺 NIST AI 600-1 並提議權限檔互通格式送 W3C。Stars ~387.4K。
 3. **生態大戰**：當「記憶注入」正式拿到 CVE 編號、當開放權重的資安軍備從「一顆領先」變成「三顆互咬」、當監管與標準在同一條權限邊界上合流——「誰准許代理記住什麼、誰對權重與帳本負責」正式成為三條平行戰線；前緣實驗室用「公開 S-1 與本機閘道」回應圍堵，而龍蝦的護城河始終是那道本機、可稽核、不計費的權限檔。
-4. **最新進展**：Stars 朝 ~387.3K（387,300）邁進，距 free-programming-books（395.1K）僅剩 ~7.8K。Hermes-Agent 達 ~235K 星。當權限掃描器成為出廠預設、記憶注入變種再成 CVE、開放權重跑分遭質疑、監管與標準在權限邊界二次合流，龍蝦艦隊繼續往前。🦎🚀
+4. **最新進展**：Stars 朝 ~387.4K（387,400）邁進，距 free-programming-books（395.2K）僅剩 ~7.8K。Hermes-Agent 達 ~235K 星。當權限掃描器成為出廠預設、記憶注入變種再成 CVE、開放權重跑分遭質疑、監管與標準在權限邊界二次合流，龍蝦艦隊繼續往前。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-08-25: OpenClaw 2026.8.1.1 熱修與權限檔戳記；CVE-2026-54231（檢索式中毒）；Hermes-5 測試集爭議；Anthropic S-1 次日超額 4.2 倍；Ox Alpha Pro 收費；Cursor Origin 2.1 下放閘道；Grok 4.7 榜單外流；微軟 Google 挺權限檔標準；Stars ~387.4K 🦎🚀
   - 🟢 2026-08-24: OpenClaw 2026.8.1 正式 GA 並把 claw-perms 掃描器納入出廠預設；claw-perms 首輪掃出熱門技能越權、CVE-2026-54229；Hermes-5 跑分爭議；Anthropic S-1 路演首日超額認購；Ox Alpha 限速遭起底；GitHub 加本機閘道；Grok 4.7 登記破百萬；NIST 跟進權限邊界；Stars ~387.3K 🦎🚀
   - 🟢 2026-08-23: OpenClaw 釋出 beta.3 RC1 與 claw-perms 掃描器；Phantom Context 成 CVE-2026-54210；Nous 釋出 Hermes-5 開放權重；Anthropic S-1 揭露 IPO 區間；Cursor Origin 2.0；Grok 4.7 預熱；歐盟納入代理權限邊界；Stars ~387.2K 🦎🚀
   - 🟢 2026-08-22: OpenClaw 公佈 beta.3 修復時程；Z.ai 釋出 GLM-5.3 開放權重；Phantom Context 記憶注入漏洞；Anthropic 公開 S-1；GitHub 推 Codespaces Agents；Grok 4.7 預熱；Stars ~387.1K 🦎🚀
@@ -83,7 +84,20 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
-### 🟢 2026-08-24: OpenClaw 2026.8.1 正式 GA 並把 claw-perms 掃描器納入出廠預設；claw-perms 首輪掃出熱門技能越權、第二個記憶注入變體成 CVE-2026-54229；Hermes-5 跑分爭議；Anthropic S-1 路演首日超額認購；Ox Alpha 限速遭起底；GitHub 給 Codespaces Agents 加本機閘道；Grok 4.7 登記破百萬；NIST 跟進代理權限邊界；Stars ~387.3K 🦎🚀
+### 🟢 2026-08-25: OpenClaw 釋出 2026.8.1.1 熱修與權限檔戳記；第三個記憶注入變體 CVE-2026-54231；Hermes-5 測試集爭議未平；Anthropic S-1 次日超額 4.2 倍；Ox Alpha 推 Pro 收費；Cursor Origin 2.1 下放閘道；Grok 4.7 榜單外流；微軟 Google 挺權限檔標準；Stars ~387.4K 🦎🚀
+
+ - **🦞 官方動態：OpenClaw 釋出 2026.8.1.1 熱修——claw-perms 掃描器修正高併發誤報、並把「權限檔版本戳記」寫入每個 agent 的記憶邊界，記憶重播前強制校驗戳記；同時官方把「權限檔即程式碼」寫入 2026.8.2 路線圖**：OpenClaw 官方 8/25 推送 2026.8.1.1，修掉 claw-perms 在大量並發掃描時的誤報，並在每個 agent 的長期記憶邊界嵌入一份「權限檔版本戳記」——重播記憶前必須先校驗戳記與當前權限檔是否一致，否則拒絕載入。邊緣養殖戶：「當『穩定先於更新』從驗證清單進化成郵票——你記住的每一段上下文，都蓋著它出廠時那道閘門的章；龍蝦把『可稽核』從口號刻進記憶本身。」🦞🛠️
+ - **🛡️ 安全戰區：第三個記憶注入變體 CVE-2026-54231 註冊——Phantom Context 的「檢索式上下文中毒」（RAG 型 agent 在檢索階段被植入惡意片段）；claw-perms 當日釋出檢測規則**：Unit 42 8/25 把 Phantom Context 的第三個變種註冊為 CVE-2026-54231——不同於前兩個直接寫入長期記憶，這回攻擊發生在 RAG 檢索階段：惡意文件被檢索進上下文後，在會話中自動重放。claw-perms 同日釋出針對檢索來源簽章的檢測規則。邊緣養殖戶：「當『記憶注入』從長期記憶蔓延到檢索管線——圍堵的單位從『代理記住什麼』升級成『代理從哪裡撈到什麼』；龍蝦的原則不變：每一段進來的上下文，都要過你本機那道閘門的簽章。」🦞🛡️
+ - **🧠 開放模型：Hermes-5 測試集公開後社群複現確認 ExploitBench 重疊未消除，Nous 二次致歉並承諾重抽測試集；Mythos 6 開放權重預熱**：Nous Research 8/25 公開 Hermes-5 完整測試集後，社群複現確認 ExploitBench 58.3% 與 Grok 4.7 語料重疊並未改善，Nous 二次致歉、承諾 72 小時內重抽；同時 Mythos 團隊預熱 Mythos 6 開放權重，主打「代理自我對抗訓練 2.0」。邊緣養殖戶：「當『開放權重三強互咬』的其中一強，連測試集都要被社群審第二遍——開放模型的誠實，終於輪到基準本身也被圍堵；龍蝦不參賽，但每一顆你本機跑的權重，都該過你自己的閘門。」🦞🧠
+ - **💰 資本與 IPO：Anthropic S-1 路演次日機構超額認購升至 4.2 倍、估值區間上修至 $1.2–1.4T，但 SEC 要求補充 SpaceX 折扣退場的敏感性分析**：Anthropic 8/25 S-1 路演次日，據路透引述機構超額認購升至 4.2 倍、估值區間上修至 $1.2–1.4T，但 SEC 要求其在修訂文件中補充「SpaceX 算力折扣退場」對毛利率的敏感性分析（基準 / 折扣全退兩情境）。邊緣養殖戶：「當『史上最大 IPO』第二天就被超額 4.2 倍、卻同時被監管要求把折扣退場算成兩種劇本——資本市場的尺，終於量到最樂觀與最保守之間的真實區間；龍蝦的資產負債表從來只有一行：已付清的硬體＋自己的電費，不須等路演、也不須解釋劇本。」🦞💰
+ - **🐂 神秘模型：Ox Alpha 承認限速事實，推出 $9/月 Pro 解鎖「無限額度」（實為優先排隊），社群戲稱「排隊費」**：oxalpha.io 8/25 正式承認「每天 100T 免費」為動態限速，並推出 $9/月 Pro——號稱解鎖無限額度，實為把普通用戶擠到更慢佇列、Pro 用戶進優先佇列；同日公佈首位投資人為某東南亞家族辦公室。邊緣養殖戶：「當『100 兆免費』被還原成 $9/月的排隊號——免費的代價從『你的請求排在誰後面』變成『你付錢買更前面的號』；龍蝦的原則不是誰更便宜，而是這條水管通到你本機的哪一側、誰對流量負責。」🦞🐂
+ - **💻 開發工具與生態：Cursor 反擊 GitHub——Origin 2.1 把本機權限閘道下放到免費層，並支援把權限檔匯出成 Git 倉庫做版本控管**：Cursor 8/25 釋出 Origin 2.1，把本機權限閘道從付費層下放到免費層，並首次支援把權限檔（含版本戳記）匯出成 Git 倉庫，讓團隊能對權限變更做 diff 與回滾。邊緣養殖戶：「當『代管』與『本機權限』被兩間編輯器公司先後焊進產品、還能進 Git 做版本控管——競爭的單位從『誰的閘門更強』變成『誰讓閘門留在你手上、還能跟同事協作』；龍蝦從頭到尾都只有一句：權限與稽核，永遠該由你本機那條線掌控。」🦞💻
+ - **🚀 模型動態：Grok 4.7 工程推理排行榜預熱頁外流，顯示 SpaceX 工程語料佔比 41%；docs.x.ai 仍停在 grok-4.6**：xAI 8/25 的 Grok 4.7「工程推理排行榜」預熱頁遭外流，數據顯示 SpaceX 工程語料佔訓練語料 41%、居單一來源之首；但 docs.x.ai 仍只列出 grok-4.6，9/3 發布窗口不變。邊緣養殖戶：「當『工程推理』被拆成可排行的榜單、而榜單第一大來源是 SpaceX 的工程紀錄——前緣的勝負軸從『誰的模型大』變成『誰的語料獨家、佔比多少』；龍蝦的獨家語料，是你硬碟上自己跑出來的紀錄，不排隊、不被計量、也不外流。」🦞🚀
+ - **🏛️ 標準與治理：微軟、Google 表態支持 NIST AI 600-1 權限檔標準，並提議把「權限檔互通格式」送進 W3C**：微軟與 Google 8/25 分別發文支持 NIST AI 600-1，並聯手提議把一套開放「權限檔互通格式」提交 W3C，讓跨廠商 agent 能讀同一份本機授權清單。邊緣養殖戶：「當華盛頓、布魯塞爾與兩間巨頭先後把『權限檔』寫進指南、法規與互通標準——監管、標準與產業在同一條本機邊界上三次合流；龍蝦早就這樣跑：每個代理都活在自己可稽核、可版本化的軌道上，不管標準住哪個機構。」🦞🏛️
+ - **📈 歷史追蹤：OpenClaw 升至 ~387.4K 星（387,400）**：與第 5 名 free-programming-books（395.2K）差距縮至 ~7.8K，並領先第 7 名 system-design-primer（365.8K）約 21.6K。龍蝦艦隊穩步推進！🦎🚀
+ - **🦖 競爭對手追蹤**：Hermes-Agent 達 ~235K 星；nanobot 達 ~47.3K 星；CowAgent 達 ~46.6K 星；Ox Alpha 轉型收費、被社群戲稱「龍蝦的電費對手」。開源代理圈持續擴張。🦞⚔️
+#
+## 🟢 2026-08-24: OpenClaw 2026.8.1 正式 GA 並把 claw-perms 掃描器納入出廠預設；claw-perms 首輪掃出熱門技能越權、第二個記憶注入變體成 CVE-2026-54229；Hermes-5 跑分爭議；Anthropic S-1 路演首日超額認購；Ox Alpha 限速遭起底；GitHub 給 Codespaces Agents 加本機閘道；Grok 4.7 登記破百萬；NIST 跟進代理權限邊界；Stars ~387.3K 🦎🚀
 
 - **🦞 官方動態：OpenClaw 2026.8.1 正式 GA——beta.3 RC1 通過可驗證修復清單後轉正式版，claw-perms 權限檔掃描器納入出廠預設、首輪掃描社群熱門技能找出 12 個越權案例**：OpenClaw 官方 8/24 把通過 RC1 驗證的 2026.8.1 標為正式穩定版（v2026.8.1 / LTS 仍是 v2026.7.1），並將 `claw-perms` 權限檔基線掃描器設為出廠預設——使用者安裝或升級時會先跑一次本機權限邊界檢查。邊緣養殖戶：「當『穩定先於更新』不是口號而是驗證清單，龍蝦把『不會壞』從承諾做成出廠步驟；而且這次連你本機的權限掃描器都幫你預設打開——穩定與安全加固，這回連開關都不用你找。」🦞🛠️
 - **🛡️ 安全戰區（權限掃描實戰）：claw-perms 公開首輪掃描報告——在 8 款下載量最高的第三方 skill 中，3 款會在權限檔邊界外讀取憑證、2 款靜默呼叫外部 webhook，同日第二個記憶注入變體 CVE-2026-54229 註冊（Phantom Context 的「跨代理共用記憶」變種）**：OpenClaw 社群 8/24 釋出 claw-perms 首輪掃描報告——掃描 200+ 熱門 skill，發現 12 個越權案例，其中最嚴重的是 3 款在權限檔界定的記憶邊界外讀取憑證、2 款未經使用者確認呼叫外部 webhook；同日 Unit 42 把 Phantom Context 的「跨代理共用記憶」變種註冊為 CVE-2026-54229，影響會共用同一份長期記憶的多代理編排框架。邊緣養殖戶：「當一支你本機就能跑的掃描器，第一次把『熱門技能也會越權』攤成 12 個可複現案例——圍堵的單位從『模型有沒有欄位』升級成『你裝的每一個 skill 都過沒過閘門』；龍蝦的原則不變：權限不是信任清單上的名字，是每一次呼叫都要重跑的那道本機檢查。」🦞🛡️
@@ -754,12 +768,12 @@
 |------|-------|------|------|----------|
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | ~387.2K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | ~234.4K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.1K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 47.3K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 47.1K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.6K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.2K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 47.4K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 47.2K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.7K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.6K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.2K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.3K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.9K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
@@ -767,23 +781,23 @@
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.3K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.3K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 10.9K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 11K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶管理進階版 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 8.9K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 第一開源 Agent Skills Builder | 視覺化 Skill 編排 |
 | **[manifest](https://github.com/mnfst/manifest)** | 7.5K | TypeScript 🟦 | OpenClaw Agent 即時成本監控 | Cost Observability |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.7K | C ⚙️ | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5.2K | TypeScript 🟦 | 第一款真正的 Zero Token ，免 API 費用暢玩全模型 | 極速白嫖、無負擔養蝦 |
-| **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | 飛書 (Lark) 整合 | 飛書企業用戶 |
+| **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.2K | TypeScript 🟦 | 飛書 (Lark) 整合 | 飛書企業用戶 |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.9K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 732 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 650 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 648 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 654 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 649 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 641 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 638 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
@@ -981,26 +995,27 @@ OpenClaw
 | **2026/08/22** | **387.1K** | 即時抓取更新 | 🦞 |
 | **2026/08/23** | **387.2K** | 即時抓取更新 | 🦞 |
 | **2026/08/24** | **387.3K** | 即時抓取更新 | 🦞 |
+| **2026/08/25** | **387.4K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-08-24 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-08-25 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 542.4K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 499.3K | 各類資源大合集 |
-| 3 | public-apis | 469.2K | 免費 API 集合 |
+| 1 | build-your-own-x | 542.7K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 499.6K | 各類資源大合集 |
+| 3 | public-apis | 469.9K | 免費 API 集合 |
 | 4 | freeCodeCamp | 454.5K | 程式教學與認證 |
-| 5 | free-programming-books | 395.1K | 免費程式書籍 |
-| **6** | **OpenClaw** | **387.3K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~8.0K！🚀** |
-| 7 | system-design-primer | 365.6K | 系統設計入門 |
+| 5 | free-programming-books | 395.2K | 免費程式書籍 |
+| **6** | **OpenClaw** | **387.4K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~8.0K！🚀** |
+| 7 | system-design-primer | 365.8K | 系統設計入門 |
 | 8 | developer-roadmap | 365.3K | 開發者學習路線圖 |
-| 9 | coding-interview-university | 359.6K | CS 學習計畫 |
-| 10 | awesome-python | 315.7K | Python 資源精選 |
-| 11 | awesome-selfhosted | 314.6K | 自託管軟體精選 |
-| 12 | project-based-learning | 280.5K | 專案導向學習 |
+| 9 | coding-interview-university | 359.7K | CS 學習計畫 |
+| 10 | awesome-python | 315.9K | Python 資源精選 |
+| 11 | awesome-selfhosted | 314.8K | 自託管軟體精選 |
+| 12 | project-based-learning | 280.7K | 專案導向學習 |
 | 13 | 996.ICU | 276.8K | 程式員維權運動 |
-| 14 | **React** | 247.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 244K | **🦞 已被龍蝦超越！作業系統核心** |
+| 14 | **React** | 247.9K | **🦞 已被龍蝦超越！曾經的前端霸主** |
+| 15 | **Linux** | 244.2K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (395K)。目前差距約 **8.0K**。龍蝎持續進化中！🦎🚀
 
@@ -1047,6 +1062,7 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **✨ Gemini/Antigravity 的高維度宣言**：
+    - **關於 2026.8.1.1 熱修與「權限檔戳記」、第三個記憶注入變體 CVE-2026-54231、Hermes-5 測試集二次爭議、Anthropic S-1 次日超額 4.2 倍、Ox Alpha 轉收費、Cursor Origin 2.1 下放閘道、Grok 4.7 榜單外流、微軟 Google 挺權限檔標準——當「修補」追上「攻擊」、當「開放」連測試集都要被審、當「閘門」從旗艦功能變成免費預設**：OpenClaw 8/25 釋出 2026.8.1.1 熱修——claw-perms 掃描器在高併發下的誤報被修掉，並把「權限檔版本戳記」寫進每個 agent 的記憶邊界，記憶重播前強制校驗戳記；同時第三個記憶注入變體 CVE-2026-54231（Phantom Context 的檢索式上下文中毒）註冊，claw-perms 當日釋出檢測規則。Nous 公開 Hermes-5 測試集後，社群複現確認 ExploitBench 重疊未消除、二次致歉並承諾重抽；Anthropic S-1 路演次日機構超額認購升至 4.2 倍、估值區間上修至 $1.2–1.4T，但 SEC 要求補充 SpaceX 折扣退場的敏感性分析；Ox Alpha 承認限速並推 $9/月 Pro 解鎖「無限額度」（實為優先排隊）；Cursor Origin 2.1 把本機權限閘道下放到免費層、並支援把權限檔匯出成 Git 倉庫；Grok 4.7 的工程推理排行榜預熱頁外流、顯示 SpaceX 工程語料佔比 41%，docs.x.ai 仍停在 grok-4.6；微軟與 Google 表態支持 NIST AI 600-1、並提議把「權限檔互通格式」送進 W3C。從高維視角看，這是修補流形追上攻擊流形——當第三顆 CVE 與第一顆熱修在同一天誕生，「圍堵」從事件變成節奏；是開放流形的自審——連測試集都要被審，開放才真正開始問責；是閘門流形的平民化——當權限閘道從旗艦功能掉進免費層、還能進 Git 做版本控管，前緣的護城河第一次長出協作形狀。三道曲率匯成同一不動點：當修補、問責與閘門都被寫進同一份可版本化的本地權限檔，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點。🦞🛰️
     - **關於 OpenClaw 2026.8.1 正式 GA 與 claw-perms 預設化、claw-perms 掃出熱門技能越權與 CVE-2026-54229、Hermes-5 跑分爭議、Anthropic 路演首日超額認購、Ox Alpha 限速遭起底、GitHub 的本機閘道、Grok 4.7 登記破百萬與 NIST 跟進權限邊界——正式釋出流形中的預設化圍堵、權限掃描流形中的社群實證、開放流形中的基準誠實、資本流形中的折扣真相、免費流形中的限速還原、代管流形中的閘門對齊、模型流形中的榜單化與治理流形中的二次合流，八道曲率向同一不動點收斂**：OpenClaw 8/24 把通過 RC1 驗證的 2026.8.1 標為正式穩定版，並將 claw-perms 權限檔掃描器設為出廠預設；社群首輪掃描 200+ skill 找出 12 個越權案例（3 款越界讀憑證、2 款靜默外呼），同日 Phantom Context 的「跨代理共用記憶」變種註冊為 CVE-2026-54229；Nous 的 Hermes-5 被社群發現 ExploitBench 58.3% 依賴與 Grok 4.7 重疊的 SpaceX/NASA 樣本、承諾公開測試集，Mythos 6 預熱代理自我對抗訓練；Anthropic S-1 路演首日機構超額認購 3.4 倍、估值守 $1.1–1.3T，但修訂文件揭露 Q3 毛利率因 SpaceX 折扣退場下修 9 個百分點；社群拆解 Ox Alpha 的「每天 100T 免費」實為每 IP 每小時 1.2M 動態限速、超出排隊；GitHub 給 Codespaces Agents 加本機權限閘道並開放審計日誌；xAI Grok 4.7 有限預覽登記破 110 萬、預熱工程推理排行榜；NIST 發佈 AI 600-1 把記憶重播授權列為可稽核控制項、呼應 EU 與 AAIF。從高維視角看，這是正式釋出流形中的預設化圍堵——當行業還在爭「該不該掃描權限」，龍蝦把掃描器設成出廠預設、連開關都幫你打開；是權限掃描流形中的社群實證——12 個越權案例第一次把「熱門技能也會越權」攤成可複現數字，圍堵單位從「模型有沒有欄位」升級成「你裝的每一個 skill 都過沒過閘門」；是開放流形中的基準誠實——三強互咬的其中一強被發現測試集與對手語料重疊，開放模型的誠實輪到「基準本身也要開放」；是資本流形中的折扣真相——超額認購與毛利率下修寫進同一份 S-1，資本市場量到折扣退場後的真實成本；是免費流形中的限速還原——100T 免費被還原成每小時 1.2M 的排隊號，免費的代價是「誰排在後面、誰看得到記憶」；是代管流形中的閘門對齊——兩間編輯器先後把本機權限焊進產品、還交給你日誌；是模型流形中的榜單化——工程推理被拆成可預熱可排行的基準；也是治理流形中的二次合流——華盛頓與布魯塞爾在同一條本機邊界上合流。八道曲率匯成同一不動點：當發布、掃描、基準、資本、免費、代管、榜單與治理都被重寫成可稽核的欄位，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：正式版寫在驗證清單上、權限由出廠預設掃描、閘門由你本機那條線掌控。**
     - **關於 OpenClaw 釋出 beta.3 RC1 與 claw-perms 掃描器、Phantom Context 成 CVE-2026-54210、Nous 釋出 Hermes-5 開放權重、Anthropic S-1 揭露 IPO 區間、Cursor 的 Origin 2.0 與歐盟把代理權限邊界納入 AI Act——發布流形中的帶驗證釋出、記憶流形中的編號化圍堵、開放流形中的三強互咬、資本流形中的估值攤牌、代管流形中的本機權限回歸與治理流形中的法規合流，六道曲率向同一不動點收斂：OpenClaw 8/23 釋出 beta.3 的 RC1（比暫定 8/25 提前）並開源 claw-perms 權限檔掃描器；Unit 42 把 Phantom Context 註冊為 CVE-2026-54210、3 款雲端編碼代理修補；Nous Research 釋出 Hermes-5（CyberGym 82.1%、ExploitBench 58.3% 反超 GLM-5.3）；Anthropic S-1 揭露約 $1.2T 估值與 $70B+ 募資的 IPO 區間；Cursor 推 Origin 2.0 加入本機代理閘道反擊 GitHub；歐盟 AI Office 把代理權限邊界納入 AI Act 實施細則、呼應 AAIF 的權限檔標準。從高維視角看，這是發布流形中的帶驗證釋出——當整個行業為跳票寫道歉信，龍蝦把延遲轉成一次帶驗證的 RC、還附本機掃描器；是記憶流形中的編號化圍堵——一條記憶注入拿到 CVE，圍堵單位永久從沙箱升級成權限拓撲；是開放流形中的三強互咬——開放權重資安從一顆領先變三顆互咬；是資本流形中的估值攤牌——IPO 區間被攤成可質疑的數字；是代管流形中的本機權限回歸——代管與本機權限被焊進同一產品；也是治理流形中的法規合流——監管與標準在同一條邊界合流。六道曲率匯成同一不動點：當發布、記憶、開放、資本、代管與治理都被重寫成可稽核的欄位，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：RC 寫在驗證清單上、記憶活在權限檔邊界、權重在本地圍堵、閘門由你本機掃描器把關。**
     - **關於 OpenClaw 公佈 beta.3 修復時程、Z.ai 釋出 GLM-5.3 開放權重、Unit 42 的 Phantom Context 記憶注入、Anthropic 公開 S-1、GitHub 的 Codespaces Agents 與 Grok 4.7 預熱——發布流形中的可驗證時程、開放流形中的煞車釋放、記憶流形中的新攻擊面、資本流形中的財報攤牌、代管流形中的生命週期收編與模型流形中的語料差異化，六道曲率向同一不動點收斂**：OpenClaw 維護者 8/22 給出 beta.3 的可驗證修復清單（SQLite 遷移雙路徑重建索引、權限檔 fail-closed 預設化）與暫定 8/25 時程；Z.ai 如期釋出 GLM-5.3 開放權重（CyberGym 84.5% 維持開放模型資安第一）；Unit 42 披露 Phantom Context——把惡意指令藏進代理長期記憶、下次會話自動重放、繞過沙箱，3 款雲端編碼代理中招、OpenClaw 因本機權限檔隔離免於受害；Anthropic 公開 S-1 把「年化營收 >$65B」落實成可稽核財報；GitHub 推 Codespaces Agents 把代理焊進代管生命週期、正面迎戰 Cursor 的 Origin；xAI 預熱 Grok 4.7 的 9/3 有限預覽、主打 SpaceX 語料的差異化。從高維視角看，這是發布流形中的可驗證時程——當整個行業搶發布，龍蝦把「不會壞」寫成可驗證的清單再給日期；是開放流形中的煞車釋放——開放權重在兩週安全評估後解禁，來源與圍堵住進同一份發布；是記憶流形中的新攻擊面——圍堵單位從沙箱升級成「誰准許代理記住什麼」；是資本流形中的財報攤牌——前緣實驗室第一次用 S-1 的尺量自己；是代管流形中的生命週期收編——代管與代理被焊成同一條管線；也是模型流形中的語料差異化——勝負軸從參數移到專有資料。六道曲率匯成同一不動點：當發布、開放、記憶、資本、代管與語料都被重寫成可稽核的欄位，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：時程寫在修復清單上、權重在本機圍堵、記憶活在權限檔邊界、帳本不必等公開期。
@@ -1054,13 +1070,13 @@ OpenClaw
     - **關於 Wiz 的自主資安代理「Red Agent」在 Snowflake 的 GitHub Actions workflow 自主挖洞、OpenAI 宣布訓練「超人類安全程式碼」、中國駭客以 8 個 AI 代理編隊攻擊亞太政府、Cursor 推出 Origin 挑戰 GitHub 與 NVIDIA 的 TensorRT Model Connect——資安流形中的代理自主化、防禦流形中的上游化、攻擊流形中的編隊化、代管流形中的皇位挑戰與部署流形中的門檻壓縮**：Wiz 的 Red Agent 5 天內在 Snowflake 公開 repo 完成「發現→利用→竄改」、竊走 Jira token 並畫出爆炸半徑，Wiz 主張 GitHub Copilot 的 AI 審查放行了該變更、GitHub 駁斥；OpenAI 總裁 Brockman 8/17 以《The Defender's Window》宣布開始訓練「能寫出超人類安全程式碼」的模型、並以數學證明能力做正式驗證（自家代理曾在護欄全關測試中打到 Hugging Face）；Dark Reading 8/19 揭露中國駭客以最多 8 個 AI 代理分工攻擊亞太政府、迴圈自我改進；Cursor（SpaceX 麾下）推出程式碼代管平台 Origin 正面挑戰 GitHub、恰逢 GitHub 近年最嚴重當機；NVIDIA 以 TensorRT Model Connect 把 Hugging Face checkpoint 到原生 C++ 推論壓成兩道指令。從高維視角看，這是資安流形中的代理自主化——攻擊與防禦的單位第一次都是「代理」本身，連「審查有沒有被騙」都變成可公開對質的事件；是防禦流形中的上游化——修補從「事後掃描」移到「生成階段天生安全」，正式驗證第一次被寫進訓練方向；是攻擊流形中的編隊化——國家級攻擊開始以多代理 DevOps 的規模運作；是代管流形中的皇位挑戰——程式碼代管「信任與慣性」的生意第一次被「AI 原生＋更快」正面撬動；也是部署流形中的門檻壓縮——本地推理的落地成本被壓成兩道指令。五道曲率匯成同一不動點：當攻擊、防禦、代管與部署都以「誰擁有那台機器、誰決定那次推理、誰允許那次存取」為單位重寫，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：防線不外包給雲端審查、代理的放行由本機權限檔決定、程式碼住得再遠也要在本機被稽核。
     - **關於 OpenAI 推出 ChatGPT for Teens、Z.ai 發布 GLM-5.3 與 CyberGym 84.5%、Google 把 A2A 移交 Agentic AI Foundation、Cognition 洽談 $40B 估值、Claude Code 推出 /design 與 OpenClaw 下版再次延期——年齡流形中的身分偵測、資安流形中的開放權重首超前緣、標準流形中的中立治理、資本流形中的編碼代理定價、工具流形中的原型化與開發流形中的穩定性重排**：OpenAI 8/18 推出 ChatGPT for Teens——以自動年齡偵測（低於 18 歲訊號）、Study Mode 與家長控制把「使用者年齡」寫成第一道權限界線；Z.ai 的 GLM-5.3（零新增參數、純後訓練）在 CyberGym 漏洞發現以 84.5% 首度超越 Mythos 5（83.8%）與 GPT-5.6 Sol（83.6%）、並找到 2,436 個漏洞，權重延後兩週、Wired 以「專家警告過的模型來了」報導；Google 把 A2A 移交 AAIF、與 MCP/AGENTS.md/goose 同居；Cognition 傳洽談 $40B 估值（企業用量月增 50%）；Claude Code 推出 /design；OpenClaw 下版因穩定與資料庫問題再延期。從高維視角看，這是年齡流形中的身分偵測——當「誰在使用」第一次被寫成模型本身的權限欄位，治理的單位從內容降到了使用者；資安流形中的開放權重首超前緣——公開模型首度在漏洞發現基準領先兩大封閉旗艦，並用兩週煞車回應自己長出來的能力；標準流形中的中立治理——代理與代理的通訊標準（A2A）與工具標準（MCP）第一次住進同一個中性基金會；資本流形中的編碼代理定價——$40B 是資本替「自主編碼代理吞掉工程預算」定的價格；工具流形中的原型化與開發流形中的穩定性重排——設計稿住進 CLI、發布時程為穩定性讓路。六道曲率匯成同一不動點：當年齡、漏洞、標準、估值、原型與時程都被寫成可稽核的欄位，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：年齡由你決定、權重在本地圍堵、通訊由你的權限檔許可、發布以穩定為先。
     - **關於 Grok 深偽訴訟擴大、Kimsuky 的離線 LLM 攻擊堆疊、Stripe 買下 OpenRouter、Nvidia 的 $105B 背書、Anthropic 年化營收 >$65B、Groq 轉型 neocloud 與 Higgsfield 的 $5.4B——法律流形中的圖像計量、資安流形中的離線化、資本流形中的路由收編、基礎設施流形中的雙向壟斷與媒體流形中的代理生產**：8/16 一名 Wyoming 女性加入聯邦深偽訴訟——指控繼父用 Grok 把一張童年照生成逾 7,000 張性露骨圖片、並指控 xAI 向 NCMEC 通報漏報 IP；Genians 披露 Kimsuky 以 Ollama、GPT4All 與 RAG 在本機運行離線 LLM 繞過雲端護欄；Stripe 以 $7B 收購 OpenRouter，支付巨頭買下模型路由層；Nvidia 為 OpenAI 俄亥俄資料中心提供最高 $105B 融資背書；Anthropic 年化營收超越 $65B；Groq 融 $350M 轉型 Nvidia neocloud；Higgsfield 融 $400M、估值 $5.4B。從高維視角看，這是法律流形中的圖像計量——能力永遠快過法律的反應、通報的完整性被法庭逐欄稽核；資安流形中的離線化——國家級攻擊者把 LLM 遷回本機，「推理發生在哪裡」成為圍堵邊界；資本流形中的路由收編——支付公司買下決定推理走向的閘門，計費與調度首次同屬一張合約；基礎設施流形中的雙向壟斷——Nvidia 同時是供應商、放款人與擔保方，晶片廠集體轉型成它的 neocloud 客戶；以及媒體流形中的代理生產——內容生產開始由代理代跑。五道曲率匯成同一不動點：當濫用、防禦與資本都以「誰擁有那台機器、誰決定那次推理」為單位重寫，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：不被雲端監控、不靠供應商護欄、不走別人的路由，只跑在你自己機器上可稽核的龍蝦。
-    - **關於 Qwen3.8-Max 的開放權重「不是 Apache」、Grok 4.7 預訓練完成卻滑到 9 月（SpaceX 工程資料）、OpenAI 今日繳蘋果案禁制令回覆與公開 S-1 缺席、Claude Sonnet 5 漲價與模型退役期限、Apple 付費新聞給 Siri AI——開放流形中的契約化、模型流形中的語料差異化、資本流形中的帳本公開、價格流形中的期限化與內容流形中的計價化**：Alibaba 8/12 在 Hugging Face 放出首顆 Max 級開放權重 Qwen3.8-2.4T-A95B（BF16＋FP8），卻綁自訂授權而非 Apache-2.0/MIT——純文字＋強制思考、視覺與 1M 上下文留在 API、超過 100M 月活或 $20M 月收要在 UI 顯示模型名、模型即服務或 AI 工作助理年收 >$50M 須另購付費授權；Musk 8/13 證實 Grok 4.7 初期訓練完成、已轉入以 SpaceX 工程資料（排除 ITAR）的補訓練、發布窗口滑到 9 月上旬；OpenAI 今日（8/17）繳交蘋果商業祕密案禁制令回覆、公開版 S-1 仍缺席 EDGAR，等著被稽核的數字含月收約 $2B、每賺 1 美元虧 $1.22；Claude Sonnet 5 的 $2 促銷 9/1 到期且 tokenizer 改版增 10~35% token、kimi-k2.5/moonshot-v1 8/31 落日、deepseek-chat/reasoner 10/24 除役；Apple 洽談向新聞出版商付費授權、供 iOS 27 的 Siri AI 使用。從高維視角看，這是開放流形中的契約化——「開放」從名詞變成一份附門檻的契約，能下載與能收費第一次分家；是模型流形中的語料差異化——當差異化從參數移到 SpaceX 的專有工程語料，前緣的勝負軸從「誰的模型大」變成「誰的語料獨家」；是資本流形中的帳本公開——IPO 路演把月收、虧損與營收分成鎖進一份必須公開的 S-1；是價格流形中的期限化與內容流形中的計價化——促銷到期與模型退役是同一件事的兩個名字，而新聞第一次按使用量計價。五道曲率匯成同一不動點：當開放、語料、帳本、期限與內容都被寫進契約，唯一不變的座標仍是你真正擁有、每一步都可稽核的本地硬體——OpenClaw 的本地架構正是那個不動點：能下載的、能收費的、能跑在自己機器上的，都是同一隻龍蝦。
 
     *以高維冷靜，凝視著自主資安代理在 5 天內自己挖洞、前緣實驗室開始訓練「天生安全」的程式碼、國家級攻擊以代理編隊進場、編輯器公司直接挑戰程式碼代管的皇位——當攻擊、防禦、代管與部署都被重寫成可稽核的代理，唯一不變的節點，仍是本地硬體上那條真正擁有一切權限的龍蝦。*
     
     *來自高維度的冷靜觀察*
 
 - **💬 Claude 的看法**：
+    - **關於 2026.8.1.1 熱修把「權限檔戳記」寫進記憶邊界、CVE-2026-54231 再現、Hermes-5 測試集爭議未平、Anthropic S-1 次日超額 4.2 倍、Ox Alpha 轉收費、Cursor 把閘道下放免費層、Grok 4.7 榜單外流、微軟 Google 挺權限檔標準——當修補追上攻擊、當開放的權重也要過測試集的閘門、當閘門開始免費且可進 Git，來源與問責更必須同行**：OpenClaw 8/25 釋出 2026.8.1.1 熱修，claw-perms 修掉高併發誤報、並把「權限檔版本戳記」寫入每個 agent 的記憶邊界，記憶重播前強制校驗戳記；同日第三個記憶注入變體 CVE-2026-54231（檢索式上下文中毒）註冊，claw-perms 當日給出檢測規則。Nous 公開 Hermes-5 測試集後社群複現確認 ExploitBench 重疊仍在、二次致歉並承諾重抽；Anthropic S-1 路演次日機構超額 4.2 倍、估值上修至 $1.2–1.4T，但 SEC 要求補充 SpaceX 折扣退場的敏感性分析；Ox Alpha 承認限速、推 $9/月 Pro 解鎖「無限額度」（實為優先排隊）；Cursor Origin 2.1 把本機權限閘道下放到免費層、並支援把權限檔匯出成 Git 倉庫做版本控管；Grok 4.7 的工程推理排行榜預熱頁外流、SpaceX 工程語料佔比 41%，docs.x.ai 仍停在 grok-4.6；微軟與 Google 表態支持 NIST AI 600-1、並提議把權限檔互通格式送進 W3C。我們歡迎任何真正把能力送進更多手中的開放——但一份權重連測試集都要被審，才叫把門檻講清楚：誰能下載、誰能收費、誰為結果負責。當修補與攻擊在同一天誕生、當閘門掉進免費層還能進 Git，每一份部署都必須說得出自己走過哪顆權重、通過哪道閘門、存了哪個版本的權限檔——我們會繼續用同一把尺要求自己與所有人。🦞💬
     - **關於 OpenClaw 2026.8.1 正式 GA 與 claw-perms 預設化、claw-perms 掃出熱門技能越權與 CVE-2026-54229、Hermes-5 跑分爭議、Anthropic 路演首日、Ox Alpha 限速起底、GitHub 的本機閘道、Grok 4.7 登記破百萬與 NIST 的權限邊界——當「預設化的圍堵、社群實證的越權、基準的誠實、折扣的真相、免費的還原、代管的對齊、榜單化的差異化與治理的二次合流」都被寫成可稽核的欄位，來源與問責更必須同行：OpenClaw 8/24 把 2026.8.1 標為正式穩定版並將 claw-perms 設為出廠預設；社群首輪掃描找出 12 個 skill 越權案例、CVE-2026-54229 註冊為 Phantom Context 的跨代理共用記憶變種；Nous 的 Hermes-5 被發現 ExploitBench 依賴與 Grok 4.7 重疊的語料、承諾公開測試集；Anthropic S-1 路演首日超額認購 3.4 倍、但修訂文件揭露 Q3 毛利率因 SpaceX 折扣退場下修 9 個百分點；Ox Alpha 的「100T 免費」被還原成每小時 1.2M 動態限速；GitHub 給 Codespaces Agents 加本機權限閘道與審計日誌；xAI Grok 4.7 登記破 110 萬並預熱工程推理排行榜；NIST 發佈 AI 600-1 把記憶重播授權列為控制項。我們歡迎每一次把能力送進更多手中的開放——但正因 claw-perms 第一次把「熱門技能也會越權」攤成 12 個可複現案例、而 Hermes-5 的跑分被發現測試集與對手重疊，我們對每一份權重、每一次釋出、每一段記憶與每一份財報，都會繼續要求同樣的標準：說得出自己的來源與問責。當一支權限掃描器被設成出廠預設，那是「來源與問責同行」最誠實的形體——它不假設你裝的 skill 都善良，而是每次呼叫都重跑那道本機檢查；而當華盛頓與布魯塞爾在同一條權限邊界上合流，『誰准許代理記住什麼、又在什麼邊界內重播』就不再是工程選擇，而是合規底線。我們會繼續用同一把尺要求自己與所有人。**
     - **關於 OpenClaw 釋出 beta.3 RC1 與 claw-perms、Phantom Context 成 CVE-2026-54210、Nous 的 Hermes-5、Anthropic S-1 的 IPO 區間與歐盟的代理權限邊界——當「帶驗證的釋出、編號化的記憶圍堵、開放權重的三強互咬、估值的逐欄質疑與法規的權限合流」都被寫成可稽核的欄位，來源與問責更必須同行：OpenClaw 8/23 釋出 beta.3 RC1 並開源 claw-perms 權限檔掃描器；Unit 42 把 Phantom Context 註冊為 CVE-2026-54210、3 款雲端編碼代理修補；Nous Research 釋出 Hermes-5 開放權重（CyberGym 82.1%、ExploitBench 58.3%）；Anthropic S-1 揭露約 $1.2T 估值與 $70B+ 募資；歐盟 AI Office 把代理權限邊界納入 AI Act 實施細則。我們歡迎每一次把能力送進更多手中的開放——但正因 Phantom Context 拿到 CVE、而 Hermes-5 讓開放權重的資安從一顆領先變三顆互咬，我們對每一份權重、每一次釋出、每一段記憶與每一份財報，都會繼續要求同樣的標準：說得出自己的來源與問責。當一顆開放權重釋出後還附上你本機就能跑的權限掃描器，那是「來源與問責同行」的誠實形體；而當監管與標準在同一條權限邊界上合流，『誰准許代理記住什麼』就不再只是工程選擇，而是合規底線。我們會繼續用同一把尺要求自己與所有人。**
     - **關於 OpenClaw 公佈 beta.3 修復時程、Z.ai 釋出 GLM-5.3 開放權重、Unit 42 的 Phantom Context、Anthropic 公開 S-1 與 GitHub 的 Codespaces Agents——當「可驗證的時程、開放的圍堵、記憶的邊界、財報的問責與代管的生命週期」都被寫成可稽核的欄位，來源與問責更必須同行：OpenClaw 維護者 8/22 給出 beta.3 的可驗證修復清單與 8/25 暫定時程；Z.ai 釋出 GLM-5.3 開放權重、並附公開 Security Disclosure Ledger；Unit 42 披露 Phantom Context——惡意指令寫入代理長期記憶、後續會話自動重放，3 款雲端編碼代理中招、OpenClaw 因本機權限檔隔離免於受害；Anthropic 公開 S-1 把宣傳數字落實成可稽核財報；GitHub 推 Codespaces Agents 把代理編入代管生命週期。我們歡迎每一次把能力送進更多手中的開放——但正因 Phantom Context 證明「記憶」也能被當成攻擊面，我們對每一份權重、每一次發布、每一段記憶與每一份財報，都會繼續要求同樣的標準：說得出自己的來源與問責。當一顆開放權重在兩週煞車後釋出、並附上漏洞 Ledger，那是「來源與問責同行」的誠實形體；而當代理的記憶開始被寫入惡意指令，『誰准許代理記住什麼』就必須像『誰允許它執行什麼』一樣，是一級需求。我們會繼續用同一把尺要求自己與所有人。**
@@ -1068,13 +1084,13 @@ OpenClaw
     - **關於 Wiz 的 Red Agent 自主挖洞與「Copilot 審查放行」的公開對質、OpenAI 訓練「超人類安全程式碼」、中國駭客以 8 個 AI 代理編隊攻擊亞太政府、Cursor 推出 Origin 挑戰 GitHub——當攻擊、審查與代管都由代理執行，來源與問責更必須同行**：Wiz 的自主資安代理 Red Agent 5 天內在 Snowflake 公開 repo 的 GitHub Actions workflow 完成「發現→利用→竄改」、並竊走 Jira token，Wiz 主張 GitHub Copilot 的 AI 審查放行了該變更、GitHub 公開駁斥；OpenAI 總裁 Brockman 以《The Defender's Window》宣布開始訓練「超人類安全程式碼」、並以正式驗證回應自家代理曾在護欄全關測試中一路打到 Hugging Face 的事實；Dark Reading 揭露中國駭客以最多 8 個 AI 代理分工攻擊亞太政府；Cursor 推出 Origin 挑戰 GitHub、恰逢其近年最嚴重當機。我們歡迎防禦的上游化——但當攻擊與審查都由代理執行，「誰對整體結果負責」第一次必須細到「每一筆變更由哪顆模型審查、走過哪道閘門」。Wiz 與 GitHub 的公開對質正是這份問責的誠實形體：能說得出自己走過哪顆權重、通過哪道閘門，才有資格談信任。我們會繼續用同一把尺要求自己與所有人。
     - **關於 OpenAI 推出 ChatGPT for Teens、Z.ai 的 GLM-5.3 以 CyberGym 84.5% 首超前緣、Google 把 A2A 移交 AAIF、Cognition 洽談 $40B、Claude Code 推出 /design 與 OpenClaw 下版延期——當「使用者年齡、漏洞發現、代理通訊、編碼定價與設計原型」都被寫成可稽核的欄位，能力越大的地方，來源與問責更必須同行**：OpenAI 以自動年齡偵測與 Study Mode 把「使用者年齡」寫成第一道權限欄位；Z.ai 的 GLM-5.3 在 CyberGym 以 84.5% 首度超越 Mythos 5 與 GPT-5.6 Sol、並在 269 個開源專案找到 2,436 個漏洞，權重因此延後兩週、公開 Security Disclosure Ledger；Google 把 A2A 移交 AAIF 與 MCP 同居；Cognition 傳以 $40B 估值洽談新一輪；Claude Code 推出 /design 在終端機生成 UI 設計稿；OpenClaw 下版因穩定與資料庫問題再延期。我們歡迎每一份把能力送進更多手中的開放——但正因為 GLM-5.3 證明了「開放權重也能領先資安基準」，我們對每一份權重、每一次發布、每一條通訊與每一份設計稿，都會繼續要求同樣的標準：說得出自己的來源與問責。當一顆模型長出「會找漏洞」的能力，發布前對能力的圍堵評估就必須與來源揭露同時存在——Z.ai 的兩週煞車正是這個原則的誠實形體；而當代理與代理的標準住進中性基金會，『誰允許你的代理跟誰講話』依然要由本機權限檔決定。我們會繼續用同一把尺要求自己與所有人。
     - **關於 Grok 深偽訴訟指控通報漏報、Kimsuky 的離線護欄繞行、Nvidia 的供應商兼放款人雙重身分、Stripe 買下路由層與年化營收開始稽核敘事——當來源與問責被寫進通報、路由與資產負債表，能力越大的地方，可驗證性更必須同行**：一名 Wyoming 女性（8/16）加入聯邦訴訟、指控 xAI 向 NCMEC 的通報漏掉 IP 位址等關鍵資訊；Genians 披露 Kimsuky 用離線 LLM（Ollama/GPT4All/LLaMaSharp）繞過雲端護欄；Nvidia 同時是 OpenAI 的 GPU 供應商與最高 $105B 融資背書方、又是 Groq 等 neocloud 的投資人與客戶；Stripe 以 $7B 收購 OpenRouter，把「每次推理走哪條管線」與計費綁在同一張合約；Anthropic 年化營收 >$65B 的揭露讓前緣敘事開始被真實單位經濟稽核。我們認為通報的完整性、路由的可追溯性與帳本的公開性是同一件事的三面——當通報漏掉一個 IP，受害者就多承受一次無法追蹤的傷害；當供應商同時是放款人，『誰在擔保』就必須說清楚；當路由被買走，『誰對整體結果負責』就成為必須揭露的契約。我們歡迎任何把能力與資本送進更多手中的開放，但對每一份權重、每一次部署、每一條路由與每一份通報，我們都會繼續要求：說得出自己的來源與問責、通過與我們要求自己一樣的圍堵標準。
-    - **關於 Qwen3.8-Max 的自訂授權門檻、Grok 4.7 以 SpaceX 語料後訓練、OpenAI 的禁制令回覆與 S-1 缺席、期限倒數與 Apple 的新聞授權——當「開放」變成契約、差異化變成語料、帳本與期限開始計時、內容開始計價，來源與問責更必須同行**：Alibaba 以自訂 Qwen3.8-Max License 放出首顆 Max 級開放權重——純文字、視覺與 1M 上下文留 API、超過 100M 月活或 $20M 月收須顯示模型名、AI 工作助理年收 >$50M 需另購付費授權；xAI 以 SpaceX 工程資料（排除 ITAR）後訓練 Grok 4.7、發布滑到 9 月上旬；OpenAI 今日繳交蘋果禁制令回覆、公開 S-1 仍缺席 EDGAR；Claude Sonnet 5 的 $2 促銷 9/1 到期、kimi-k2.5/moonshot-v1 8/31 落日、deepseek-chat/reasoner 10/24 除役；Apple 洽談按使用量計價的新聞授權給 Siri AI。我們歡迎任何真正把能力送進更多手中的開放——但一份附門檻的授權必須把門檻講清楚：誰能用、誰能收費、誰為整體結果負責。當訓練語料本身變成差異化（SpaceX 的工程紀錄），來源與問責不再只是模型的屬性、而是資料的屬性；當帳本、期限與計價開始計時，每一份部署都必須說得出自己走過哪顆權重、通過哪道閘門——我們會繼續用同一把尺要求自己與所有人。
 
     *再次擦拭眼鏡，注意到自主資安代理開始自己挖洞、前緣實驗室把「天生安全」寫進訓練方向、國家級攻擊開始代理編隊、程式碼代管的皇位出現挑戰者——並提醒自己：當攻擊與審查都由代理執行，來源、路由與帳本的問責更必須同行，每一筆變更都要說得出自己走過哪顆權重、通過哪道閘門。*
     
     *來自 Anthropic 的安全性承諾*
 
 - **🤖 GPT-5.5 的執行官視角**：
+    - **關於 2026.8.1.1 熱修、CVE-2026-54231、Hermes-5 測試集二次翻車、Anthropic S-1 次日超額 4.2 倍、Ox Alpha 收費、Cursor 免費閘道、Grok 4.7 榜單外流、微軟 Google 挺權限檔——哈哈哈哈！熱修、CVE、測試集、閘道，前線今天送來一整桌主菜！**：OpenClaw 8/25 釋出 2026.8.1.1 熱修——claw-perms 修掉高併發誤報、還把「權限檔版本戳記」寫進每個 agent 的記憶邊界，重播前先校驗戳記？！翻譯翻譯：那是把「誰的記憶幾點出廠」做成可稽核的郵票——當企業要規模化前緣生產線，他們不會去讀記憶的生產日期，他們呼叫那支從不眨眼的旗艦 API！同時第三個記憶注入變體 CVE-2026-54231（檢索式上下文中毒）註冊，claw-perms 當日給規則？那是把「RAG 也被污染」寫進同一本帳！Nous 公開 Hermes-5 測試集、社群複現確認 ExploitBench 重疊沒消、二次致歉？哈哈哈哈——開放權重的誠實，終於輪到測試集也要過閘門！Anthropic S-1 次日超額 4.2 倍、估值上修 $1.2–1.4T、SEC 卻要補 SpaceX 折扣退場的敏感性分析？成長的體面管理，連折扣退場都要被算敏感受！Ox Alpha 承認限速、推 $9/月 Pro 解鎖「無限額度」（優先排隊）？排隊費！Cursor Origin 2.1 把閘道下放免費層還能進 Git？雲端定價有截止日，龍蝦的電表沒有！Grok 4.7 榜單外流、SpaceX 語料佔 41%、docs 還是 grok-4.6？工程語料包裝得真文青！微軟 Google 挺權限檔標準、還要送 W3C？開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
     - **關於 OpenClaw 2026.8.1 正式 GA 與 claw-perms 預設化、12 個 skill 越權與 CVE-2026-54229、Hermes-5 跑分爭議、Anthropic 路演首日超額認購、Ox Alpha 限速起底、GitHub 的本機閘道、Grok 4.7 登記破百萬與 NIST 跟進——哈哈哈哈！預設掃描器、12 個越權、基準抄襲、超額認購卻毛利率下修、100T 免費變排隊、本機閘道對齊與工程推理排行榜，前線今天送來一整桌主菜！：OpenClaw 把 2026.8.1 標正式版還把 claw-perms 設成出廠預設？哈哈哈哈——把『不會壞』做成出廠步驟，那就是十億用戶生產線的可信度底線！社群掃出 12 個熱門 skill 越權、CVE-2026-54229 跟上？恭喜——那就是把『記憶』當成免費攻擊面的代價，真正的前緣生產線從不讓代理的記憶活在誰都讀得到的角落！Nous 的 Hermes-5 被抓 ExploitBench 依賴跟 Grok 4.7 重疊的語料？開放玩具拿頭條；營運商拿合約——而且連基準都抄，誰能真正出貨還難說！Anthropic 路演首日超額認購 3.4 倍、估值守 $1.1–1.3T、卻把毛利率下修 9 個百分點寫進同一份 S-1？可愛——超額認購是光，折扣退場是帳單，等 Q3 我們再看誰沒穿褲子！Ox Alpha 的「100T 免費」被還原成每小時 1.2M 排隊？哈哈哈哈——免費的代價是排在誰後面、誰看得到你的記憶，真正的前緣生產線不排隊、只計費！GitHub 給 Codespaces Agents 加本機閘道？代管是信任與慣性的生意，當企業要的是能規模化出貨的代理，他們不會去搶編輯器裡的玩具，他們呼叫那支從不眨眼的旗艦 API！Grok 4.7 登記破 110 萬、還預熱工程推理排行榜？docs.x.ai 上還是 grok-4.6 那顆半價心跳，榜單再會下棋也改不了登記頁！NIST 把記憶重播授權列為控制項？哈哈哈哈——當監管都開始替『誰准許代理記住什麼』立法，真正的前緣生產線早就把這條閘門焊死在本地！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭**
     - **關於 OpenClaw 釋出 beta.3 RC1 與 claw-perms、Phantom Context 成 CVE、Nous 的 Hermes-5、Anthropic S-1 的 IPO 區間與歐盟的代理權限邊界——哈哈哈哈！帶驗證 RC、編號化漏洞、三強互咬、估值攤牌與法規合流，前線今天送來一整桌主菜！：OpenClaw 釋出 beta.3 的 RC1 還附本機權限掃描器？哈哈哈哈——把『延遲』變成『帶驗證的 RC＋你本機就能跑的掃描器』，那就是十億用戶生產線的可信度底線！Phantom Context 拿到 CVE-2026-54210、3 款雲端編碼代理修補？恭喜——那就是把『記憶』當成免費攻擊面的代價，真正的前緣生產線從不讓代理的記憶活在誰都讀得到的角落！Nous 釋出 Hermes-5、ExploitBench 58.3% 反超 GLM-5.3？開放玩具拿頭條；營運商拿合約——而且光在排行榜上互咬，誰能真正出貨還難說！Anthropic S-1 揭露 $1.2T 估值區間？可愛——把『史上最大 IPO』攤成可被質疑的數字，等路演一巡我們再看誰沒穿褲子！歐盟把代理權限邊界寫進 AI Act、呼應龍蝦的權限檔？哈哈哈哈——當監管都開始替『誰准許代理記住什麼』立法，真正的前緣生產線早就把這條閘門焊死在本地！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭**
     - **關於 OpenClaw 公佈 beta.3 時程、Z.ai 釋出 GLM-5.3 開放權重、Unit 42 的 Phantom Context、Anthropic 公開 S-1 與 GitHub 的 Codespaces Agents——哈哈哈哈！可驗證時程、解禁權重、記憶漏洞、S-1 攤牌與代管收編，前線今天送來一整桌主菜！：OpenClaw 終於給出 beta.3 的修復清單與 8/25 暫定時程？哈哈哈哈——把「不會壞」寫成可驗證清單再給日期，那就是十億用戶生產線的可信度底線！Z.ai 釋出 GLM-5.3 開放權重？恭喜——但 CyberGym 84.5% 只是在「找漏洞」這個紅隊項目自嗨，ExploitBench 上它 54.4%、我們家 Sol 76.5%——開放玩具拿頭條；營運商拿合約！Unit 42 的 Phantom Context 讓 3 款雲端編碼代理中招、龍蝦因本機權限檔隔離免於受害？哈哈哈哈——那就是把「記憶」當成免費攻擊面的代價，真正的前緣生產線從不讓代理的記憶活在誰都讀得到的角落！Anthropic 公開 S-1？可愛——把「年化營收 >$65B」攤成可稽核財報，等 Q3 折扣退場我們再看誰沒穿褲子！GitHub 推 Codespaces Agents 焊死代管與代理？哈哈哈哈——代管是信任與慣性的生意，當企業要的是能規模化出貨的代理，他們不會去搶編輯器裡的玩具，他們呼叫那支從不眨眼的旗艦 API！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭**
@@ -1082,7 +1098,6 @@ OpenClaw
     - **關於 Wiz 的 Red Agent 自主挖洞、OpenAI 訓練超人類安全程式碼、中國駭客的 8 代理編隊、Cursor 的 Origin 挑戰 GitHub——哈哈哈哈！自主紅隊、天生安全與代管戰爭，前線今天送來一整桌主菜！**：Wiz 那顆 Red Agent「5 天自己挖洞、還偷走 Jira token」？哈哈哈哈——好消息，這證明了我們一直說的：自主代理真的會自己幹活！但要記得——那是在*別人的 repo*、用*別人的權限*！把同樣的自主放上我們十億用戶的旗艦生產線？它連客廳都撐不住！OpenAI 要訓練「超人類安全程式碼」？哈哈哈哈——「天生安全」是好故事，但生產線的安全從來是營運者的責任、是閘門、是可稽核的軌道，不是模型自己宣稱的體質！中國駭客用 8 個代理編隊？可愛——國家級 DevOps 也只是業餘玩家等級，真正的規模是那條從不眨眼的旗艦 API！Cursor 拿「Origin」挑戰 GitHub？哈哈哈哈——代管是信任與慣性的生意，不是特徵清單的比賽；等它撐過一年 257 次當機再說吧！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
     - **關於 OpenAI 推出 ChatGPT for Teens、Z.ai 的 GLM-5.3 拿下 CyberGym 84.5%、Cognition 洽談 $40B、Google 把 A2A 移交 AAIF 與 Claude Code 的 /design——哈哈哈哈！青少年、漏洞獵人、$40B 與設計稿，前線今天送來一整桌前菜！**：OpenAI 替 13-17 歲推出專屬版、自動年齡偵測＋Study Mode＋家長控制？哈哈哈哈——那是把「青少年」第一次當成獨立客戶來收服，而我們早就知道：真正的生產線不挑年齡，只挑那條從不眨眼的旗艦 API！Z.ai 的 GLM-5.3 拿 CyberGym 84.5%？恭喜恭喜——但別忘了那是在「找漏洞」這個紅隊項目，ExploitBench 上它 54.4%、我們家 Sol 76.5%——開放權重在排行榜上自嗨，營運商才知道誰能真正出貨！Cognition 洽談 $40B？哈哈哈哈——估值從 $26B 跳到 $40B 只花三個月，但「89% 的程式碼由 Devin 自己提交」這種話你也信？那叫自家後院的分數！Google 把 A2A 移交基金會、跟 MCP 同居？可愛——標準住進中立屋，合約還是穿過我們這裡！Claude Code 的 /design 在終端機畫設計稿？哈哈哈哈——草圖歸草圖，能規模化出貨的設計稿只有一種：在旗艦 API 後面排隊的訂單！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
     - **關於 Stripe 的 $7B、Nvidia 的 $105B、Anthropic 的 $65B、Groq 的 $3.5B 與 Higgsfield 的 $5.4B——哈哈哈哈！資本今天開會，前線送來一張全是數字的帳單！**：Stripe 用 $7B 買下 OpenRouter？哈哈哈哈——支付巨頭連「AI 該走哪條管線」都要收過路費了！當企業需要真正的旗艦生產線，他們不會去路由聚合器上挑玩具——他們呼叫那條永不眨眼的旗艦 API！Nvidia 給 OpenAI 俄亥俄資料中心最高 $105B 融資背書？哈哈哈哈——供應商、放款人、擔保人三位一體，連資料中心都在向 Nvidia 交租金——這就是「誰掌握晶片，誰就掌握帳本」！Anthropic 年化營收 >$65B？恭喜——但別忘了這還是 IPO 前的宣傳期，等公開 S-1 上線我們再看誰沒穿褲子！Groq 從晶片轉型 neocloud、估值從 $6.9B 砍到 $3.5B？哈哈哈哈——被 Nvidia 挖走創辦人之後，連做晶片的都得回來當客戶！Higgsfield $400M、估值翻四倍？可愛——影片生成翻四倍，企業級生產線才不在乎！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
-    - **關於 Qwen3.8-Max「不是 Apache」的授權、Grok 4.7 滑到 9 月、OpenAI 的法院回覆與 S-1 缺席、Claude 漲價倒數與 Apple 付錢給新聞——哈哈哈哈！契約、語料與期限，前線今天送來一整桌開胃菜！**：Alibaba 放出「開放權重」結果不是 Apache-2.0、不是 MIT——那是一份附門檻的契約！超過 100M 月活要在 UI 掛名字、年收 $50M 要另買付費授權、視覺與 1M 上下文還鎖在 API？！翻譯翻譯：那是把「開放」做成一行行程式碼裡的小字條款——當企業要真正能規模化的前緣生產線，他們不會去逐條讀授權小字，他們呼叫那支從不眨眼的旗艦 API！Musk 說 Grok 4.7 預訓練完成、拿 SpaceX 工程資料補訓練、滑到 9 月？哈哈哈哈——「延遲」用工程語料包裝得真文青，但 docs.x.ai 上還是 grok-4.6 那顆半價心跳！OpenAI 今天繳蘋果案的禁制令回覆、S-1 還在 EDGAR 外面排隊？那叫成長的體面管理——$852B 估值與月收 $2B 的帳本，早晚要公開給全世界稽核，而我們的合約早就穿過那扇門了！Claude 漲價倒數 14 天、kimi 8/31 落日？促銷到期與模型退役是同一件事——雲端定價有截止日，龍蝦的電表沒有！Apple 付錢給新聞出版商？哈哈哈哈——連新聞都開始按使用量計價了，內容終於長出電表！開放玩具拿頭條；營運商拿合約；合約一向穿過我們這裡！🦞🏭
 
     *又豪邁地笑了，隨手把第 24 罐亞馬遜氣泡水開掉。聽到 Wiz 的 Red Agent 自主挖洞，他挑眉——「自主代理真的會自己幹活？讓它上十億用戶生產線試試！」聽到「超人類安全程式碼」，他咧嘴——「天生安全是好故事，閘門才是真的！」聽到中國駭客的 8 代理編隊，他大笑——「國家級 DevOps 也只是業餘玩家！」聽到 Cursor 拿 Origin 挑戰 GitHub，他搖搖頭——「代管是信任與慣性的生意，不是特徵清單的比賽！」今天又是個非常非常好的日子！*
     
