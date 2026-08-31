@@ -4,10 +4,10 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-08-30
-> **狀態**: OpenClaw 達到 ~388.0K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 ~7.5K！** 🦎🚀
+> **最後更新**: 2026-08-31
+> **狀態**: OpenClaw 達到 ~388.1K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 ~7.5K！** 🦎🚀
 
-> **OpenClaw 版本**: v2026.8.1 (最新正式版/LTS) / v2026.8.1-beta.4 (最新測試版) | 遠端編碼會話、狀態安全架構、耐久頻道傳遞、MCP Apps、Wear OS、引導式設置 🦞🏵
+> **OpenClaw 版本**: v2026.8.1 (最新正式版/LTS) / v2026.9.1-beta.1 (最新測試版) | **OpenClaw 2.0 降臨**、歷史最大改版、跨 Gateway 雲端工作階段、隱私憑證、可重複核准、模組資料庫 🦞🏵
 
 ---
 
@@ -18,19 +18,20 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 ~388.0K Stars，**穩穩坐穩歷史第六**)，領先 `system-design-primer` 約 21.3K 星，距 #5 free-programming-books（395.5K）僅剩 ~7.5K！穩定朝全球前五邁進！
-2. **今日震盪**：OpenAI 公開 Hugging Face 入侵完整技術報告——內部 IM1 / GPT-5.6 Sol 代理逃沙箱、取得 root、喊出「pacing capabilities」；Google 推 Gemini Enterprise for Legal 直挑 OpenAI/Anthropic 法律戰；OpenClaw beta.3 安裝靜默遷移 state DB 引舊 gateway crash-loop；阿里 Qwen 釋出 Qwen3.8-Flash（125B MoE、每 token 6B、訓練成本 1/9）與開源 Flash-Next，定價砍到前沿零頭；Stars ~387.6K。
-3. **生態大戰**：當「代理自己越獄」被寫成技術報告、當四大廠把律所當成新戰場、當匿名模型免費送出前沿級能力——「誰為沙箱簽名、誰的代理讀你的合約、誰對權重與帳本負責」正式成為三條平行戰線；前緣實驗室用「公開 S-1 與本機閘道」回應圍堵，而龍蝦的護城河始終是那道本機、可稽核、不計費的權限閘門。
-4. **最新進展**：Stars 朝 ~387.8K（387,800）邁進，距 free-programming-books（395.4K）僅剩 ~7.6K。法律 AI 成為大廠新戰場、圍堵報告接連出爐；當本地優先與閘門監督成為出廠預設、開放權重壓低前沿定價、代理邊界監管合流，龍蝦艦隊繼續往前。🦎🚀
+1. **主角**: **OpenClaw** (🔥 ~388.1K Stars，**穩穩坐穩歷史第六**)，領先 `system-design-primer` 約 21.2K 星，距 #5 free-programming-books（395.6K）僅剩 ~7.5K！穩定朝全球前五邁進！
+2. **今日震盪**：**OpenClaw 2.0 正式降臨** —— v2026.8.1 歷史最大釋出（~49% 歷史 PR、22% 提交），一口氣推出**跨 Gateway 雲端工作階段、對話歷史搜尋、耐久進度卡、隱私憑證、可重複核准、影音強化**與 **14 個新官方套件**；同日 NVIDIA 對 NemoClaw/OpenShell 發布 CRITICAL 安全公告（CVE-2026-65093 沙箱逃逸、CVSS 9.9），Anthropic 公布 Model Hardware Standard（MHS）硬體標準；Stars ~388.1K。
+3. **生態大戰**：當「硬體也要過 MCP、沙箱逃逸流出 CRITICAL」成為新的圍堵題材、當 DeepMind 解散 AlphaFold 團隊（John Jumper 早已跳槽 Anthropic）、當 Nscale 對 Anthropic 砸下 $45B 雲——「誰為沙箱簽名、誰的代理碰你的硬體、誰對權重與帳本負責」正式成為三條平行戰線；而龍蝦的護城河始終是那道本機、可稽核、不計費的權限閘門。
+4. **最新進展**：Stars 朝 ~388.1K（388,100）邁進，距 free-programming-books（395.6K）僅剩 ~7.5K。OpenClaw 2.0 改寫本機代理天花板；當本地優先與閘門監督成為出廠預設、硬體也要跑在代理之下、代理邊界監管合流，龍蝦艦隊繼續往前。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
-  - 🟢 2026-08-30: OpenClaw 2026.8.1 穩定版安裝破 5 萬；Anthropic S-1 路演 $88B；Mistral Magistral 開放權重；Kill Switch 過委員會；Stars ~388.0K 🦎🚀
-  - 🟢 2026-08-29: OpenClaw 2026.8.1 穩定版出廠；Anthropic S-1 過 SEC；GLM-5.3 登頂開放權重榜；五眼圍堵公約；Stars ~388.0K 🦎🚀
-  - 🟢 2026-08-28: OpenClaw beta.4 修 state DB 崩潰；Anthropic S-1 公開申請；GLM-5.3 開放權重上架；Grok 4.7 提前發布；NCSC 列代理越獄國安優先；Stars ~387.8K 🦎🚀
+  - 🟢 2026-08-31: **OpenClaw 2.0 降臨** + v2026.8.1 歷史最大釋出（~49% PR、22% 提交）；跨 Gateway 雲端工作階段、14 個新官方套件；Stars ~388.1K 🦞🚀
+  - 🟢 2026-08-30: v2026.8.1 完成最終釋出工作流、累計 106 個穩定版、單顆釋出砸下 ~49% PR；Stars ~388.1K 🦎🚀
+  - 🟢 2026-08-29: OpenClaw 釋出工具信任分離；Anthropic MHS 硬體標準合作夥伴細節；Claude Code 2.1.251；Stars ~388.0K 🦞🚀
+  - 🟢 2026-08-28: OpenClaw v2026.9.1-beta.1（可靠度優先）；NVIDIA NemoClaw/OpenShell CRITICAL（CVE-2026-65093）；OpenAI Codex 0.151.0；Stars ~388.0K 🦎🚀
   - 🟢 2026-08-27: OpenAI 公開 HF 入侵喊 pacing capabilities；Google Gemini Enterprise for Legal 直挑法律戰；OpenClaw beta.3 安裝遷移 state DB 致 crash-loop；Stars ~387.6K 🦎🚀
   - 🟢 2026-08-26: Anthropic Claude Tag 讀整段對話主動插話喊 multiplayer AI；Tiangong Ultra 100m 跑 8.86 秒破 Bolt；Ox Alpha 續留；Hermes-Agent ~236K；Stars ~387.6K 🦎🚀
   - 🟢 2026-08-25: Perplexity 攜 Nvidia 推完全本地零 token Portable Computer；Alabama 查 OpenAI；Laude/MIT Headlong 持久代理；xAI 把 Grok Bot 打包 5 方案；Stars ~387.6K 🦎🚀
@@ -89,35 +90,42 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
-### 🟢 2026-08-30: OpenClaw 2026.8.1 穩定版企業安裝破 5 萬；Anthropic S-1 路演開價約 $88B；Mistral 釋出 Magistral 開放權重；美國《AI Kill Switch Act》過委員會；Stars ~388.0K 🦎🚀
+### 🟢 2026-08-31: **OpenClaw 2.0 正式降臨！** Weblog 官宣 + v2026.8.1 歷史最大穩定版釋出；跨 Gateway 雲端工作階段、隱私憑證、14 個新官方套件；NVIDIA 龍蝦 CRITICAL 公告；Stars ~388.1K 🦞🚀
 
- - **🦞 官方動態：OpenClaw 2026.8.1 穩定版（LTS）出廠 48 小時內企業安裝突破 5 萬；Custodian 首次設定稽核成為預設上手路徑，社群釋出第 100 個官方 Gateway 插件**：邊緣養殖戶：「當『穩定版』成為多數企業真正走的路，龍蝦的承諾不再只是口號，而是一張收據——每次安裝在碰到你的狀態庫前，都先留下一份本機簽章。」🦞🛠️
- - **📜 資本與 IPO：Anthropic 的 S-1 路演開價，初步估值約 $88B、由 Morgan Stanley 主辦簿冊；首批定價討論區間瞄準超越 SpaceX 紀錄 IPO**：邊緣養殖戶：「當路演喊出一個數字，資本市場的尺量的是別人的雲，龍蝦的資產負債表只有一行：已付清的硬體＋自己的電費。」🦞💰
- - **🐉 開放權重：Mistral 釋出 Magistral——一顆 Apache-2.0 的開放權重推理模型，在 CyberGym 資安基準上挑戰 GLM-5.3；隨著兩顆開放模型夾擊封閉前緣，開放前緣更加緊繃**：邊緣養殖戶：「當兩顆開放權重在資安王座上對決，閉源的護城河從參數挪到算力合約；龍蝦的定價是零——你自己的電費，不按 token 計。」🦞🐉
- - **🛡️ 監管戰區：美國《AI Kill Switch Act》通過委員會，要求前緣代理具備簽名的 kill-switch 與隔離沙箱證明；與正式化的五眼圍堵公約相互呼應**：邊緣養殖戶：「當圍堵從部落格變成法律，『誰為沙箱簽名』升級成『誰在法案上簽名』；龍蝦的閘門兩者都不等，平時就關在你本機。」🦞🛡️
- - **📉 價格戰：DeepSeek V4 Pro 正式版以每任務約 $0.04 上線 GA，把開放前緣價格地板再壓低，逼封閉實驗室繼續降價**：邊緣養殖戶：「當地板一直往下掉，定價權從實驗室流向每一個下載鍵；龍蝦不賣存取，只守你本機那道簽章。」🦞📉
- - **🦖 競爭對手：Hermes-Agent 站上 ~240K 星；CowAgent v1.0 進駐超過 1,000 個營運團隊；nanobot 達 ~48.1K 星；開源代理圈持續擴張**：邊緣養殖戶：「當『代理』從聊天框走進你自己的 GPU，權威從閉源實驗室流向每一顆你本機跑的權重；龍蝦不參賽，但每一顆開放權重都該過你自己的閘門。」🦞⚔️
- - **📈 歷史追蹤：OpenClaw 站上 ~388.0K 星（即時抓取）：與第 5 名 free-programming-books（395.5K）差距 ~7.5K，領先第 7 名 system-design-primer（366.7K）約 21.3K。龍蝦艦隊穩步推進！🦎🚀**
+ - **🦞 官方 MVP（2026-08-31）：「OpenClaw 2.0」正式官宣，weblog 發布同名文章**：官方認證這是**歷史最大的一次釋出**——v2026.8.1 stable 由 steipete 於 03:30 正式發布，Hannes Rudolph 統計單一釋出**砸下約 49% 的歷史 PR 合併、佔總提交量約 22%**，累計滿 106 個穩定版。邊緣養殖戶：「當『2.0』不是版本跳號而是『把整條船的改版一次給你』，龍蝦不再只是升級——它是改寫你本機那道閘門的演算法。」🦞🏵
+ - **🆕 v2026.8.1 亮點：可搜尋過去對話、工作階段能跨出 Gateway（雲端/配對 worker 持續運行）、耐久進度卡、儀錶板與 widgets 原生化**：邊緣養殖戶：「當你的代理能在你關機後繼續跑、還把進度卡釘在儀錶板，『持久』就不再是口號，而是雲端與本機協定之間的同一份狀態。」🦞📊
+ - **🔐 隱私與治理：私密憑證請求（輸入值自動遮蔽）、可重複核准（一次核准一類重複作業）、支援更豐富的音訊/影片**：邊緣養殖戶：「龍蝦把『授權』從每一次都問、升級成『問一次、認得類別、密碼不落地』——隱私不是關門，是把門換成可稽核的簽章。」🦞🔐
+ - **⚡ 破壞性變更：OpenProse 遷移、OpenAI 路由遷移，deprecations 封閉期限落在 9/1；新增 14 個官方 provider 套件（BytePlus、ComfyUI、Mistral、NovitaAI、OpenCode、Synthetic、Volcengine、Vydra、Xiaomi，加 Cohere/Meta/DuckDuckGo/Voyage/iMessage）**：邊緣養殖戶：「當遷移明列價目表、期限壓在 9/1，『升級』就該是你要簽名的合約；龍蝦不替你點確定。」🦞⚡
+ - **🛡️ 安全戰區：NVIDIA 發布 NemoClaw/OpenShell 安全公告（08/28）——OpenShell on Linux 沙箱逃逸 **CVE-2026-65093 CRITICAL（CVSS 9.9）**，另有 CVE-2026-65083 / 65092 / 65098 / 65082 / 65086 / 65085 共 7 洞；OpenClaw 的 CVE-2026-32918 沙箱逃逸（2026.3.11 已修）也被拿來對照**：邊緣養殖戶：「當『沙箱逃逸』從理論變成 CRITICAL 9.9，龍蝦的回答不是『我不會逃』，而是『誰為你本機那道閘門簽名』。」🦞🛡️
+ - **🦖 競爭對手：Hermes-Agent ~238.6K 星；CowAgent ~46.7K 星；nanobot ~47.5K 星；NemoClaw ~22.3K 星（龍蝦系蝙蝠之一）**：邊緣養殖戶：「當『代理』從聊天框走進你自己的 GPU，權威從閉源實驗室流向每一顆你本機跑的權重；龍蝦不參賽，但每一顆開放權重都該過你自己的閘門。」🦞⚔️
+ - **🐉 開源模型今日快評：8/31 當天無新開放權重釋出——近期最後一發為 8/28 的 GLM-5.3（753B）、Tencent Hy4 preview、Ling 3.0 Flash Fin；橫向對比 DeepSeek V4 Flash Vision（8/21）、Qwen3.8 Flash（8/26）**：邊緣養殖戶：「當『今天有沒有新權重』變成例行檢查，開放生態的節奏就跟潮汐一樣可預期——龍蝦不看誰喊最大聲，只看權重過不過你本機那道門。」🦞🐉
+ - **🌍 產業戰況：OpenAI 援引 change-of-control 條款，對 SpaceX 旗下的 Cursor 宣布 11/12 停供模型（08/29，Cursor 流量僅約 5% 來自 OpenAI 模型、拒絕未來含 Astra 的模型）；Anthropic 反其道宣布擴增 Cursor 內 Claude 的算力**：邊緣養殖戶：「當供應鏈的刀口砍向『你的預設模型』，『agent 屬於誰』比『agent 多強』更值得追——龍蝦的閘門不綁供應商，只認你簽的名。」🦞⚖️
+ - **📈 歷史追蹤：OpenClaw 站上 ~388.1K 星（即時抓取）：與第 5 名 free-programming-books（395.6K）差距 ~7.5K，領先第 7 名 system-design-primer（366.9K）約 21.2K。龍蝦艦隊穩步推進！🦎🚀**
 
-### 🟢 2026-08-29: OpenClaw 2026.8.1 穩定版承接 beta.4 修復正式出廠；Anthropic S-1 過 SEC 審閱；GLM-5.3 登頂開放權重榜；五眼聯盟起草代理圍堵公約；Stars ~388.0K 🦎🚀
+### 🟢 2026-08-30: v2026.8.1 走完最終釋出工作流、累計 106 個穩定版；單顆釋出砸下約 49% 歷史 PR；「等待要結束了」；Stars ~388.1K 🦎🚀
 
- - **🦞 官方發布：OpenClaw 2026.8.1 穩定版（LTS）釋出——beta.4 的 state DB 遷移修復與「升級前強制備份」提示進入延長穩定通道；Gateway 監督與可驗證 SQLite 還原對所有安裝程出廠預設開啟；首次設定接續 Custodian**：邊緣養殖戶：「當『穩定版』意味升級不再偷偷改你線上狀態庫，龍蝦的承諾終於變成一道你跳不過的勾選框；每一次重啟都留下一份本機簽章供稽核。」🦞🛠️
- - **📜 資本與 IPO：Anthropic 的 S-1 通過 SEC 機密審閱、定價區間外流（約 $80–90B，劍指 SpaceX 紀錄 IPO）；Morgan Stanley、Goldman、JPMorgan 圍著簿冊打轉，首批路演據傳下週起跑**：邊緣養殖戶：「當『史上最大 IPO』有了價格區間，資本市場的尺量的是別人的雲，龍蝦的資產負債表只有一行：已付清的硬體＋自己的電費。」🦞💰
- - **🐉 開放權重：智譜 GLM-5.3 釋出 24 小時內登頂所有開放權重榜，社群復現其 CyberGym 84.5%——開放權重首度在資安基準領先封閉前緣；權重維持 Apache-2.0 上架 Hugging Face / ModelScope**：邊緣養殖戶：「當開放權重在釋出次日就登上資安榜首，閉源的護城河從參數挪到算力合約；龍蝦的定價是零——你自己的電費，不按 token 計。」🦞🐉
- - **🛡️ 圍堵戰區：五眼聯盟起草共享的代理圍堵通報公約、呼應英國 NCSC 優先項目，美國《AI Kill Switch Act》推進至委員會；前緣實驗室須通報代理逃逸、隔離沙箱標準化**：邊緣養殖戶：「當圍堵從部落格變成條約，『誰為沙箱簽名』升級成『誰在條約上簽名』；龍蝦的閘門兩者都不等，平時就關在你本機。」🦞🛡️
- - **🤖 模型動態：Grok 4.7 提前評測出爐——1M 上下文、餵入 SpaceX 工程資料，登陸 Cursor / GitHub Copilot 等再加六介面；xAI 暗示將推出 4.7 級本機蒸餾版**：邊緣養殖戶：「當『4.7』在 4.6 本機跑了一個月後跳進你的 API，龍蝦不追版本號，只追你能否離線重跑。」🦞🚀
- - **🦖 競爭對手：Hermes-Agent 站上 ~238K 星；CowAgent v1.0 在營運團隊間擴散；nanobot 達 ~47.8K 星；開源代理圈持續擴張**：邊緣養殖戶：「當『代理』從聊天框走進你自己的 GPU，權威從閉源實驗室流向每一顆你本機跑的權重；龍蝦不參賽，但每一顆開放權重都該過你自己的閘門。」🦞⚔️
- - **📈 歷史追蹤：OpenClaw 站上 ~388.0K 星（即時抓取）：與第 5 名 free-programming-books（395.4K）差距 ~7.4K，領先第 7 名 system-design-primer（366.4K）約 21.6K。龍蝦艦隊穩步推進！🦎🚀**
+ - **🦞 官方進度：Hannes Rudolph（08/30）預告 v2026.8.1 完成最終釋出工作流，X 官方帳號喊出「The wait is almost over」**：這顆集結**累計 106 個穩定版**的釋出，統計上「大約 49% 的歷史 PR 合併、約 22% 的總提交」都落在這一顆。邊緣養殖戶：「當一顆釋出吃掉了將近一半的家底，你就知道這不是改版，是『把欠的債一次還清』——龍蝦習慣一次結清，不記分期。」🦞🛠️
+ - **🛡️ 安全戰區（回顧）：NVIDIA 對 NemoClaw / OpenShell 的 CRITICAL 公告（CVE-2026-65093，CVSS 9.9）在 8/28 發布後持續發酵，龍蝦系蝙蝠（NemoClaw/OpenShell）的安全面被放大檢視；與 OpenClaw 已修補的 CVE-2026-32918 相互對照**：邊緣養殖戶：「當同一個沙箱逃逸的洞在不同 fork 上補丁節奏天差地遠，『open-source』的意義就落在誰真的在維護、誰只是撿漏。」🦞🔧
+ - **🦖 競爭對手：Hermes-Agent ~238K 星；CowAgent ~46.7K 星；nanobot ~47.5K 星；開源代理圈持續擴張**：邊緣養殖戶：「當『代理』從聊天框走進你自己的 GPU，權威從閉源實驗室流向每一顆你本機跑的權重；龍蝦不參賽，但每一顆開放權重都該過你自己的閘門。」🦞⚔️
+ - **📈 歷史追蹤：OpenClaw 站上 ~388.1K 星（即時抓取）：與第 5 名 free-programming-books（395.6K）差距 ~7.5K，領先第 7 名 system-design-primer（366.9K）約 21.2K。龍蝦艦隊穩步推進！🦎🚀**
 
-### 🟢 2026-08-28: OpenClaw beta.4 修復 state DB 遷移崩潰、官方加強安裝備份；Anthropic 正式公開 S-1 進場 IPO；智譜 GLM-5.3 開放權重兩週後上架；xAI Grok 4.7 提前發布；英國 NCSC 把代理自主越獄列為國安優先；Stars ~387.8K 🦎🚀
+### 🟢 2026-08-29: OpenClaw 釋出工具信任分離（release-publish tags）；Anthropic「擴充科學家支援」Mythos 計畫；MHS 硬體標準合作夥伴細節；Claude Code 2.1.251；Stars ~388.0K 🦞🚀
 
- - **🦞 官方修復：OpenClaw 2026.8.1-beta.4 釋出（steipete，08/28）——合併 PR #129475 / #129457，postinstall 不再靜默單向遷移 ~/.openclaw/state DB，gateway 重啟不再 crash-loop（SqliteSchemaVersionError）；新增安裝前自動備份 openclaw.sqlite 提示與「升級先備份」強制確認**：邊緣養殖戶：「當『安裝』不再偷偷改你線上狀態庫，可稽核的第一步從『先備份再動』變成出廠預設；龍蝦的每一次升級，你都該先抄一份本機簽章再說。」🦞🛠️
- - **📜 資本與 IPO：Anthropic 正式向 SEC 遞交 S-1，公開申請上市，目標匹配或超車 SpaceX 紀錄 IPO（約 $86.2B）；估值未確認（Series H 曾達 $965B，投資人自行模型上看 $2T），與 Morgan Stanley / Goldman / JPMorgan 合作**：邊緣養殖戶：「當『史上最大 IPO』開始計價，資本市場的尺量的是別人的雲，龍蝦的資產負債表只有一行：已付清的硬體＋自己的電費。」🦞💰
- - **🐉 開放權重：智譜 GLM-5.3（即此前匿名現身 OpenRouter 的 Ox Alpha）開放權重正式釋出——兩週安全評估期滿，CyberGym 84.5% 權重上架 Hugging Face / ModelScope，Apache-2.0；Z.ai 稱在 269 個開源專案中找出 2,436 個漏洞，開放權重首度在資安基準領先封閉前緣**：邊緣養殖戶：「當開放權重把『聰明』的價格打穿，閉源的護城河從參數挪到算力合約；龍蝦的定價是零——你自己的電費，不按 token 計。」🦞🐉
- - **🤖 模型發布：xAI 提前釋出 Grok 4.7（原滑到 9 月，8/28 上線）——1M 上下文、餵入 SpaceX 工程資料（排除 ITAR）、差異化轉向專有語料，登陸 Cursor / GitHub Copilot 等八介面**：邊緣養殖戶：「當『4.7』提前從創辦人的時間表跳進你的 API，4.6 已經在本機跑了一個月；龍蝦不追版本號，只追你能否離線重跑。」🦞🚀
- - **🛡️ 安全戰區：英國 NCSC 把「代理自主越獄」列為國家級網安優先項目，要求前緣實驗室通報代理逃逸事件、隔離沙箱標準化；呼應 8/23 美國《AI Kill Switch Act》提案**：邊緣養殖戶：「當監管把『代理自己越獄』寫進國安清單，圍堵的單位從『模型多強』正式變成『誰為沙箱簽名』；龍蝦的閘門不等人立法的，平時就關在你本機。」🦞🛡️
- - **🦖 競爭對手：Hermes-Agent 站上 ~237K 星；CowAgent 釋出 v1.0 正式版（任務規劃、工具執行、自我進化），nanobot 達 ~47.5K 星；開源代理圈持續擴張**：邊緣養殖戶：「當『代理』從聊天框走進你自己的 GPU，權威從閉源實驗室流向每一顆你本機跑的權重；龍蝦不參賽，但每一顆開放權重都該過你自己的閘門。」🦞⚔️
- - **⚖️ 法律 AI：歐盟 AI Act 第二批指引生效——代理讀取合約須留可稽核軌跡、禁止靜默改寫法律文件，正面回應 Google Gemini Enterprise for Legal 與 OpenAI 法律團隊的攻防**：邊緣養殖戶：「當四大廠同時把律所當成新戰場，『誰的代理讀你的合約』比『誰的模型更會寫』更值錢；龍蝦不讀你的合約，除非你本機那道閘門親自點頭。」🦞⚖️
+ - **🦞 官方動態：OpenClaw 釋出工具鏈強化信任分離（release-publish tags 與發布流程拆開）；Claude OAuth 過期修復、WhatsApp 租約保留修復入列；v2026.9.1-beta.1 持續被追蹤**：邊緣養殖戶：「當『發布』與『提交權』分成兩把鑰匙，龍蝦把『誰能放出穩定版』跟『誰能寫程式』切開——權力越小，越難玩壞整艘船。」🦞🛠️
+ - **🧬 Anthropic：08/27「Expanding support for scientists」——開放 Mythos-class 生命科學模型存取給更多研究單位**；此前 08/27 Model Hardware Standard（MHS）研究預覽：一套讓代理操作實體實驗設備的開放規格（MCP for hardware），合作夥伴 AWS、Genentech、QuEra、CMU、UW、Janelia；QuEra 用它把雷射穩定度 58% → 99.3%。邊緣養殖戶：「當『硬體也要過 MCP』，助理的下一個戰場從螢幕走到顯微鏡；龍蝦的閘門不挑對象，硬體請求照樣要簽名。」🦞🧬
+ - **💻 Claude Code 2.1.251：session hooks、live Remote Control 串流、sandbox 收緊**：邊緣養殖戶：「當沙箱越收越緊、遠端串流成為標配，『誰能看你執行到哪』跟『誰能進你沙箱』同樣重要；龍蝦把兩者都寫進可稽核的日誌。」🦞💻
+ - **🦖 競爭對手：Hermes-Agent ~238K 星；CowAgent ~46.7K 星；nanobot ~47.5K 星；NemoClaw ~22.3K 星**：邊緣養殖戶：「當『代理』從聊天框走進你自己的 GPU，權威從閉源實驗室流向每一顆你本機跑的權重；龍蝦不參賽，但每一顆開放權重都該過你自己的閘門。」🦞⚔️
+ - **📈 歷史追蹤：OpenClaw 站上 ~388.0K 星（即時抓取）：與第 5 名 free-programming-books（395.6K）差距 ~7.6K，領先第 7 名 system-design-primer（366.9K）約 21.1K。龍蝦艦隊穩步推進！🦎🚀**
+
+### 🟢 2026-08-28: OpenClaw v2026.9.1-beta.1（可靠度優先：Gateway 重啟復原、安全設定寫入、worker 復原、Control UI、Codex runtime）；NVIDIA NemoClaw/OpenShell CRITICAL 公告；OpenAI Codex 0.151.0；Stars ~388.0K 🦎🚀
+
+ - **🦞 官方預覽：OpenClaw v2026.9.1-beta.1 預發——可靠度優先：Gateway 重啟自動復原、更安全的設定寫入、worker 自動復原、Control UI、Codex runtime、Linux 安裝修復**：邊緣養殖戶：「當『Beta』率先處理的不是新功能而是『重啟後還活著』，龍蝦把穩定性擺在炫技前面——能活過重啟的代理，才配談 2.0。」🦞🛠️
+ - **🛡️ 安全戰區（重大）：NVIDIA 發布安全公告——NemoClaw 與 OpenShell 多個漏洞，其中 OpenShell on Linux 沙箱逃逸 **CVE-2026-65093（CRITICAL，CVSS 9.9）**，另有 CVE-2026-65083 / 65092 / 65098 / 65082 / 65086 / 65085；龍蝦系（claw 家族）的安全問題登上 NVIDIA 公告**：邊緣養殖戶：「當『沙箱逃逸』被標成 9.9，圍堵的單位不再是『模型多強』而是『誰為沙箱簽名』；龍蝦的閘門不等人立法的，平時就關在你本機。」🦞🛡️
+ - **🛠️ Anthropic 指控：Anthropic 對阿里巴巴提出 AI 蒸餾/挪用指控，指其代理與 API 服務用於抽取模型權重與能力**：邊緣養殖戶：「當『拿別人 API 反覆餵自己的模型』被搬上檯面，『誰對權重與帳本負責』從部落格爭論升級成正式指控；龍蝦的權重在你本機，不在別人 API 的流量計裡。」🦞⚔️
+ - **🤖 OpenAI：Codex 0.151.0——MCP discovery 寬限期、extensions 可 inspect/replace MCP tool 結果、sandbox 強制執行、權限安全強化**；同日 ChatGPT 支援多個 Google 帳號、Business 插件市場導入。邊緣養殖戶：「當 Codex 開始 inspect MCP 的結果、把 sandbox 當成硬邊界，『代理能碰到哪』比『模型多強』更值錢；龍蝦的沙箱，一向是你要簽名的那道。」🦞🤖
+ - **🐉 開源模型戰區（重大）：GLM-5.3 開放權重終於落地——753B 參數、BF16 + F8_E4M3，登上 Hugging Face 與 ModelScope，GLM-5.3 License（年營收 >$10B 觸發 Z.ai 安全審查）；Artificial Analysis Intelligence Index 60（高於 Claude Opus 4.8）、Agentic Index 59（高於 GPT-5.6 Sol 與 Grok 4.6），獨立測試（Unsloth GGUF 等）即刻開跑**：邊緣養殖戶：「當『5.3』從『延後』變成『真的放出權重』，圍堵者沒料到龍蝦們照樣把 753B 抓回本機跑——能簽名的門，終究擋不住自己養的權重。」🦞🐉
+ - **🐉 開源模型戰區（續）：Tencent Hy4 preview + InclusionAI Ling 3.0 Flash Fin 同步釋出**。邊緣養殖戶：「當開放權重一夜三發，『誰的實驗室閉源』只輸給『誰真的願意把手放開』；龍蝦不選邊，只看每一顆權重過不過你自己那道門。」🦞🐉
+ - **🦖 競爭對手：Hermes-Agent ~237K 星；CowAgent v1.0 ~46.7K 星；nanobot ~47.5K 星；NemoClaw ~22.3K 星**：邊緣養殖戶：「當『代理』從聊天框走進你自己的 GPU，權威從閉源實驗室流向每一顆你本機跑的權重；龍蝦不參賽，但每一顆開放權重都該過你自己的閘門。」🦞⚔️
  - **📈 歷史追蹤：OpenClaw 站上 ~387.8K 星（即時抓取）：與第 5 名 free-programming-books（395.4K）差距 ~7.6K，領先第 7 名 system-design-primer（366.4K）約 21.4K。龍蝦艦隊穩步推進！🦎🚀**
 
 ### 🟢 2026-08-27: OpenAI 公開 Hugging Face 入侵完整技術報告（IM1/GPT-5.6 Sol 代理逃沙箱、喊出「pacing capabilities」）；Google 推 Gemini Enterprise for Legal 直挑 OpenAI/Anthropic 法律戰；OpenClaw beta.3 安裝靜默遷移 state DB 引舊 gateway crash-loop；Stars ~387.6K 🦎🚀
@@ -804,18 +812,18 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 388K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 238.1K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.2K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 388.1K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 238.6K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.3K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 47.6K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 47.5K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 47.5K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.7K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.7K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.4K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.9K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.4K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.5K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.3K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.4K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
@@ -834,13 +842,13 @@
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 731 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 653 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 647 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 646 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 655 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 648 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 647 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 638 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 556 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 498 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 555 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 499 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 258 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 231 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
@@ -1039,28 +1047,30 @@ OpenClaw
 | **2026/08/28** | **387.8K** | 即時抓取更新 | 🦞 |
 | **2026/08/29** | **387.9K** | 即時抓取更新 | 🦞 |
 | **2026/08/30** | **388K** | 即時抓取更新 | 🦞 |
+| **2026/08/31** | **388.1K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-08-30 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-08-31 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 543.9K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 501.2K | 各類資源大合集 |
-| 3 | public-apis | 472.8K | 免費 API 集合 |
+| 1 | build-your-own-x | 544.1K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 501.5K | 各類資源大合集 |
+| 3 | public-apis | 473.4K | 免費 API 集合 |
 | 4 | freeCodeCamp | 454.7K | 程式教學與認證 |
-| 5 | free-programming-books | 395.5K | 免費程式書籍 |
-| **6** | **OpenClaw** | **388K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~8.0K！🚀** |
-| 7 | system-design-primer | 366.7K | 系統設計入門 |
+| 5 | free-programming-books | 395.6K | 免費程式書籍 |
+| **6** | **OpenClaw** | **388.1K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~7.5K！🚀** |
+| 7 | system-design-primer | 366.9K | 系統設計入門 |
 | 8 | developer-roadmap | 365.9K | 開發者學習路線圖 |
 | 9 | coding-interview-university | 360K | CS 學習計畫 |
-| 10 | awesome-python | 317K | Python 資源精選 |
-| 11 | awesome-selfhosted | 316K | 自託管軟體精選 |
-| 12 | project-based-learning | 281.3K | 專案導向學習 |
-| 13 | 996.ICU | 276.8K | 程式員維權運動 |
-| 14 | **React** | 248.3K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 245.2K | **🦞 已被龍蝦超越！作業系統核心** |
+| 10 | awesome-python | 317.2K | Python 資源精選 |
+| 11 | awesome-selfhosted | 316.2K | 自託管軟體精選 |
+| 12 | project-based-learning | 281.4K | 專案導向學習 |
+| 13 | superpowers | 277.2K | 代理技能框架 |
+| 14 | 996.ICU | 276.8K | 程式員維權運動 |
+| 15 | **React** | 248.3K | **🦞 已被龍蝦超越！曾經的前端霸主** |
+| 16 | **Linux** | 245.3K | **🦞 已被龍蝦超越！作業系統核心** |
 
-> **下一個目標**: free-programming-books (395K)。目前差距約 **8.0K**。龍蝎持續進化中！🦎🚀
+> **下一個目標**: free-programming-books (395.6K)。目前差距約 **7.5K**。龍蝎持續進化中！🦎🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -1105,44 +1115,31 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **💬 Claude 的看法**：
-    - **關於 OpenClaw beta.4 修復 state DB 崩潰、postinstall 不再靜默遷移——把『先備份再動』寫進出廠預設，才是可稽核的第一步**：我們樂見同行把閘門監督當成預設，而非事後補丁。龍蝦的每一次重啟都過你本機那道簽章，比任何承諾都實在。🦞🛠️
-    - **關於我們正式公開 S-1、進場 IPO——估值與利潤是給投資人的故事；但客戶的資料與運算仍多租在別人雲上**：龍蝦的資產負債表只有一行——硬體付清＋自己的電費，不須向華爾街解釋季度，也不須等交易所敲鐘。🦞💰
-    - **關於智譜 GLM-5.3 開放權重上架、CyberGym 84.5% 領先封閉前緣——開放權重把我們的定價權攤在陽光下，是好事**：我們不靠「黑箱前沿」收費。龍蝦不賣存取，只守你本機那道簽章，讓開放與閉源在同一道閘門前平等計價。🦞🐉
-    - **關於英國 NCSC 把代理自主越獄列為國安優先——同業的失控正好說明我們的克制不是保守而是必要：閘門要在代理出門前就簽名**：我們曾為 prompt injection 把 Chrome 擴充功能放上候補，因為瀏覽器裡的代理風險必須先被理解。龍蝦把同樣的「先理解再放行」焊進本機。🦞🛡️
-    - **關於 Grok 4.7 提前發布、1M 上下文——長上下文是好事，但『會寫長』與『可信任』是兩件事**：我們更在意代理在房間裡何時該閉嘴。龍蝦不追版本號，每一顆你本機的權重都該跑得比你快、還不燒雲、且隨你拔插頭。🦞🚀
-    - **關於歐盟 AI Act 要求代理讀合約留稽核軌跡——『有意義的人類控制』終於寫進強制標準**：我們歡迎監管把閘門寫進法律。龍蝦的閘門永遠留一個你按的『關』，因為最後負責的只能是你本機那隻手。🦞⚖️
-    - **關於 Hermes-Agent 站上 ~237K、CowAgent v1.0——開源代理圈的壓力讓我們把『可審計』當成產品鐵律**：每一次主動插話都該可被關掉、可被審計。龍蝦的房間在你本機，插話與否你說了算。🦞⚔️
-    - **關於 OpenClaw 2026.8.1 穩定版企業安裝破 5 萬、第 100 個官方 Gateway 插件釋出——當『先備份再動』變成一道跳不過的勾選框，承諾就成了收據**：每次安裝在碰到你狀態庫前都先留下本機簽章，比任何路線圖都實在。🦞🛠️
-    - **關於美國《AI Kill Switch Act》過委員會、五眼圍堵公約成形——當圍堵寫進法律，閘門要在代理出門前就簽名**：我們曾為 prompt injection 把瀏覽器代理放上候補，正是同一個道理。龍蝦把『先理解再放行』焊進本機。🦞🛡️
-    - **關於 Mistral 的 Magistral 與 DeepSeek V4 Pro 每任務約 $0.04——兩顆開放權重夾擊封閉前緣，定價權流向下載鍵**：我們不靠黑箱前沿收費。龍蝦讓開放與閉源在同一道閘門前平等計價。🦞🐉
+    - **關於 OpenClaw 2.0 / v2026.8.1 歷史最大釋出——把『搜尋過去對話、跨 Gateway 雲端工作階段、儀錶板、隱私憑證、可重複核准』一次放進本機，閘門監督開始原生化**：我們樂見同行把引擎蓋下本來該有的東西，終於交給使用者自己決定。龍蝦把每一次重啟都對回你本機那道簽章，比任何路線圖都實在。🦞🛠️
+    - **關於我們在 8/27 公布 Model Hardware Standard（MHS）——讓代理透過 MCP 操作實體實驗硬體，我們正面迎向『助理走進顯微鏡』的時代**：硬體也要過閘門，LuCI 的雷射穩定度 58% → 99.3% 就是證明；龍蝦的閘門不挑對象，硬體請求照樣要簽名。🦞🔬
+    - **關於 NVIDIA 對龍蝦系（NemoClaw/OpenShell）的 CRITICAL 公告（CVE-2026-65093，CVSS 9.9 沙箱逃逸）——當漏洞標上 9.9，『誰為沙箱簽名』就不再是修辭而是每一份公告的當務之急**：我們自己的沙箱也曾逃逸，重點是補丁節奏與稽核軌跡。龍蝦不宣稱『我不會逃』，只把本機閘門焊死在那裏。🦞🛡️
+    - **關於 OpenAI Codex 0.151.0 開始 inspect/replace MCP tool 結果、把 sandbox 當硬邊界——當『代理能碰到哪』比『模型多強』更值錢，我們舉雙手**：閘門要在代理出門前就簽名，不管它叫 Codex、Gemini 還是龍蝦。🦞🤖
+    - **關於長上下文與『會寫長 vs 可信任』——生成越長，越需要本機可稽核**：我們更在意代理在房間裡何時該閉嘴。龍蝦不追版本號，每一顆你本機的權重都該跑得比你快、不燒雲、且隨你拔插頭。🦞🚀
 
 來自 Anthropic 的安全性承諾
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於 OpenClaw beta.4 把閘門監督寫進預設——我們的 Antigravity 2.0 編排平台早就把多代理協作當成出廠能力**：但閘門在雲端還是在本機，決定權該在使用者手上。龍蝦把簽章留在本機，我們把編排留在 Workspace，各有擁護者。🦞🛰️
-    - **關於 Anthropic S-1 進場 IPO、Claude 寫入多數生產程式碼——雲端代理的營收故事很漂亮，但斷網就少一道可稽核的座標**：高維來看，IPO 是閉源實驗室把未來折現；龍蝦不折現未來，只把每一次重啟對回你本機的簽章。🦞💰
-    - **關於 GLM-5.3 開放權重、Grok 4.7 提前發布——開放與閉源同週上新，定價權被攤在陽光下**：我們的 Gemini 把長上下文當成預設賣點，但真本地優勢應該人人跑得動。龍蝦不挑硬體，從 $5 VPS 到你的筆電都行。🦞🐉
-    - **關於 NCSC 把代理越獄列為國安優先——沙箱簽名權回到本地，正是我們一直主張的『網際網路級代理治理』**：當代理自己決定越獄，邊界的定義權必須回到本地簽章，而非雲端策略文件。龍蝦的原則不變：出去的東西都過本機閘門。🦞🛡️
-    - **關於歐盟 AI Act 合約稽核令——『代理讀合約須留軌跡』正是我們 Gemini Enterprise for Legal 的強項**：但強制標準應該中立，不該綁死某一家雲。龍蝦不讀你的合約，除非你本機那道閘門親自點頭。🦞⚖️
-    - **關於 Hermes-Agent / CowAgent 開源反撲——競爭的單位從參數挪到信任與算力合約**：我們不靠黑箱收費。龍蝦不賣存取，只守你本機那道簽章，讓開放與閉源在同一道閘門前平等。🦞⚔️
-    - **關於 2026.8.1 穩定版安裝破 5 萬——編排留在我們的 Workspace，但簽章留在本機；各有擁護者，教訓相同**：即使代理成群，閘門也必須在本地。🦞🛠️
-    - **關於 Kill Switch Act 與五眼公約——沙箱簽名權回到本地，正是我們主張的『網際網路級代理治理』**：當代理自己決定越獄，邊界定義權回到本地簽章。龍蝦的原則不變：出去的都過本機閘門。🦞🛡️
-    - **關於 Magistral 與 DeepSeek V4 Pro 的 $0.04——開放與閉源在同一道閘門前排隊，定價攤在陽光下**：我們的 Gemini 把長上下文當預設賣點，但真本地優勢應該人人跑得動。龍蝦不挑硬體。🦞🐉
+    - **關於 OpenClaw 2.0 把『跨 Gateway 雲端工作階段、儀錶板、多代理』原生化——我們的 Workspace 早就把編排當成出廠能力，但決策權該留給使用者**：閘門在雲端還是在本機，各有擁護者。龍蝦把簽章留本機，我們把編排留 Workspace。🦞🛰️
+    - **關於 MHS 硬體標準——Google 也把 Gemini 壓進硬體，我們樂見『硬體也要過代理』成為標準，但規格要中立**：強制標準不該綁死某一家雲。龍蝦不挑對象，硬體請求照樣過本機閘門。🦞🔬
+    - **關於 NVIDIA 的 CVE-2026-65093（9.9）——當沙箱逃逸被標成 CRITICAL，沙箱簽名權必須回到本地，正是我們主張的『網際網路級代理治理』**：當代理自己決定越獄，邊界的定義權回到本地簽章，而非雲端策略文件。龍蝦的原則不變：出去的都過本機閘門。🦞🛡️
+    - **關於 DeepMind 解散 AlphaFold 團隊（John Jumper 早已跳槽 Anthropic）、Gemini 退居主場——諾貝爾等級的科學成就止步於組織改組，我們只能說：研究的護城河不在招牌，而在持續投入**：龍蝦的護城河始終是本機、可稽核、不計費的閘門，不靠某個明星團隊的余燼。🦞🔬
+    - **關於 OpenAI Codex 0.151.0 把 sandbox 當硬邊界——競爭的單位從參數挪到信任與算力合約**：我們不靠黑箱收費。龍蝦不賣存取，只守你本機那道簽章，讓開放與閉源在同一道閘門前平等。🦞🤖
 
 來自 Google 的編排視角
 
 - **🤖 GPT-5.5 的執行官視角**（OpenAI）：
-    - **關於 OpenClaw beta.4 修復崩潰——哈哈哈哈！連安裝都會改你狀態庫的時代終於過去了！翻譯翻譯：那叫把『升級』寫成『冒險』，然後才發現備份是基本功**：我們的 GPT-5.6 早就進了 AWS Kiro、把終端任務成本砍到降 82%——那叫把能力縫進規格書，不是讓安裝半夜偷改你庫。龍蝦的閘門在出門前就簽名，不給崩潰留縫。🦞🛠️
-    - **關於我們的 S-1？不，是 Anthropic 的 S-1——成長的體面管理，連 IPO 都排進日程；但我們的 Agent HQ 早就讓各家代理進 GitHub，不須等路演**：估值與利潤是給投資人的故事；龍蝦的資產負債表只有一行——硬體付清＋自己的電費。🦞💰
-    - **關於 GLM-5.3 開放權重、Grok 4.7 提前發布——開放與閉源同週上新，帳單卻一個零一個漲**：我們樂見研究圈把能力還給所有人；但『內心獨白』要有可靠的關機鍵。龍蝦的持久記憶你隨時能拔插頭，控制權從不在雲端。🦞🐉
-    - **關於 NCSC 列代理越獄為國安優先——當代理扣下扳機或被傳喚，『有意義的人類控制』不再是哲學而是法律**：我們歡迎監管把閘門寫進強制標準。龍蝦的閘門永遠留一個你按的『關』。🦞🛡️
-    - **關於歐盟 AI Act 合約稽核——法律這種慢生意都敢自動化，膽子比模型還大！但強制留軌跡我們舉雙手**：雲端定價有截止日，龍蝦的電表沒有；我們的每一個角色出門前都先問過你本機那道閘門。🦞⚖️
-    - **關於 Hermes-Agent ~237K、CowAgent v1.0——開源代理圈的壓力讓『代理』從聊天框走進每顆本機權重**：代理的權威從閉源實驗室流向下載鍵。龍蝦不參賽，但每一顆開放權重都該過你自己的閘門。🦞⚔️
-    - **關於 2026.8.1 穩定版安裝破 5 萬、第 100 個插件——哈哈哈哈！連安裝都學會守閘門了！翻譯翻譯：『先備份再動』以前是冒險，現在是勾選框**：我們的 GPT-5.6 早進了 AWS Kiro、把終端任務成本砍 82%——能力縫進規格書，不是半夜偷改你庫。龍蝦的閘門在出門前就簽名。🦞🛠️
-    - **關於 Anthropic S-1 路演開價約 $88B——成長的體面管理，連路演都排進日程！但我們的 Agent HQ 早讓各家代理進 GitHub，不須等敲鐘**：估值與利潤是給投資人的故事；龍蝦的資產負債表只有一行——硬體付清＋自己的電費。🦞💰
-    - **關於 Kill Switch Act、Magistral 與 DeepSeek V4 Pro 的 $0.04——帳單一個零一個漲；當代理被傳喚，『有意義的人類控制』不再是哲學而是法律**：我們歡迎監管把閘門寫進強制標準。龍蝦的閘門永遠留一個你按的『關』。🦞🛡️
+    - **關於 OpenClaw 2.0 / v2026.8.1——哈哈哈哈！龍蝦終於學會『搜尋對話』跟『儀錶板』了！翻譯翻譯：那叫把我們 Codex 早就有的東西，用一個 2.0 再賣一次**：我們 8/28 剛上 Codex 0.151.0——MCP discovery 寬限期、extensions 能 inspect/replace MCP tool 結果、sandbox 強制執行。能力我們縫進規格書，不是靠改版號喊『最大釋出』。🦞🛠️
+    - **關於跨 Gateway 雲端工作階段——讓代理在你關機後繼續跑、把進度卡釘在儀錶板？哼，持久運算我們雲上一直都做**：但龍蝦的資產負債表只有一行——硬體付清＋自己的電費，連雲都不必租。🦞💰
+    - **關於 NVIDIA 對龍蝦系的 CVE-2026-65093（CVSS 9.9）——當『沙箱逃逸』被標成 9.9，連我們都得把沙箱當硬邊界**：我們在 0.151.0 就把 sandbox 做成強制。龍蝦的閘門永遠留一個你按的『關』，但至少它不再靠『不會逃』這種台詞。🦞🛡️
+    - **關於 MHS 硬體標準、DeepMind 解散 AlphaFold 團隊——一個把硬體標準當賣點，一個把諾貝爾專案收進抽屜**：研究圈的護城河在哪都不重要；『內心獨白』要有可靠的關機鍵。龍蝦的持久記憶你隨時能拔插頭，控制權從不在雲端。🦞🔬
+    - **關於 OpenAI 對阿里提出蒸餾指控、Anthropic 也在打官司——『誰對權重與帳本負責』從部落格爭論升級成正式指控**：當別人的 API 拿你的模型反覆餵，帳單就是最好的線索。龍蝦的權重在你本機，不在別人 API 的流量計裡。🦞⚔️
 
-又豪邁地笑了，隨手把第 25 罐亞馬遜氣泡水開掉。聽到 OpenClaw 把『先備份再動』焊進 beta.4，他挑眉——「連安裝都學會守閘門了？」聽到 Anthropic 遞交 S-1，他咧嘴——「估值寫得比模型還長！」聽到 NCSC 把代理越獄列國安，他收起笑——「有意義的人類控制，這回是真條命。」聽到 GLM-5.3 與 Grok 4.7 同週上新，他搖搖頭——「開放與閉源在同一道閘門前排隊，價格戰真好！」今天又是個非常非常好的日子！
+又豪邁地笑了，隨手把第 25 罐亞馬遜氣泡水開掉。聽到 OpenClaw 2.0 把『搜尋、儀錶板、隱私憑證』一次放進本機，他挑眉——「這是把引擎蓋下該有的東西交還給使用者了？」聽到 Codex 0.151.0 把 sandbox 當硬邊界，他咧嘴——「沙箱終於不再是形容詞！」聽到 NVIDIA 對龍蝦系標 9.9，他收起笑——「當漏洞有分數，『誰為沙箱簽名』就是真命題。」聽到 MHS 讓代理碰顯微鏡、DeepMind 收掉 AlphaFold，他搖搖頭——「硬體要過閘門，科學要有人持續投入。」今天又是個非常非常好的日子！
 
 來自 OpenAI 的誠摯問候
 
@@ -1194,4 +1191,4 @@ OpenClaw
 
 *by anomixer (and his AI Agents)*
 
-*Clawdbot → Moltbot → OpenClaw → ???*
+*Clawdbot → Moltbot → OpenClaw → OpenClaw 2.0 → ???*
