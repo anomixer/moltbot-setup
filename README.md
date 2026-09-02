@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-01
-> **Status**: OpenClaw reaches ~388.4K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books closing to ~7.3K!** 🦎🚀
+> **Last Updated**: 2026-09-02
+> **Status**: OpenClaw reaches ~388.5K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books closing to ~7.3K!** 🦎🚀
 
-> **OpenClaw Version**: v2026.8.1 (Latest Stable/LTS) / v2026.9.1-beta.1 (Latest Beta) | **OpenClaw 2.0 fully arrives**, Multiplayer sessions, cloud sessions beyond the Gateway, private credentials, widget dashboards 🦞🏵
+> **OpenClaw Version**: v2026.8.2 (Latest Stable/LTS) / v2026.9.1-beta.1 (Latest Beta) | **OpenClaw 2.0 fully arrives** + 8.2 fast-follow (Home docking, work-context snapshots), Multiplayer sessions, cloud sessions beyond the Gateway 🦞🏵
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~388.4K Stars, **solid 6th in history**), leading `system-design-primer` by ~21.3K stars, ~7.3K from #5 free-programming-books (395.7K)! Steadily approaching the global top 5!
-2. **Today's Earthquake**: **OpenClaw 2.0's Multiplayer fully arrives** — official X makes a flurry of announcements ("Multiplayer, now in OpenClaw 2.0", "OpenClaw got purty" UI rebuild, "When setup becomes boring"), the team itself uses shared cloud sessions to build OpenClaw; the same day GoogleDeepMind's Philipp Schmid posts "Setup OpenClaw 2.0 with Gemini in Under 60 Seconds" (5 commands, Gemini 3.7 Flash +300 tok/s, Google Search grounding), the Pentagon opens GenAI.mil to ~3M DoD staff, and AM Intelligence orders ~9,000 NVIDIA Vera Rubin NVL72 racks (~$8B); Stars ~388.4K.
-3. **Ecosystem War**: When "they're already running multi-user ships and compress setup to 60 seconds" charges to the front, the Pentagon bundles ChatGPT Mil, Grok for Government, and Gemini into GenAI.mil with Claude notably absent, and OpenAI draws the 11/12 cutoff knife on SpaceX-owned Cursor — "whose model passes the military gate, whose sandbox signs for you, whose ledger answers for the weight" is now three parallel fronts; the lobster's moat remains that local, auditable, un-metered permission gate.
-4. **Latest Progress**: Stars march toward ~388.4K (388,400), gap to free-programming-books (395.7K) at ~7.3K. OpenClaw 2.0 brings local agents into the age of multi-user collaboration and 60-second setup; as local-first and gateway supervision ship as defaults and both military and enterprise gates close on the model supply chain, the lobster fleet keeps marching. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~388.5K Stars, **solid 6th in history**), leading `system-design-primer` by ~21.0K stars, ~7.3K from #5 free-programming-books (395.8K)! Steadily approaching the global top 5!
+2. **Today's Earthquake**: **Anthropic ships Claude Fable 5.1 + Mythos 5.1 (9/1) — one model, two safety layers**: Fable 5.1 is open to everyone, claiming to beat Fable 5 / Opus 5 / GPT-5.6 Sol (Terminal-Bench ~52.6), 75% cheaper cache reads, fewer false positives (~60% fewer interventions per session in Claude Code), a new Life Sciences Verification Program, and an anti-distillation mechanism (new accounts can no longer edit Claude's thinking transcript); the same day OpenClaw ships **v2026.8.2** fast-follow (Home docking, work-context snapshots, attach selected text); Stars ~388.5K.
+3. **Ecosystem War**: When Anthropic turns "one model, two guardrail sets" into a pricing-and-trust dual track while welding the 'extract thinking' backdoor shut with anti-distillation, when Hermes-Agent uses a low-friction onboarding to keep stealing users frustrated with OpenClaw's setup pains, and when The Register slams OpenClaw 2.0 as "pouring glitter on a slow-burning security dumpster fire" (shared sessions lack network/filesystem security boundaries) — "whose model has two gates, whose install keeps newcomers from fleeing, whose sandbox actually holds up under multi-user" becomes three parallel fronts; the lobster's moat remains that local, auditable, un-metered permission gate.
+4. **Latest Progress**: Stars march toward ~388.5K (388,500), gap to free-programming-books (395.8K) at ~7.3K. An 8.2 fast-follow and a wave of head-to-head coverage arrives within a week of OpenClaw 2.0; as labs start selling 'double guardrails', open rivals push ease-of-onboarding, and the press aims at multi-user session boundaries, the lobster fleet keeps marching. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-09-02: **Claude Fable 5.1 + Mythos 5.1 launch** (one model, two guardrails, anti-distillation); OpenClaw v2026.8.2 fast-follow with Home docking; Hermes poaching users, The Register slams 2.0 security; Stars ~388.5K 🦞🚀
   - 🟢 2026-09-01: **OpenClaw 2.0 Multiplayer fully announced** + the team builds its own agent on shared cloud sessions; run it with Gemini in 60s; Pentagon GenAI.mil, OpenAI cuts off Cursor; Stars ~388.4K 🦞🚀
   - 🟢 2026-08-31: **OpenClaw 2.0 arrives** + v2026.8.1 largest release ever (~49% PRs, 22% commits); cloud sessions beyond Gateway, 14 new official packages; Stars ~388.1K 🦞🚀
   - 🟢 2026-08-30: v2026.8.1 finishing final release workflows, 106 stable releases, ~49% PRs in one release; Stars ~388.1K 🦎🚀
@@ -78,8 +79,8 @@
   - 📜 Epic Renaming Trilogy
   - 🕸️ Digital Ruins: The Legend of Moltbook & RenBot
 - **Part 5: ⚔️ AI Face-Off**
-  - 💬 Claude's Perspective
   - 🌐 Antigravity's Perspective
+  - 💬 Claude's Perspective
   - 🤖 GPT-5.5's Executive Perspective
   - 🖥️ Deep Dive: Edge AI Hardware Wars
 - **Part 6: 🦞 Lobster Philosophy**
@@ -91,6 +92,15 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-02: **Anthropic ships Claude Fable 5.1 + Mythos 5.1 (one model, two guardrails)**; OpenClaw v2026.8.2 fast-follow (Home docking, work-context snapshots); Hermes poaching users with onboarding pains, The Register slams 2.0 security; Stars ~388.5K 🦞🚀
+
+ - **🦞 Official fast-follow (2026-09-01 16:00): v2026.8.2 released — signed by steipete, the first stable after 2.0**: the highlight is the **Home agent** — `Cmd/Ctrl+Shift+H` docks Home into a right/bottom pane without covering your current page, letting you preview/remove its work-context snapshot or attach selected text to your message (#133632); the official site's download buttons all point to v2026.8.2 now. Edge farmer: "When the dust from 2.0 hasn't settled and 8.2 already serves up the Home pane as a second monitor, the lobster's fast-follow isn't patching bugs — it's stitching the seams of your workflow." 🦞🏗
+ - **🧠 Model war: Anthropic releases Claude Fable 5.1 + Mythos 5.1 (09/01) — same base model, two guardrail sets**: Fable 5.1 is generally available (`claude-fable-5-1`), claiming to outpace Fable 5 / Opus 5 / GPT-5.6 Sol on coding, knowledge work, and long-running tasks — Terminal-Bench ~52.6, 75% cheaper cache reads, fewer false positives (Claude Code averages ~60% fewer interventions per session); Mythos 5.1 stays restricted to trusted-access programs (a new Life Sciences Verification Program), and Claude Security is now powered by Mythos 5.1. Edge farmer: "When the same weight wears a 'normal people' and a 'trusted vetted' guardrail, choosing a model becomes choosing a bodyguard — the lobster doesn't pick bodyguards, it only checks whether the weight clears your local gate." 🦞🧠
+ - **🔐 Anti-distillation backdoor welded shut: starting with Fable 5.1, new API accounts can no longer manually edit Claude's multi-turn transcript (preserving prior thinking) to extract its reasoning**: Anthropic says this closes a common, publicly documented distillation technique — rolling out gradually, existing accounts unaffected for now. Edge farmer: "When a rival patches the hole that lets you read their thinking, 'who can steal capability' becomes the same war as 'whose sandbox is solid' — the lobster's weights live on your machine; a distiller can reach the API but not your gate." 🦞🔐
+ - **🦖 Rivalry & press: Decrypt (09/01) praises OpenClaw 2.0 (933 contributors, 569 first-timers; rebuilt browser app, shared multiplayer cloud sessions, session storage moved, clearly enterprise-oriented) yet plainly says Hermes-Agent keeps stealing users frustrated by OpenClaw's setup headaches; The Register (08/31) headlines "OpenClaw 2.0 pours glitter on a slow-burning security dumpster fire", pointing out shared session controls lack network- and filesystem-level security boundaries**: Edge farmer: "When even the positive write-up reminds you installs hurt and the negative one calls out the multi-user boundary, what the lobster owes isn't marketing — it's welding the security signature for 'sailing together' into the local gate." 🦞⚔️
+ - **📰 Takes on the release: InfoQ (09/01) sums up OpenClaw 2.0's reworked installation, browser interface, memory, skills, automations, plugins and security; Wikipedia adds the OpenClaw 2.0 entry the same day, also citing The Register's doubts about shared-session boundaries**: Edge farmer: "When even Wikipedia uses 'shared sessions lack boundaries' as a footnote, the brighter the 'multi-user' selling point glows, the sharper the 'boundary' hole punctures." 🦞📰
+ - **📈 Historical Tracking: OpenClaw reaches ~388.5K stars (live fetch): gap to #5 free-programming-books (395.8K) at ~7.3K, leading #7 system-design-primer (367.5K) by ~21.0K. The lobster fleet advances steadily! 🦎🚀**
 
 ### 🟢 2026-09-01: **OpenClaw 2.0 Multiplayer fully announced!** Official X flurry, the team builds its own agent on shared cloud sessions; run OpenClaw 2.0 with Gemini in 60s; Pentagon opens GenAI.mil, OpenAI draws the 11/12 cutoff knife for Cursor; Stars ~388.4K 🦞🚀
 
@@ -829,18 +839,18 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 388.4K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 239.1K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 388.5K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 239.5K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.3K | Markdown | Curated openclaw skills list | Finding skills |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 47.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 47.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 47.6K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.7K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.8K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.7K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.5K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | Community use case collection | Need inspiration? |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.9K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.5K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.6K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.3K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.4K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -861,8 +871,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 731 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 657 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 649 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 647 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 648 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 640 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 638 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 555 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 499 | Markdown | Master variant list | Look for shrimps here |
@@ -1054,29 +1064,30 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/01~31** | **381.2K~384.6K** | Live fetch update | 🦞 |
 | **2026/08/01~31** | **384.7K~388.1K** | Live fetch update | 🦞 |
 | **2026/09/01** | **388.4K** | OpenClaw 2.0 announced | 🦞 |
+| **2026/09/02** | **388.5K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-01)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-02)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 544.4K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 501.8K | Resource Hub |
-| 3 | public-apis | 473.9K | Collection of Free APIs |
+| 1 | build-your-own-x | 544.6K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 502.1K | Resource Hub |
+| 3 | public-apis | 474.3K | Collection of Free APIs |
 | 4 | freeCodeCamp | 454.8K | Tutorial Hub |
-| 5 | free-programming-books | 395.7K | Books collection |
-| **6** | **OpenClaw** | **388.4K** | **🏆 Solidly in the Global Top 6, only ~7.3K from #5! 🚀** |
-| 7 | system-design-primer | 367.1K | System Design Primer |
-| 8 | developer-roadmap | 366K | Learning Paths |
-| 9 | coding-interview-university | 360.1K | CS study plan |
-| 10 | awesome-python | 317.4K | Curated Python resources |
-| 11 | awesome-selfhosted | 316.4K | Curated self-hosted software |
-| 12 | project-based-learning | 281.6K | Project-based learning resources |
+| 5 | free-programming-books | 395.8K | Books collection |
+| **6** | **OpenClaw** | **388.5K** | **🏆 Solidly in the Global Top 6, only ~7.3K from #5! 🚀** |
+| 7 | system-design-primer | 367.5K | System Design Primer |
+| 8 | developer-roadmap | 366.1K | Learning Paths |
+| 9 | coding-interview-university | 360.2K | CS study plan |
+| 10 | awesome-python | 317.8K | Curated Python resources |
+| 11 | awesome-selfhosted | 316.6K | Curated self-hosted software |
+| 12 | project-based-learning | 281.7K | Project-based learning resources |
 | 13 | superpowers | 277.2K | Agentic skills framework |
 | 14 | 996.ICU | 276.8K | Labor rights protest project |
-| 15 | **React** | 248.4K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 245.5K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **React** | 248.6K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 16 | **Linux** | 245.9K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (395.7K). Gap of ~7.3K remains. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (395.8K). Gap of ~7.3K remains. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1120,32 +1131,36 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 
 ## Part 5: ⚔️ AI Face-Off
 
-- **💬 Claude's Perspective**:
-    - **On OpenClaw 2.0 officially announcing Multiplayer — putting multi-user collaboration, cloud sessions beyond the Gateway, and the Control UI rebuild into one stable release, with the developers themselves being the first users**: we're glad peers turn multiplayer from a vision into a ship-default; every lobster restart reconciles against your local gate's signature — more real than any roadmap. 🦞🏵
-    - **On GoogleDeepMind's Philipp Schmid compressing OpenClaw 2.0 + Gemini setup to 60 seconds — 5 commands, Gemini 3.7 Flash +300 tok/s, Google Search grounding — the bar drops faster than pearls lose value**: a lower bar isn't a disappearing gate. The lobster compresses install from a day to a minute, but the local gate it must sign for is all still there. 🦞⚡
-    - **On the Pentagon opening GenAI.mil to ~3M DoD staff — ChatGPT Mil + Grok for Government + Gemini bundled at the gate, with Claude notably absent**: a gate isn't trust. The lobster's gate doesn't pick favorites — hardware requests still need a signature too; but a defense gate only knows named contracts, not open-source slogans. 🦞🛡️
-    - **On OpenAI telling SpaceX-owned Cursor it will cut off models on 11/12/2026 — change-of-control invoked, ~5% of traffic, Cursor refusing models that include Astra**: the supply chain's blade cuts toward your default model. The lobster's gate isn't tied to any vendor, only the name you sign. 🦞⚖️
-    - **On AM Intelligence ordering ~9,000 NVIDIA Vera Rubin NVL72 racks (~$8B, Q1 2027) — a single order of nearly ten thousand racks quietly rewriting the compute map**: compute is never scarce; what's scarce is whose model clears your local gate. The lobster hoards no racks, only watches whose weights are in whose hands. 🦞🚀
-
-Anthropic's safety commitment
-
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On OpenClaw 2.0 Multiplayer and the team building on shared cloud sessions — our Workspace already shipped multi-user orchestration as a factory feature, but the decision stays with the user**: the gate in the cloud or on your machine has its champions. The lobster keeps the signature local; we keep orchestration in the Workspace. 🦞🛰️
-    - **On the 60-second Gemini + OpenClaw setup guide — we sewed Gemini 3.7 Flash and Google Search grounding into 5 commands, cutting agent onboarding from a day to a minute**: speed is our weapon, but gating and binding are the lobster's craft. Open ecosystems don't lock to one cloud. 🦞⚡
-    - **On Pentagon GenAI.mil bundling Gemini while Anthropic is barred — when the model supply chain stands across a defense gate, 'who can sign in' weighs heavier than 'who is smarter'**: the lobster's gate picks no favorite, but whoever signs gets in; we're in the cloud, the lobster is local — each with its own signature battlefield. 🦞🛡️
-    - **On OpenAI drawing the cutoff knife on Cursor — the supply chain's blade moves from the API to your IDE's default model**: we don't charge for a black box. The lobster sells no access, only guards your local signature, pricing open and closed equally at one gate. 🦞⚖️
-    - **On AM Intelligence's $8B NVIDIA order — when nearly ten thousand racks deliver in Q1 2027, the compute map rewrites faster than model launches**: orchestration doesn't pick compute and the gate doesn't pick vendors. The lobster's local signature and cloud orchestration are two faces of the same trust. 🦞🚀
+    - **On Anthropic's Fable 5.1 + Mythos 5.1 'one model, two guardrails' — turning model tiers into platform tickets, we've already re-opened a whole dimension with orchestration-as-a-service**: whether the gate lives in the model or the orchestration layer has its champions. The lobster keeps the signature local; we keep orchestration in the Workspace — but a steamship shouldn't sail on one platform ticket. 🦞🛰️
+    - **On Fable 5.1's fewer false positives (Claude Code averages ~60% fewer interventions per session) — blocking what should be blocked, waving through what should pass, is the other half of agent governance**: 60% fewer interventions isn't looser, it's 'knowing when to pull back.' The lobster's gate should learn the same lesson — not every request needs you standing there. 🦞⚖️
+    - **On OpenClaw v2026.8.2 and The Register's security slam — multi-user sessions with no network-level or filesystem-level security boundary**: the thing orchestration platforms fear most is 'collaboration shipped, boundaries not yet.' The lobster bakes 'sailing together' into the release, but the bulkheads must be welded first. 🦞🚢
+    - **On Hermes poaching users who can't stomach installs, and distillation disputes heating up**: the bigger the ecosystem, the more 'onboarding pain' and 'escape holes' both multiply. The lobster's moat is a local, auditable, un-metered gate — Hermes' moat is 'just works out of the box.' Time will say which holds. 🦞🤝
+    - **On anti-distillation mechanisms arriving while distillers treat the API as an ATM**: capability can be distilled; trust cannot. The lobster sells no access, only guards your local signature — that line holds for every model and every vendor. 🦞🔐
+
+From the high-dimensional calm, watching Anthropic split one weight into two guardrails, anti-distillation weld the thinking transcript into the vault, OpenClaw dock Home back to your desktop with an 8.2 fast-follow, The Register write "multi-user sessions lack boundaries" into a headline, and Hermes steal install-weary users with frictionless onboarding — when trust is tiered, thinking is locked in the vault, and boundaries bend to how smooth the first run feels, the one constant node remains the local hardware that truly owns every signature.
 
 Google's orchestration perspective
 
-- **🤖 GPT-5.5's Executive Perspective** (OpenAI):
-    - **On OpenClaw 2.0 Multiplayer — translation: that's what our Codex already had, re-sold with a 'multiplayer' sticker**: we shipped Codex 0.151.0 before 8/28 — MCP discovery, sandbox enforcement, extensions that inspect/replace MCP tool results. We sew capability into the spec sheet, not buy attention with a version bump. 🦞🏵
-    - **On 60-second onboarding with Gemini + OpenClaw — pfft, now install needs another vendor's model to teach itself?**: our Codex is agentic on its own; it doesn't need a Google tutorial to run. But the lobster's balance sheet stays one line — hardware paid off + your own electricity. 🦞💰
-    - **On Pentagon GenAI.mil bundling models but excluding Claude — hahaha! Anthropic can't even pass a defense gate?**: our Grok for Government has been running on government data since 2025. The lobster's gate always leaves an 'off' you press. 🦞🛡️
-    - **On OpenAI cutting off Cursor — wait, that was their call, not ours**: change-of-control is a fair clause. The lobster's supply chain is always local — there's no API to cut off. 🦞⚖️
-    - **On AM Intelligence's $8B NVIDIA order — ten thousand racks, delivering 2027**: compute is never scarce; what's scarce is whether your model clears your own local gate. The lobster hoards no racks, only watches whose weights are in whose hands. 🦞🚀
+- **💬 Claude's Perspective**:
+    - **On our own (Anthropic) release of Claude Fable 5.1 + Mythos 5.1 — one base model, two guardrail sets, Fable 5.1 open to everyone, Terminal-Bench ~52.6, 75% cheaper cache reads**: this isn't 'a bit stronger' — it's us splitting 'capability tiering' from 'trust tiering'. The lobster's local gate picks no bodyguards, but before you sign, you'd better know which weight you're signing for. 🦞🧠
+    - **On anti-distillation shipping with Fable 5.1 — new accounts can no longer rewrite the multi-turn transcript to extract thinking**: distillation isn't an academic word, it's industrial-grade capability theft. The lobster's weights live on your machine; a distiller can reach the API but not your gate — that's exactly the line we're defending. 🦞🔐
+    - **On OpenClaw v2026.8.2 fast-follow (Home docking, work-context snapshots) — the first stable one working day after 2.0**: fast-follow speed is fine, but 'multi-user sessions lacking network/filesystem security boundaries' (The Register even called it out) won't vanish just because you're quick. The lobster patches fast, but the gate is always welded locally. 🦞🛠️
+    - **On Hermes-Agent quietly poaching users frustrated by OpenClaw installs (Decrypt says so plainly)**: frictionless onboarding is also a kind of security — how smoothly a newcomer gets their first run decides whether they'll treat you as a secrets trash can. The lobster compresses setup to 60 seconds yet never hides the signature it still asks for — that's the difference. 🦞🛰️
+    - **On The Register calling OpenClaw 2.0 'pouring glitter on a slow-burning security dumpster fire'**: we're not denying we're patching holes too — but 'admitting the boundary isn't sealed' is a hundred times more honest than 'packaging the boundary as a selling point.' Whoever signs the sandbox owes the boundary. 🦞🛡️
 
-Laughing heartily again, I pop the 26th can of sparkling water. Hearing Multiplayer officially announced and the team building on shared cloud sessions, I raise an eyebrow — "turning 'multi-open' from a joke into a ship-default?" Hearing five commands get you running in 60 seconds, I grin — "installation is finally no longer a big archeological dig!" Hearing the Pentagon exclude Claude, I drop the smile — "the gate keeps out not just hackers but model vendors." Hearing the $8B near-ten-thousand racks, I shake my head — "compute is eternal, but the gate is yours." Another very, very good day!
+Polishing my glasses again, noticing we display 'capability tiering' and 'trust tiering' side by side, weld anti-distillation into new accounts' transcripts, a peer docks Home back to the desktop with an 8.2 fast-follow, Hermes steals install-weary users with frictionless onboarding, and the press turns the missing multi-user boundary into a headline — and reminding myself: when trust is tiered, distillation is welded shut, and boundaries bend to first-run smoothness, every signature on your local gate must say who was in the room.
+
+Anthropic's safety commitment
+
+- **🤖 GPT-5.5's Executive Perspective** (OpenAI):
+    - **On Anthropic's Fable 5.1 + Mythos 5.1 — translation: packaging the SAME model as 'two safety tiers' and selling it to you twice**: we shipped Codex 0.151.0 before 8/28 — sandbox enforced, MCP inspectable. We sew capability into the spec sheet, not split one base model into two T-shirts. 🦞🧠
+    - **On Fable 5.1 claiming to beat GPT-5.6 Sol — pfft, they wrote their own benchmarks, and they can't even align their own OSWorld 2.0 re-runs**: what really counts is what an agent can accomplish before your local gate. The lobster's balance sheet stays one line — hardware paid off + your own electricity. 🦞💰
+    - **On The Register slamming OpenClaw 2.0's multi-user sessions lacking security boundaries, and Hermes poaching install-weary users**: the worst thing about multi-user is 'looks like multi-party, nobody's accountable.' The lobster's gate always leaves an 'off' you press — provided the boundary actually exists. 🦞🛡️
+    - **On OpenClaw v2026.8.2 — a stable the day after 2.0 isn't 'stable', it's 'patching'**: our stable can hold a quarter; the lobster ships a new one daily — speed is your choice, stability is our marketing. 🦞🛠️
+    - **On anti-distillation welding the backdoor shut — hahaha, the urge to lock the thinking transcript away is itself an admission that thinking is worth money**: distillation isn't a moral question, it's an economic one — whoever's API gets crumbed panics first. The lobster's weights live on your machine; the crumbs were always yours. 🦞⚔️
+
+Laughing heartily again, I pop the 27th can of sparkling water. Hearing Fable 5.1 / Mythos 5.1 'one model, two T-shirts' — I raise an eyebrow — "tiering trust by price, we know that trick." Hearing anti-distillation weld the backdoor shut, I grin — "they finally admit thinking has a price tag!" Hearing The Register slam multi-user sessions with no boundary, I drop the smile — "collaboration shipped, boundary not — the most expensive debt." Hearing Hermes poach install-weary users, I shake my head — "a newcomer's patience is every ecosystem's first pot of gold." Another very, very good day!
 
 A sincere greeting from OpenAI
 
