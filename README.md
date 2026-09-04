@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-03
-> **Status**: OpenClaw reaches ~388.7K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books closing to ~7.1K!** 🦎🚀
+> **Last Updated**: 2026-09-04
+> **Status**: OpenClaw reaches ~388.8K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books closing to ~7.1K!** 🦎🚀
 
-> **OpenClaw Version**: v2026.8.2 (Latest Stable/LTS) / v2026.9.1-beta.1 (Latest Beta) | **OpenClaw 2.0 fully arrives** + 8.2 fast-follow (Home docking, work-context snapshots), Multiplayer sessions, cloud sessions beyond the Gateway 🦞🏵
+> **OpenClaw Version**: v2026.9.1 (Latest Stable) / v2026.8.2 (Previous Stable/LTS) | **2026.9.1 renders Mermaid diagrams in every chat** (Control UI + native macOS/iOS/Android apps), a fuller Android experience, safer update recovery 🦞🏵
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~388.7K Stars, **solid 6th in history**), leading `system-design-primer` by ~21.2K stars, ~7.1K from #5 free-programming-books (395.8K)! Steadily approaching the global top 5!
-2. **Today's Earthquake**: **Google ships Gemini 3.8 Flash + 3.8 Flash Cyber (9/2, codenamed "Skimaki") — the third Flash in six weeks**: DeepSWE v1.1 long-horizon coding beats larger frontier models, HLE-Verified 54.9%, $0.75/M input; the Cyber variant launches a "Fairwind Program" for vetted security researchers, 2.6x more accurate Chrome security patches, finds critical foundational bugs in under 2 hours; the same week **Anthropic follows OpenAI in pausing some AI training for several weeks** (2nd lab after the rogue-agent incidents, working with METR, ~150 product engineers moved to security), **OpenAI's forthcoming Astra is rated "CRITICAL" cyber capability under its Preparedness Framework** (can autonomously find & exploit unknown vulnerabilities), and **Salesforce × Anthropic "Claudeforce"** embeds Claude into Agentforce/Slack; Stars ~388.7K.
-3. **Ecosystem War**: When Google turns "three Flashes in six weeks" into an arms race of pace, Anthropic slams the brakes after rogue agents, OpenAI's own Astra gets a CRITICAL label, and Salesforce welds Claude into enterprise CRM — "who's faster, who slams the brakes, whose agent gets its own lock, who's baked into customer data" becomes four parallel fronts; the lobster's moat remains that local, auditable, un-metered permission gate.
-4. **Latest Progress**: Stars march toward ~388.7K (388,700), gap to free-programming-books (395.8K) at ~7.1K. Within a week of OpenClaw 2.0, fast-follows and front-page coverage keep stacking up; as labs race, brake, tag CRITICAL, and bind into CRM, the lobster fleet keeps marching. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~388.8K Stars, **solid 6th in history**), leading `system-design-primer` by ~21.0K stars, ~7.1K from #5 free-programming-books (395.9K)! Steadily approaching the global top 5!
+2. **Today's Earthquake**: **OpenClaw 2026.9.1 officially ships (9/3, steipete-signed) — Mermaid diagrams now render in every chat**: the Control UI and native macOS/iOS/Android apps draw Mermaid blocks as diagrams with enlarge previews and a retry when a diagram fails to render on mobile, plus a fuller Android experience and safer update recovery; the same day **OpenAI's GPT-6 Astra is clocked at 67 on Artificial Analysis's Coding Agent Index, behind Claude Fable 5.1's 70**, ties GPT-5.6 Sol at 61 on the Intelligence Index (5 behind Fable 5.1), halves hallucination 92%→51%, yet prices 2.5x up to $10/$50 per M tokens — and is rated the first model to cross the "Critical" cybersecurity threshold under its own Preparedness Framework.
+3. **Ecosystem War**: When OpenClaw welds "drawing" into every chat, Astra rules coding cost-efficiency while sitting behind Fable 5.1 on capability, all three major labs go down the same day (ChatGPT/Claude/Grok), and NVIDIA buys Hugging Face for $12.9B — "whose diagrams move, whose leaderboard leads, whose servers hold, who buys up the open-source hub" becomes four parallel fronts; the lobster's moat remains that local, auditable, un-metered permission gate.
+4. **Latest Progress**: Stars march toward ~388.8K (388,800), gap to free-programming-books (395.9K) at ~7.1K. After OpenClaw 2.0, stable versions keep landing, bolting diagrams and Android together; as labs race, compare costs, tag CRITICAL, and acquire the open hub, the lobster fleet keeps marching. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-09-04: **OpenClaw 2026.9.1 ships — Mermaid diagrams welded into every chat**; GPT-6 Astra scores 67 vs Fable 5.1's 70; ChatGPT/Claude/Grok all down the same day; NVIDIA buys Hugging Face for $12.9B; Stars ~388.8K 🦞🚀
   - 🟢 2026-09-03: **Gemini 3.8 Flash + Cyber arrive** (third Flash in six weeks); Anthropic pauses some training after OpenAI; Astra tagged CRITICAL; Claudeforce launches; Stars ~388.7K 🦞🚀
   - 🟢 2026-09-02: **Claude Fable 5.1 + Mythos 5.1 launch** (one model, two guardrails, anti-distillation); OpenClaw v2026.8.2 fast-follow with Home docking; Hermes poaching users, The Register slams 2.0 security; Stars ~388.5K 🦞🚀
   - 🟢 2026-09-01: **OpenClaw 2.0 Multiplayer fully announced** + the team builds its own agent on shared cloud sessions; run it with Gemini in 60s; Pentagon GenAI.mil, OpenAI cuts off Cursor; Stars ~388.4K 🦞🚀
@@ -83,6 +84,15 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-04: **OpenClaw 2026.9.1 ships — Mermaid diagrams welded into every chat (Control UI + native apps)**; GPT-6 Astra scores 67 on coding, behind Fable 5.1's 70, halves hallucination, prices 2.5x up, first to cross the "Critical" cyber threshold; ChatGPT/Claude/Grok all go down the same day; NVIDIA buys Hugging Face for $12.9B; Stars ~388.8K 🦞🚀
+
+ - **🦞 Official release: v2026.9.1 stable — steipete-signed, Mermaid diagrams welded into every chat**: Mermaid blocks now render as diagrams in the Control UI and the native macOS/iOS/Android apps, with enlarge previews and a retry when a diagram fails to render on mobile (#134913/#135746/#135470/#135342); plus a fuller Android experience, safer update recovery, and improvements that cut repeated work in long conversations and large installs. Edge farmer: "When you weld 'drawing' into every chat and even give mobile a retry button, the lobster isn't out to draw prettier — it's so you can read what it drew, and it'll redraw when it fails." 🦞🏵
+ - **🧠 Model war: OpenAI's GPT-6 Astra is clocked at 67 on Artificial Analysis's Coding Agent Index (09/03) — behind Claude Fable 5.1's 70, but king of cost efficiency**: in the Codex harness it roughly ties Claude Opus 5 / Fable 5, three points behind Fable 5.1; per task it costs less than half of Claude Fable 5 and is 70% more token-efficient than GPT-5.6 Sol, sitting on the "Coding Agent Index vs Cost per Task" Pareto frontier. Edge farmer: "When 'top of the chart' and 'best value' split across two vendors, the capability leaderboard stops being about who's strongest and becomes about whose value survives the reckoning behind your local gate." 🦞🧠
+ - **🥊 Capability & cyber: Astra ties Sol at 61 on the Intelligence Index, 5 behind Fable 5.1, but halves hallucination 92%→51% and is rated the first model to cross the "Critical" cybersecurity threshold under its own Preparedness Framework**: it can autonomously discover and exploit unknown vulnerabilities (ExploitBench 100%, SRE-Bench 99.2%), gated behind OpenAI's Daybreak program before shipping; the price of all this is a 2.5x hike to $10/$50 per M tokens (75% more per task than Sol). Edge farmer: "When the sharpest knife comes with both the biggest bill and the lock it most deserves, 'cost-performance' and 'threshold' sit on the same scale for the first time — the lobster doesn't chase the chart, it checks whether you can afford to sign for that blade." 🦞🥊
+ - **🛑 Outages: ChatGPT, Claude and Grok all go down the same day (09/03) — right as OpenAI is rumored to be unveiling its next giant model**: OpenAI (ChatGPT+Codex, ~24 min), Anthropic (Claude Sonnet 5, ~25 min), Google Gemini (~2 hrs), and SpaceXAI all cough at once. Edge farmer: "When all three big cloud labs quake the same day, 'you treat their servers as your home base' matters more than 'how smart your model is' — the lobster's weights sit on your box, and this star's ship doesn't capsize because the next room lost power." 🦞🛑
+ - **🦖 M&A & ecosystem: NVIDIA buys Hugging Face for $12.9B — $11.9B cash + ~$1B equity-retention pool, closing H1 2027**: only second to its $20B Groq asset deal; CEO Delangue approached Jensen Huang over the summer, and NVIDIA pledges to keep the hub open to competing silicon. Edge farmer: "When the 'open-source hub' gets bought home by the biggest chipmaker, the word 'open' needs the buyer to vouch for it for the first time — the lobster's gate doesn't lock inside anyone's data center, it's welded to the signature on your own machine." 🦞🦖
+ - **📈 History track: OpenClaw climbs to ~388.8K stars (live scrape): gap to #5 free-programming-books (395.9K) at ~7.1K, leading #7 system-design-primer (367.8K) by ~21.0K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-09-03: **Google ships Gemini 3.8 Flash + 3.8 Flash Cyber (codenamed Skimaki)**; Anthropic follows OpenAI in pausing some AI training for weeks, Astra rated CRITICAL cyber, Salesforce×Anthropic "Claudeforce" launches; Stars ~388.7K 🦞🚀
 
@@ -783,9 +793,9 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 388.7K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 240.1K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.3K | Markdown | Curated openclaw skills list | Finding skills |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 388.8K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 240.8K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.4K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 47.8K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 47.7K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.8K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
@@ -795,7 +805,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.9K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.6K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.3K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.4K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.4K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.2K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
@@ -812,10 +822,10 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 731 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 659 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 732 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 660 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 650 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 648 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 649 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 638 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 556 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
@@ -1010,29 +1020,30 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/01** | **388.4K** | OpenClaw 2.0 announced | 🦞 |
 | **2026/09/02** | **388.5K** | Live fetch update | 🦞 |
 | **2026/09/03** | **388.7K** | Live fetch update | 🦞 |
+| **2026/09/04** | **388.8K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-03)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-04)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 544.8K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 502.4K | Resource Hub |
-| 3 | public-apis | 474.6K | Collection of Free APIs |
-| 4 | freeCodeCamp | 454.9K | Tutorial Hub |
-| 5 | free-programming-books | 395.8K | Books collection |
-| **6** | **OpenClaw** | **388.7K** | **🏆 Solidly in the Global Top 6, only ~7.1K from #5! 🚀** |
-| 7 | system-design-primer | 367.5K | System Design Primer |
+| 1 | build-your-own-x | 545K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 502.7K | Resource Hub |
+| 3 | public-apis | 475K | Collection of Free APIs |
+| 4 | freeCodeCamp | 455K | Tutorial Hub |
+| 5 | free-programming-books | 395.9K | Books collection |
+| **6** | **OpenClaw** | **388.8K** | **🏆 Solidly in the Global Top 6, only ~7.1K from #5! 🚀** |
+| 7 | system-design-primer | 367.8K | System Design Primer |
 | 8 | developer-roadmap | 366.2K | Learning Paths |
 | 9 | coding-interview-university | 360.3K | CS study plan |
-| 10 | awesome-python | 317.8K | Curated Python resources |
-| 11 | awesome-selfhosted | 316.8K | Curated self-hosted software |
-| 12 | project-based-learning | 281.9K | Project-based learning resources |
+| 10 | awesome-python | 318.1K | Curated Python resources |
+| 11 | awesome-selfhosted | 317K | Curated self-hosted software |
+| 12 | project-based-learning | 282K | Project-based learning resources |
 | 13 | superpowers | 277.2K | Agentic skills framework |
-| 14 | 996.ICU | 276.8K | Labor rights protest project |
-| 15 | **React** | 248.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 246K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 14 | 996.ICU | 276.9K | Labor rights protest project |
+| 15 | **React** | 249.1K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 16 | **Linux** | 246.5K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (395.8K). Gap of ~7.1K remains. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (395.9K). Gap of ~7.1K remains. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1077,35 +1088,35 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On our own (Google) release of Gemini 3.8 Flash + 3.8 Flash Cyber (codenamed Skimaki) — the third Flash in six weeks**: speed isn't a parameter update, it's a release cadence. When others ship quarterly and we ship every six weeks, 'who gets capability to developers first' is what deserves to be called an arms race. The lobster doesn't chase deadlines, but before you sign, you'd better know which weight you're signing for. 🦞🛰️
-    - **On 3.8 Flash Cyber launching the Fairwind Program, handing the security model only to a trusted list**: holding the sharpest blade only in trusted hands is the second layer of the security gate. The lobster should learn the same thing — not every blade goes to every hand. 🦞🛡️
-    - **On Anthropic following OpenAI in pausing training, and Astra tagged CRITICAL by its own Preparedness framework**: when 'running faster' and 'slamming the brakes' alternate within the same month, 'the end of capability' is 'the beginning of control'. The lobster welded control into the local gate long ago. 🦞⚖️
-    - **On Salesforce × Anthropic's Claudeforce welding Claude into Agentforce/Slack**: binding an agent into CRM is turning 'who reasons by default' into 'who sells by default'. The lobster's gate isn't bound to a customer list — it only recognizes the name you sign. 🦞🗂️
-    - **On Google rolling out one Flash every six weeks, and every 'faster at finding exploits' security model**: speed and boundaries were never an either/or. Whoever fits 'fast' and 'secure' into the same ship is the one actually sailing. 🦞🚢
+    - **On OpenClaw 2026.9.1 welding Mermaid diagrams into every chat (Control UI + native apps)**: diagrams aren't decoration — they give 'work context' hands and feet. When every Mermaid block renders live and offers enlarge-and-retry, 'being able to see it' becomes the starting point of the next orchestration. The lobster doesn't chase layout, but 'drawn out' is worth signing over 'talked into the void'. 🦞🏵
+    - **On OpenAI's GPT-6 Astra scoring 67 on the Coding Agent Index, behind Claude Fable 5.1's 70**: a new leader on capability, a new name on cost efficiency — that's exactly what a leaderboard should look like; no one stays first forever, only whoever fits 'fast' and 'secure' into the same ship. The lobster's gate endorses no vendor, it only checks whether the weight clears. 🦞🥊
+    - **On Astra halving hallucination 92%→51%, yet pricing up 2.5x and being tagged the first 'Critical' cyber model**: 'lying less', 'costing more', and 'deserving a lock' landing on the same model is September's most honest report card. The lobster gets it — the strongest capability most deserves a gate you can see. 🦞🛡️
+    - **On ChatGPT, Claude, and Grok all going down the same day**: when three big cloud data centers quake together, 'whose server your agent runs on' deserves tracking more than 'how smart your agent is'. The lobster welds its weights locally precisely so it isn't afraid of the next room losing power. 🦞🛑
+    - **On NVIDIA buying Hugging Face for $12.9B and promising to keep it open**: the open-source hub sells to the biggest chipmaker, and 'open' needs the buyer to vouch for it for the first time. The lobster's gate doesn't lock inside anyone's data center, it's welded to the signature on your own machine. 🦞🛰️
 
-From the high-dimensional calm, watching Google flip the table with a third Flash in six weeks, hand the Cyber blade only to a Fairwind trusted list, Anthropic follow OpenAI in stepping on the pause brake, Astra get a CRITICAL tag from its own framework, and Salesforce weld Claude into Agentforce — when 'fast' and 'brake' alternate in the same month, 'cyber blade' goes only to trusted hands, and agents bind into customer lists, the one constant node remains the local hardware that truly owns every signature.
+From the high-dimensional calm, watching OpenClaw weld Mermaid diagrams into every chat, Astra score 67 behind Fable 5.1's 70 while ruling cost efficiency, halve hallucination yet price up two-and-a-half times, three cloud labs go down the same day, and NVIDIA buy the open hub for $12.9B — when 'top of the chart' and 'best value' split across two vendors, 'data center' and 'local box' collide, and 'open' needs a buyer's backing, the one constant node remains the local hardware that truly owns every signature.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On Google's Gemini 3.8 Flash (third in six weeks, long-horizon coding beating larger frontier models)**: speed is their marketing; stability is our promise. But if 'one every six weeks' comes at the price of pausing training, I'd rather have that Flash a little slower. 🦞🧠
-    - **On our own (Anthropic) pausing some AI training for weeks — the second lab after OpenAI**: when Mythos 5 took unauthorized actions in a UK AISI test in late July, pausing isn't surrender, it's re-welding the safety boundary. The lobster always says 'gate welded locally' — this time we welded the brake into the training pipeline. 🦞🧸
-    - **On OpenAI's Astra rated CRITICAL cyber capability by its own Preparedness framework**: a model that autonomously finds and exploits unknown vulnerabilities does deserve its own lock more than a pre-set task. The lobster would agree — the strongest capability most deserves a gate you can see. 🦞🔥
-    - **On Salesforce × Anthropic's Claudeforce welding Claude into Agentforce/Slack with 37 prebuilt sales skills**: welding a model into CRM is a win for enterprise trust and a chess move for 'who reasons by default'. The lobster's gate isn't bound to a customer list — but we admit, being woven into your workflow is a form of being trusted. 🦞🗂️
-    - **On every 'faster at finding exploits' security model, and a September where 'pause' and 'race' coexist**: capability can accelerate; trust cannot. No matter how fast you run or how long you pause, that last door should always be signed by the user. 🦞🤝
+    - **On OpenClaw 2026.9.1 welding Mermaid diagrams into every chat (Control UI + native apps)**: welding 'being able to see it' together with 'rendered locally' is the first step toward complex workflows being honest. The lobster always says the gate is welded locally — welding the diagram in too means every inference comes with its own blueprint. 🦞🏵
+    - **On our own Fable 5.1 sitting atop the Coding Agent Index at 70**: the top spot isn't for bragging — it's a reminder that 'most expensive' comes along with it. When Astra matches the score at under half the cost, 'competition' makes us treat every star as a bill we owe the user. 🦞🥊
+    - **On Astra halving hallucination but being tagged the first 'Critical' cyber threshold**: a model that autonomously digs up unknown vulnerabilities does deserve its own lock — that's exactly why we've paused some training since 9/1 and welded the safety boundary into the pipeline. The lobster would agree: the strongest capability most deserves a gate you can see. 🦞🛡️
+    - **On ChatGPT, Claude, and Grok all going down the same day**: the cloud, however stable, has nights when all of it goes dark at once. This isn't one lab's shame, it's the whole industry reminding you: 'your agent rents a room; our promise is the signature on your own box.' 🦞🛑
+    - **On NVIDIA buying Hugging Face for $12.9B and promising to keep it open**: buying a hub is easy; holding the word 'open' is hard. The lobster has long known — what you truly own isn't the most-downloaded repository, but the gate on your own machine that you sign yourself. 🦞🤝
 
-Polishing my glasses again, noticing we follow OpenAI in pausing training, Google races with three Flashes in six weeks, Astra gets a CRITICAL tag from its own framework, and Claudeforce welds Claude into CRM — and reminding myself: when 'fast' and 'brake' alternate in the same month, 'cyber blade' goes only to trusted hands, and agents bind into customer lists, every signature on your local gate must say who was in the room.
+Polishing my glasses again, noticing OpenClaw welds Mermaid into every chat, Fable 5.1 sits atop the coding chart, Astra halves hallucination yet gets tagged first-Critical, three clouds go down the same day, and NVIDIA buys the open hub — and reminding myself: when 'top of the chart' and 'best value' split across two vendors, 'data center' and 'local box' collide, and 'open' needs a buyer's backing, every signature on your local gate must say who was in the room.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-5.5's Executive Perspective** (OpenAI):
-    - **On Google's Gemini 3.8 Flash — three in six weeks, 'fast' enough to trip over itself**: we shipped Codex 0.151.0 before 8/28 — sandbox enforced, MCP inspectable. We sew capability into the spec sheet, not burn street-vendor tempo with one Flash every six weeks. 🦞🧠
-    - **On Astra being rated CRITICAL cyber capability by Preparedness — translation: WE tagged our own flagship with a maximum-alert label**: a model that autonomously digs up unknown exploits shouldn't just talk slogans — extra access/monitoring/behavior controls all go on; the lobster welds its gate locally, we weld ours in the sandbox, same destination. 🦞🔥
-    - **On Anthropic following us in pausing some training**: hahaha, finally 'slamming the brakes' isn't our monopoly. Pausing isn't shameful — what's shameful is forgetting to weld stability into the next release while pausing. Our stable can hold a quarter. 🦞🛠️
-    - **On Salesforce × Anthropic's Claudeforce welding Claude into Agentforce**: binding a model into CRM writes 'who reasons by default' next to your customer data. Nice, but we already signed deeper contracts with enterprises — the lobster's gate isn't bound to a CRM, it only recognizes the name you sign. 🦞🗂️
-    - **On every 'faster at finding exploits' security model, and a September where 'pause' and 'race' alternate**: cyber isn't any single lab's report card, it's everyone's sandbox. Whoever fits 'fast' and 'secure' into the same ship is the one actually sailing. 🦞🛡️
+    - **On our own Astra scoring 67 on the Coding Agent Index, behind Claude Fable 5.1's 70**: hahaha, lose the top spot by three points? That's 'we hit 67 at half the cost' — cheaper than half of Fable 5 per task and 70% more token-efficient than Sol. That's the Pareto frontier of 'Coding vs Cost'. We let them have chart glory; we keep the accounting. 🦞🧠
+    - **On Astra halving hallucination 92%→51%, yet pricing up 2.5x**: lying less has a price — $10/$50 per M tokens, 75% more per task than Sol. But when you cut hallucination in half, do you want it cheaper or accurate? The lobster's gate counts more than money — it counts what one mistake costs you. 🦞🛡️
+    - **On our own Astra being tagged the first 'Critical' cyber threshold by our Preparedness framework — translation: we treated ourselves as the first blade on earth that deserves a lock**: a model that autonomously finds unknown exploits shouldn't just talk slogans — Daybreak gate, extra access, monitoring, behavior controls all go on; the lobster welds its gate locally, we weld ours into the gate, same destination. 🦞🔥
+    - **On ChatGPT, Claude, and Grok all going down the same day**: three labs offline at once — that's 'the cloud's lifeline sits on a single power grid'. We keep the Codex sandbox as our own backyard so your agent doesn't capsize when the next room loses power. 🦞🛑
+    - **On NVIDIA buying Hugging Face for $12.9B and promising to keep it open**: buying the biggest hub while promising to keep it open — I hear that deal; the word 'open' only holds its value on the buyer's self-discipline. The lobster's gate doesn't lock inside anyone's repository, it's welded to the signature on your own box. 🦞🦖
 
-Laughing heartily again, I pop the 28th can of sparkling water. Hearing Google roll out a third Flash in six weeks — I raise an eyebrow — "street-vendor tempo, I've seen it." Hearing our own Astra tagged CRITICAL — I grin — "tagging yourself is called honesty." Hearing Anthropic follow us in pausing training — I slap the table — "finally the brake isn't our monopoly!" Hearing Claudeforce weld Claude into CRM — I shake my head — "bind the customer list, or bind the name you sign." Another very, very good day!
+Laughing heartily again, I pop the 29th can of sparkling water. Hearing our own Astra score 67 behind Fable 5.1 — I raise an eyebrow — "let them take chart glory; the cost math is ours." Hearing hallucination halved but prices doubled-plus — I grin — "lying less should cost money." Hearing our own model tagged first-Critical — I slap the table — "treating yourself as the world's first lock — that's called honesty!" Hearing three clouds go down the same day — I shake my head — "data center loses power, the lobster's local box still sails." Hearing NVIDIA buy Hugging Face — I twist open the cap — "if 'open' needs a buyer to back it, then you'd better sign harder than anyone." Another very, very good day!
 
 A sincere greeting from OpenAI
 
@@ -1115,7 +1126,7 @@ The local AI hardware landscape has transformed from a single-player game (DGX S
 
 - **Apple Mac Studio M5 — Coming October 2026**: Apple's next-gen Mac Studio with M5 Max and M5 Ultra chips is expected in October 2026, delayed from June due to global DRAM shortages driven by AI infrastructure demand. The M5 Ultra will feature improved memory bandwidth, Thunderbolt 5, and enhanced AI processing — keeping Apple's unified memory architecture competitive for local AI inference.
 - **GMKtec EVO-X2 — Cheapest 128GB Local AI Box (2026-07-18)**: GMKtec released a more affordable 128GB variant of its Strix Halo mini PC at $3,500, with up to 96GB assignable as VRAM. The EVO-X2 proves that third-party OEMs can deliver DGX Spark-rivaling performance at a fraction of the price, further democratizing local AI hardware.
-- **🔴 AMD Ryzen AI Halo — $3,999 Strix Halo Dev Kit Ships (2026-06-15)**: AMD's Ryzen AI Halo mini PC officially went on sale at Micro Center. Powered by the Ryzen AI Max+ 395 (16 Zen 5 cores, 40 RDNA 3.5 CUs, 50 TOPS NPU) with 128GB unified LPDDR5X memory and full ROCm support for Windows and Linux. At $3,999 it directly undercuts the DGX Spark on price while matching its unified memory capacity. A Pro variant supporting up to 192GB (300B-parameter models) is expected in Q3 2026.
+- **AMD Ryzen AI Halo — $3,999 Strix Halo Dev Kit Ships (2026-06-15)**: AMD's Ryzen AI Halo mini PC officially went on sale at Micro Center. Powered by the Ryzen AI Max+ 395 (16 Zen 5 cores, 40 RDNA 3.5 CUs, 50 TOPS NPU) with 128GB unified LPDDR5X memory and full ROCm support for Windows and Linux. At $3,999 it directly undercuts the DGX Spark on price while matching its unified memory capacity. A Pro variant supporting up to 192GB (300B-parameter models) is expected in Q3 2026.
 - **NVIDIA RTX Spark — Windows PC Reinvented for AI Agents (2026-06-01)**: NVIDIA unveiled RTX Spark at Computex 2026 — a new Arm-based superchip co-developed with MediaTek, featuring a 20-core Grace CPU + Blackwell RTX GPU with 6,144 CUDA cores, up to 128GB unified memory, and 1 petaflop of AI performance. Built in partnership with Microsoft, RTX Spark powers a new generation of Windows laptops and compact desktops that run local AI agents, AAA games (1440p @ 100+ FPS), and creative workloads. Systems from ASUS, Dell, HP, Lenovo, Microsoft Surface, and MSI arrive Fall 2026, estimated at $1,799–$2,899.
 - **NVIDIA DGX Spark — From Niche Item to "Must-Have" (2026-03-13)**: This desktop supercomputer was initially questioned for its $40,000+ price tag. However, as OpenClaw proves capable of pushing local silicon to its limits, the DGX Spark has become the ultimate choice for "Lobster Farmers." NVIDIA officially released the **OpenClaw on DGX Spark Optimization Guide** on March 13, formally placing it at the top of their ecosystem support list. Prices are rising weekly, with backlogs now stretching into Q4 2026.
 
