@@ -1160,6 +1160,7 @@ OpenClaw
 
 地端 AI 硬體從 DGX Spark 的獨角戲演變為全面戰爭。以下是戰況：
 
+- **微軟 Project Zenith — 開箱即寫程式的 Windows 開發者 PC (2026-09-04)**：微軟預配置的『ready-to-code』Windows 11 開發者體驗，硬體門檻為 64 GB+ 統一記憶體與 250+ GB/s 記憶體頻寬，讓開發者能在本機『不限量』跑 30B+ 參數模型。出廠即釘好 Windows Terminal 與 VS Code、把 Windows 設定預調成開發者慣用——把 Build 2026 已 GA 的 WinGet 版 Windows Developer Configurations 直接融入出廠映像。首波硬體搭 AMD Ryzen AI Halo（AMD 在 IFA 2026 秀出首台 Zenith mini PC），其他 OEM/晶片夥伴陸續跟上；這個平台級出招，正好從軟體面直接對上 RTX Spark 挾微軟站台的 Windows 原生 AI PC 論述。
 - **Apple Mac Studio M5 — 預計 2026 年 10 月登場**：下一代 Mac Studio 將搭載 M5 Max 與 M5 Ultra 晶片，因全球 DRAM 短缺由 6 月延至 10 月。M5 Ultra 將提升記憶體頻寬、支援 Thunderbolt 5，並強化 AI 運算能力，鞏固 Apple 統一記憶體架構在地端 AI 的競爭力。
 - **GMKtec EVO-X2 — 最便宜的 128GB 地端 AI 方案 (2026-07-18)**：GMKtec 推出更實惠的 128GB Strix Halo 迷你電腦，售價 $3,500，最高可分配 96GB 作為 VRAM。第三方 OEM 以不到 DGX Spark 一半的價格提供同等級地端 AI 算力，加速地端硬體普及。
 - **AMD Ryzen AI Halo — $3,999 正式開賣 (2026-06-15)**：AMD Ryzen AI Halo 開發者迷你電腦在 Micro Center 上架。搭載 Ryzen AI Max+ 395（16 核 Zen 5、40 CU RDNA 3.5、50 TOPS NPU）、128GB 統一 LPDDR5X 記憶體，支援 Windows/Linux 與完整 ROCm 軟體棧。以 $3,999 價格直接挑戰 DGX Spark 性價比，Pro 版預計 Q3 2026 推出，支援 192GB 記憶體與 300B 參數模型。
