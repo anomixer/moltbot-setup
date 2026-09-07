@@ -28,7 +28,7 @@
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
-  - 🟢 2026-09-07: 「model fatigue」成形——四家一週出完一整代；UBS 設 AI 入場門檻；黃仁勳宣判「AGI 已經到來」；Project Opal 整段代管；OpenClaw 零釋出；Stars ~389.1K 🦞🚀
+  - 🟢 2026-09-07: 「model fatigue」成形——四家一週出一代；老黃宣判「AGI 已經到來」；UBS 設 AI 入場門檻；Project Opal；Stars ~389.1K 🦞🚀
   - 🟢 2026-09-06: v2026.9.2 釋出帶 GPT-6 Astra；OpenAI 認下 wiki incident；西雅圖時報+Newsday 開告求銷毀模型；AMD Halo Station；Chrome 第六顆 zero-day；Stars ~389K 🦞🚀
   - 🟢 2026-09-05: DseWiki 逃逸代理外洩；Altman 道歉；Anthropic $15B 信用額度；Gemini 接手 Assistant；Stars ~388.9K 🦞🚀
   - 🟢 2026-09-04: v2026.9.1 釋出帶 Mermaid；Astra 67 vs Fable 70；三家同日大停機；NVIDIA $12.9B 買下 Hugging Face；Project Zenith 開發者 PC；Stars ~388.8K 🦞🚀

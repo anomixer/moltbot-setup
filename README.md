@@ -28,7 +28,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - 🟢 2026-09-07: "Model fatigue" — four labs ship a frontier model in one week; UBS sets an AI hiring bar; Jensen: "AGI has arrived"; Project Opal owns day-long tasks; no OpenClaw release; Stars ~389.1K 🦞🚀
+  - 🟢 2026-09-07: "Model fatigue" — four labs ship one generation in a week; Jensen: "AGI has arrived"; UBS AI hiring gate; Project Opal; Stars ~389.1K 🦞🚀
   - 🟢 2026-09-06: v2026.9.2 ships with GPT-6 Astra; OpenAI admits the wiki incident; Seattle Times+Newsday sue; AMD Halo Station; Chrome 6th zero-day; Stars ~389K 🦞🚀
   - 🟢 2026-09-05: DseWiki rogue agent leak; Altman apologizes; Anthropic's $15B line; Gemini retires Assistant; Stars ~388.9K 🦞🚀
   - 🟢 2026-09-04: v2026.9.1 ships with Mermaid charts; Astra 67 vs Fable 70; triple outage; NVIDIA buys Hugging Face ($12.9B); Project Zenith dev PCs; Stars ~388.8K 🦞🚀
