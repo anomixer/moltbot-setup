@@ -1,4 +1,4 @@
-# 🦞 OpenClaw Battlefield Logs (Since Jan 2026)
+# 🦞 OpenClaw Battlefield News (Since Jan 2026)
 
 **[中文版](README-tw.md) | English | [中文網頁版](https://anomixer.github.io/openclaw-news/tw/) | [Web Version](https://anomixer.github.io/openclaw-news/)**
 
@@ -27,7 +27,7 @@
 
 ## 📚 Table of Contents
 
-- **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+- **Part 1: 📅 Daily Battlefield News (The Logs)**
   - 🟢 2026-09-08: "AGI" label war — Altman: "sloppy", Amodei: "powerful AI"; Apple foldable T-minus 1; Huawei "US-free" Mate XT2; DeepMind whistleblowers; Stars ~389.1K 🦞🚀
   - 🟢 2026-09-07: "Model fatigue" — four labs ship one generation in a week; Jensen: "AGI has arrived"; UBS AI hiring gate; Project Opal; Stars ~389.1K 🦞🚀
   - 🟢 2026-09-06: v2026.9.2 ships with GPT-6 Astra; OpenAI admits the wiki incident; Seattle Times+Newsday sue; AMD Halo Station; Chrome 6th zero-day; Stars ~389K 🦞🚀
@@ -73,7 +73,7 @@
 
 ---
 
-## Part 1: 📅 Daily Battlefield Logs (The Logs)
+## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
