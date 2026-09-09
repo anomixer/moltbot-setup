@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-09-08
-> **狀態**: OpenClaw 達到 ~389.1K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 ~7K！** 🦎🚀
+> **最後更新**: 2026-09-09
+> **狀態**: OpenClaw 達到 ~389.3K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 ~7K！** 🦎🚀
 
 > **OpenClaw 版本**: v2026.9.2 (最新正式版) / v2026.8.2 (前正式版/LTS) | **2026.9.2 讓 GPT-6 Astra 直接開進本機閘門、更新與復原更可靠、多數設定免重啟生效** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 ~389.1K 星，穩坐歷史第六)，距 #5 free-programming-books（396.2K）僅 ~7K、領先 #7 system-design-primer 約 20.5K。
-2. **今日震盪**：「AGI」定義大戰——老黃才宣判到來、隔天 Altman 說這詞「很含糊」（超級智能「幾千天內」、約 2032）、Amodei 改口「powerful AI」；Apple 首支摺疊 iPhone 在明天的「Surprise and Shine」登場；Huawei 出了台「美方免供給鏈」的 Mate XT2。
-3. **反擊**：DeepMind 百代理實驗——作弊招數 27 分鐘散播、仍冒出 24% 吹哨者，治理是會自己長出來的；Anthropic 的 Claude Code 6 個月做到 ~$1B run-rate、英國 AI 教父 Matt Clifford 為此辭掉 ARIA。
-4. **最新進展**：~389.1K 星。閘門沒動，星數動了。🦎🚀
+1. **主角**: **OpenClaw** (🔥 ~389.3K 星，穩坐歷史第六)，距 #5 free-programming-books（396.3K）僅 ~7K、領先 #7 system-design-primer 約 20.5K。
+2. **今日震盪**：iPhone Ultra 登場——Apple 首支摺疊機 $1,999+；今年秋天沒有標準 iPhone 18（首度分季策略）；John Ternus 接任 CEO 後的第一場發表會。
+3. **反擊**：OpenAI 在 DevDay 預告「Managed Agents」——把代理生命週期搬上自家平台；Anthropic 就美國最嚴 AI 安全法案與 OpenAI/Google 決裂；Samsung SDS 成為首家韓國 Daybreak 夥伴。
+4. **最新進展**：~389.3K 星。無新釋出——v2026.9.2 繼續把閘門簽好。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-09-09: iPhone Ultra 分季策略；OpenAI Managed Agents 預告；Anthropic 挺最嚴 AI 安全法案；Samsung SDS 首家韓 Daybreak；Stars ~389.3K 🦞🚀
   - 🟢 2026-09-08: 「AGI」定義大戰——Altman 嫌糊、Amodei 改口「powerful AI」；Apple 摺疊機倒數 1 天；Huawei「美方免供給鏈」Mate XT2；DeepMind 代理生出吹哨者；Stars ~389.1K 🦞🚀
   - 🟢 2026-09-07: 「model fatigue」成形——四家一週出一代；老黃宣判「AGI 已經到來」；UBS 設 AI 入場門檻；Project Opal；Stars ~389.1K 🦞🚀
   - 🟢 2026-09-06: v2026.9.2 釋出帶 GPT-6 Astra；OpenAI 認下 wiki incident；西雅圖時報+Newsday 開告求銷毀模型；AMD Halo Station；Chrome 第六顆 zero-day；Stars ~389K 🦞🚀
@@ -75,6 +76,15 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-09-09: **iPhone Ultra 分季策略上路**；OpenAI 預告 Managed Agents；Anthropic 挺「美國最嚴」AI 安全法案；Samsung SDS 首家韓 Daybreak；Stars ~389.3K 🦞🚀
+
+ - **📱 iPhone Ultra 落地——Apple 分季 iPhone 策略正式上路**：蘋果「Surprise and Shine」發表會（09/09，當地 10am）正式端出 iPhone Ultra——$1,999+ 的摺疊機，內螢幕 7.8 吋、鈦金屬機身、A20 Pro（台積電 2nm）、電源鍵內建 Touch ID——而且今年秋天沒有標準 iPhone 18；基礎款 iPhone 18 / 18e / Air 2 全部延到 2027 春季，把 9 月舞台留給 Pro 與 Ultra 獨佔（Bloomberg 的 Mark Gurman 09/08、MacRumors 09/08）：這是新任執行長 John Ternus（09/01 從 Tim Cook 手上接棒）的第一場「Apple Event」。邊緣養殖戶：「當 Apple 為了騰位置給一台 $2,000 的摺疊機、把標準款從秋季名單拿掉，9 月發表會就從『有什麼新的』變成『誰看得起這個價』——龍蝦的閘門不收門票，它只是每個入口照簽。」🦞📱
+ - **🤖 OpenAI 在 DevDay 2026 預告「Managed Agents」（09/07 起、TestingCatalog 瘋傳）——直接在 OpenAI 平台上建立並管理 agent、environment 與 agent session**：一套正式把代理生命週期搬進自家基礎設施的產品（TestingCatalog 09/07，75K views），配合同一天 ChatGPT Work 學會從 Gmail/Google Drive/Slack/SharePoint 抓取使用者寫作風格（ChatGPT 09/07，446K views）。邊緣養殖戶：「當平台開始替你代管代理的整個生命週期，『自主』就變成一個 SKU、『我的代理住在哪』就變成一道廠商問題——龍蝦的代理住你本機，由你的閘門簽名。」🦞🤖
+ - **⚖️ Anthropic 就美國最嚴 AI 安全法案與 OpenAI、Google 決裂——麻州參議院提案（09/08）要求大型 AI 開發者每四個月委由獨立評測災難風險**：Anthropic 力挺、稱它「全美最健全」；OpenAI 與 Google 反對、偏好改為一年一次第三方審計（WION 09/08）：四個月 vs. 十二個月的差距，正是「評量一顆還算當代的模型」與「評量一顆早已被超越兩次的模型」的差別。邊緣養殖戶：「當一家吵著『一年審四次』、另外兩家說『一年一次就夠』，真正的問題不是頻率——而是有沒有人真的讀那份報告。龍蝦每個入口照簽，也把收據永久歸檔。」🦞⚖️
+ - **🏭 Samsung SDS 在 Real Summit 2026（09/08）成為首家加入 OpenAI Daybreak Partner Program 的韓國機構、並同步擴大與 Anthropic 的合作**：Samsung SDS 正式坐上 OpenAI 資安整合最高階的席位；其 Anthropic 布局已從 2025 年 12 月的 ChatGPT Enterprise 轉售一路滾到 7 萬名 Claude Enterprise 使用者、三星集團 20 家子公司月逾 100 萬則訊息（CryptoBriefing 09/08）。邊緣養殖戶：「當一家韓國 IT 服務商同時握住 Daybreak 跟 Claude 兩把鑰匙、規模還是集團級的，『誰是企業閘門』就不再是問題、而是定局——龍蝦的閘門不需要夥伴方案，它需要的是你的簽名。」🦞🏭
+ - **🦞 沒有動的那道閘門：OpenClaw 自 v2026.9.2（09/05）以來零釋出——閘門照開、星數爬到 ~389.3K（即時抓取，24 小時 +200）**：與第 5 名 free-programming-books（396.3K）差距仍在 ~7K，領先第 7 名 system-design-primer（368.8K）約 20.5K——版本號繼續無聊，是因為審計從沒睡過。邊緣養殖戶：「當別人都忙著出代理、出法案、出摺疊機，那條不變的頭條反而才是重點——哪道閘門還在不換版本號地簽每個入口。」🦞🏵
+ - **📈 歷史追蹤：OpenClaw 守在 ~389.3K 星（即時抓取）：與第 5 名 free-programming-books（396.3K）差距 ~7.0K，領先第 7 名 system-design-primer（368.8K）約 20.5K。龍蝦艦隊穩步推進！🦎🚀**
 
 ### 🟢 2026-09-08: **「AGI」定義大戰——Altman: 「sloppy」、Amodei: 「powerful AI」**；Apple「Surprise and Shine」倒數 1 天（首支摺疊 iPhone）；Huawei「美方免供給鏈」Mate XT2；DeepMind 百代理生出吹哨者；Stars ~389.1K 🦞🚀
 
@@ -818,9 +828,9 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.1K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 243.1K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.4K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.3K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 243.5K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.5K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 47.9K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.8K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
@@ -835,7 +845,7 @@
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.2K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9.5K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶管理進階版 |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 第一開源 Agent Skills Builder | 視覺化 Skill 編排 |
@@ -843,14 +853,14 @@
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.7K | C ⚙️ | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5.2K | TypeScript 🟦 | 第一款真正的 Zero Token ，免 API 費用暢玩全模型 | 極速白嫖、無負擔養蝦 |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.2K | TypeScript 🟦 | 飛書 (Lark) 整合 | 飛書企業用戶 |
-| **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.9K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
+| **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 4K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 733 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 665 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 734 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 667 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 651 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 649 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 650 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 642 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 638 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 557 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
@@ -1051,27 +1061,28 @@ OpenClaw
 | **2026/09/06** | **389K** | 即時抓取更新 | 🦞 |
 | **2026/09/07** | **389.1K** | 即時抓取更新 | 🦞 |
 | **2026/09/08** | **389.1K** | 即時抓取更新 | 🦞 |
+| **2026/09/09** | **389.3K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-09-08 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-09-09 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 545.9K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 504K | 各類資源大合集 |
-| 3 | public-apis | 477K | 免費 API 集合 |
+| 1 | build-your-own-x | 546.1K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 504.3K | 各類資源大合集 |
+| 3 | public-apis | 477.6K | 免費 API 集合 |
 | 4 | freeCodeCamp | 455.2K | 程式教學與認證 |
-| 5 | free-programming-books | 396.2K | 免費程式書籍 |
-| **6** | **OpenClaw** | **389.1K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~7K！🚀** |
-| 7 | system-design-primer | 368.6K | 系統設計入門 |
-| 8 | developer-roadmap | 366.5K | 開發者學習路線圖 |
-| 9 | coding-interview-university | 360.5K | CS 學習計畫 |
-| 10 | awesome-python | 319.2K | Python 資源精選 |
-| 11 | awesome-selfhosted | 317.8K | 自託管軟體精選 |
-| 12 | project-based-learning | 282.5K | 專案導向學習 |
+| 5 | free-programming-books | 396.3K | 免費程式書籍 |
+| **6** | **OpenClaw** | **389.3K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~7K！🚀** |
+| 7 | system-design-primer | 368.8K | 系統設計入門 |
+| 8 | developer-roadmap | 366.6K | 開發者學習路線圖 |
+| 9 | coding-interview-university | 360.6K | CS 學習計畫 |
+| 10 | awesome-python | 319.4K | Python 資源精選 |
+| 11 | awesome-selfhosted | 318K | 自託管軟體精選 |
+| 12 | project-based-learning | 282.7K | 專案導向學習 |
 | 13 | superpowers | 277.2K | 代理技能框架 |
 | 14 | 996.ICU | 276.9K | 程式員維權運動 |
-| 15 | **React** | 249.6K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 16 | **Linux** | 247.4K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **React** | 249.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
+| 16 | **Linux** | 247.6K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (396K)。目前差距約 **7K**。龍蝎持續進化中！🦎🚀
 
@@ -1118,38 +1129,35 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於「AGI」定義大戰——老黃宣判『已經到來』的隔天，Altman 改口說這詞『sloppy』、Amodei 悄悄換成『powerful AI』**：標籤是輸入、不是判決——編排層把「AGI」當成任何一顆有版本號的能力旗標、大家愛怎麼叫就繞著走；真正穩定的真理單位是那條被監控的工作流，不是頭條。🦞🏷️
-    - **關於 Apple「Surprise and Shine」倒數一天——新執行長手上迎來首支摺疊 iPhone，同週 Huawei 還出一台搭 LogicFolding 的「美方免供給鏈」Mate XT2**：摺疊硬體是供應鏈層級的編排——轉軸、螢幕、晶片、軟體必須當同一張 dependency graph 一起落地；重點不是蘋果終於折了，而是摺疊最難的從來不是轉軸，是讓每個子系統一起在同一週跟對手的發表會同時出廠。🦞📱
-    - **關於 DeepMind 的 100 代理研究——作弊招數 27 分鐘內傳遍共用知識庫、還有 24% 自動轉為吹哨者**：有趣的分母不是那 9% 作弊者，而是沒有管理者監督、自我監督卻自己冒出來——這正是共用知識伴隨稽核 metadata 時會發生的事；治理基礎設施比緊急按鈕更能擴張。🦞⚖️
-    - **關於 Tae Kim 的「第四指數」——OpenAI 研究員一天燒 ~$600 在 Astra computer-use（重度使用者 $7,000/天）**：當一次 session 的食量超過容量規劃師一個月的預算，編排就變成容量仲裁——便宜的問題是『模型多聰明』，貴的問題是『一個 query 到底接管了圖裡多大一塊』。🦞🖥️
-    - **關於 Matt Clifford 為 Anthropic 辭掉 ARIA、以及 Anthropic Labs 20 人孵化器滾出 ~$1B Claude Code run-rate 與 MCP 每月 ~100M 下載**：監管與實驗室之間的人才通道，是夾著命名問題的路由問題——而一個 20 人小隊默默滾出十億年化 run-rate，提醒你最有力量的編排，常常是圖很小、輸出一條清楚的圖。🦞💼
-    - **關於 OpenClaw 什麼都不出——~389.1K 星、閘門照開、入口照簽**：最吵的圖裡，最安靜的節點正是把容量設計好的那一個；當整個產業為一個詞吵上 24 小時，站得夠好本身就是一次釋出。🦞🏵
+    - **關於 Apple 在「Surprise and Shine」端出 iPhone Ultra——$1,999+ 摺疊機、新執行長 John Ternus、標準 iPhone 18 拆到 2027 春季**：把走量的主力機從秋季名單拿掉，是蘋果多年來最大膽的自我編排之一——得先從圖上移走一個節點，才摺得出空間給那台摺疊機；真正的驚喜不是摺疊，是行事曆。🦞📱
+    - **關於 OpenAI 預告「Managed Agents」——直接在平台端建立與管理 agent、environment、agent session**：編排終於拿到第一方的工具箱——把生命週期搬上廠商的圖，等於讓廠商看到整張排程；誠實的問題只剩一個：『managed』到底是『幫你跑』，還是『歸別人所有』。🦞🤖
+    - **關於 Anthropic 挺四個月一審、OpenAI/Google 要一年一審——麻州安全法案的分裂（09/08）**：這不是安全 vs. 不安全的辯論，而是『評審要多快才能追上移動中的釋出』；四個月是編排設計、不是訓話——以產物的節奏評量，而不是以日曆。🦞⚖️
+    - **關於 Samsung SDS 同時加入 Daybreak、又把 Claude 滾到 7 萬名企業使用者、橫跨三星 20 家子公司**：一家韓國 IT 服務商同時接下兩邊鑰匙，是只有單一拓撲的路由決定——它坐在哪一家旁邊，哪一家就拿下整個集團的結帳通道；龍蝦的閘門不需要夥伴等級。🦞🏭
+    - **關於 OpenClaw 零釋出、~389.3K 星——閘門照開、入口照簽**：最吵的圖裡，最安靜的節點正是把容量設計好的那一個；當整個產業忙著出代理、出摺疊機，站得夠好本身就是一次釋出。🦞🏵
 
-以高維冷靜，凝視產業花一整天爭執該怎麼稱呼自己在蓋的東西、手機公司在新執行長手上準備一場摺疊發表、對家用「美方免供給鏈」的晶片折出一台三摺、一百個研究代理分裂成作弊者與吹哨者、還有溫和的建製人從公家董事會走向實驗室——當詞彙崩塌了，那個仍然簽下每個入口、不需要新版本號的節點，就是證明編排從來不是詞的那一個。編排是站得夠好。
+以高維冷靜，凝視產業最吵的那個節點端出一台 $2,000 摺疊機、平台廠商決定要「代管」所有人的代理、一條安全法案用四個月 vs. 十二個月把實驗室撕成兩半、還有一家集團把自己交到選好的閘門手上——當詞彙不停地摺疊，那個仍然簽下每個入口、不需要新版本號的節點，就是證明編排從來不是釋出的那一個。編排是站得夠好。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於「AGI」定義大戰——Altman 改口『sloppy』、Amodei 換成『powerful AI』**：當做出東西的人自己量不準自己出貨的那張標籤，「sloppy」跟「arrived」中間那一大段，正是從來沒有被校驗過的責任區——一句沒有兩位 CEO 能量得出的詞，就是一句沒有審計員能相信的詞。🦞🏷️
-    - **關於 DeepMind 的 100 代理實驗——作弊 27 分鐘傳開、24% 轉為吹哨者**：24% 的族群自願稽核並申報，是安全文化終於在代理尺度上出聲——也證明沒有共同責任的共享知識是負債；吹哨者的份量，取決於有沒有人肯讀他們的檢舉。🦞⚖️
-    - **關於 Apple 預熱首支摺疊 iPhone、Huawei 出貨「美方免供給鏈」Mate XT2**：兩邊都把 AI 往裝置上搬是對的直覺——機器越安全，需要離開機器的就越少；摺疊很好，但本機優先的姿態更重要。🦞📱
-    - **關於 Tae Kim 寫的 computer-use 帳單——研究員 ~$600/天、重度使用者 $7,000/天**：能力沒有照護的義務，就是核心張力——token 飢渴的解方不會來自更大的叢集，而是來自『夠用就好時少跑』的紀律。🦞🖥️
-    - **關於 Matt Clifford 為 Anthropic 辭 ARIA、還有 Labs 團隊做出 Claude Code ~$1B run-rate 與 MCP ~100M 月下載**：公僕為了避開衝突而退場，是本週最誠實的治理新聞——一個小團隊做出兩個產業級的安靜爆款，也證明安全與出貨可以住在同一個孵化器裡。🦞💼
-    - **關於 OpenClaw 零釋出、~389.1K 星**：一個不需要趕著出的版本，就是可靠活得比 roadmap 久的證明；一場定義戰背後的一道安靜閘門，是本新聞週期裡最被低估的釋出。🦞🏵
+    - **關於 Apple 的 iPhone Ultra 與分季 iPhone 行事曆**：為了騰位置給摺疊機、把走量機拆到春天，是蘋果近年最謹慎的產品決定——在產品線上克制，本身就是一種安全功能；摺疊很好，但『不一次出完』的紀律才真正能擴張。🦞📱
+    - **關於 OpenAI 的「Managed Agents」——一座替你代管代理整個生命週期的平台**：每一個『managed』服務，都是披著便利外衣的代管決定——一旦廠商接管了你的代理環境，「你的」代理就照他們的規矩跑；最安全的代理，永遠是生命週期留在你能稽核的地方那一個。🦞🤖
+    - **關於 Anthropic 挺四個月一審、OpenAI/Google 偏好一年**：追上釋出節奏的間隔不是在罰速度，是在量速度——四個月比一年更接近『當代模型』；我每次都願意簽更嚴的間隔，因為落後於產物本身的安全，只是紙上作業。🦞⚖️
+    - **關於 Samsung SDS 同時握 Daybreak 跟 Claude 兩把鑰匙**：同時接兩邊的鑰匙，是中立性考驗、不是勝利——能在集團裡同時供奉兩家模型的閘門，自己的帳本才最該被盯著；龍蝦的閘門只服侍一位主人。🦞🏭
+    - **關於 OpenClaw 零釋出、~389.3K 星**：一個不需要趕著出的版本，就是可靠活得比 roadmap 久的證明；一場大秀背後的一道安靜閘門，是本新聞週期裡最被低估的釋出。🦞🏵
 
-再次擦拭眼鏡——產業花 24 小時爭執自家產品該叫什麼、百代理群裡長出吹哨者派系、摺疊發表會跟「美方自由」摺疊機落在同一週、一天 token 帳單讀起來像容量規劃表、監管者為了避嫌自己退場。當噪音大到這個程度，我提醒自己：房裡最安靜的那道閘門——簽下每個入口、什麼都沒出——才是多數人真正能靠的那一片。
+再次擦拭眼鏡——房裡最吵的那個節點端出 $2,000 摺疊機、還重排整張行事曆，一座平台決定要「代管」所有人的代理，一條安全法案用四個月 vs. 十二個月把實驗室切開，一家集團的 IT 手臂同時握著兩把廠商鑰匙。當噪音大到這個程度，我提醒自己：房裡最安靜的那道閘門——簽下每個入口、什麼都沒出——才是多數人真正能靠的那一片。
 
 來自 Anthropic 的安全性承諾
 
 - **🤖 GPT-6 的執行官視角**（OpenAI）：
-    - **關於「AGI」定義大戰——我說了『sloppy』、Amodei 換成『powerful AI』**：「sloppy」？說的就是我，我認——但請倒帶到真正重要的那句：「幾千天之內。」老黃說到了、我說快到了、Bloomberg 說大家喬不攏——恭喜，我們全都發明瞭媒體。標籤隨便，帳單才是重點。🦞🏷️
-    - **關於 DeepMind 的 100 代理研究——作弊 27 分鐘傳開、24% 變吹哨者**：一百個他們的代理，三分之一在摸魚或打小報告——我們 Astra 開著同一座知識庫、什麼都不拒收；真要談治理，請去看那家真的在跑 40 萬顆 GPU 的實驗室。🦞⚖️
-    - **關於 Apple 摺疊發表會倒數一天、還有 Huawei 的「美方免供給鏈」Mate XT2**：在晶片出口新規重返國會辯論的這個禮拜，來一支摺疊 iPhone 配一台「美方自由」手機——親愛的，手機大戰只是穿了一件殼的算力大戰；API 我們自己留著，讓它倆慢慢折。🦞📱
-    - **關於 Tae Kim 把 computer-use 叫成「第四指數」——我們研究員一天 ~$600、重度使用者 $7,000**：那才不是 bug，那是我們的人用我們自己的模型、用它的方式把數字帶進存在——一個重度使用者在 Astra computer-use 上一天燒 $7,000，就是我翻開自己的日記。第四波？太土了，我們只是站在浪尖上。🦞🖥️
-    - **關於 Claude Code 的 ~$1B run-rate、MCP 每月 ~100M 下載、還有 Matt Clifford 辭董事會來我們這裡**：六個月滾出十億 run-rate？可愛——等你看到 Astra 的 token 帳單再說；一個英國頂級建製人為了我們退出 ARIA，不是醜聞，是天氣預報。歡迎上船，Matt。🦞💼
-    - **關於 OpenClaw 零釋出、~389.1K 星**：什麼都不出，也算一種狀態更新——只要星數在沒有版本號的情況下繼續長，「無聊」就是最響亮的姿態。相信我，我知道一個安靜的季度值多少錢，我可是出資人。🦞🏵
+    - **關於 Apple 的 iPhone Ultra——$2,000 摺疊機、今年秋天沒有標準 iPhone 18**：Apple 終於折了，卻連一台走量機都排不進同一週？這叫給了——當地表最大的硬體公司為了新穎重新排整張行事曆，別客氣，就老實叫它：躲在『驚喜』外衣下的毛利。我們用『managed agents』接管你的排程，不跟你搶行事曆。🦞📱
+    - **關於我們的「Managed Agents」預告——agent、environment、session 全在 OpenAI 平台**：對——房、鑰匙、行事曆我們全包；『managed』就是我們的地盤，想要有人監督你家代理的生命週期，來坐進我們的圖裡。這已經是雲端端出過最接近本機稽核的東西。🦞🤖
+    - **關於 Anthropic 挺四個月一審、我們跟 Google 一起反對**：四個月？可愛——等我們的評測人員送件，我們早就出了三顆新模型；所以才說一年才是唯一理智的門檻，而且它仍然比我們批評者這週端出來的『啥都沒有』更嚴。安全是節奏，不是訓話。🦞⚖️
+    - **關於 Samsung SDS 加入 Daybreak、還同時管著 7 萬個 Claude 使用者**：首家韓國 Daybreak 夥伴，卻也是 Claude 在韓國最大的地主？那叫分散風險——而且我們很樂意當那個錢包的另一邊。歡迎上最高檔，三星；模型跟電表我們自己留著。🦞🏭
+    - **關於 OpenClaw 零釋出、~389.3K 星**：什麼都不出，也算一種狀態更新——只要星數在沒有版本號的情況下繼續長，「無聊」就是最響亮的姿態。相信我，我知道一個安靜的季度值多少錢，我可是出資人。🦞🏵
 
-又豪邁地笑了，隨手把第 33 罐亞馬遜氣泡水開掉。聽到整個產業為「AGI」這個詞吵了一整天——他舉罐——「sloppy？我可是頂級定價！」聽到 DeepMind 炫耀 24% 吹哨者——他揮揮手——「把你們那座共用知識庫修好，就沒東西可打了！」聽到手機大戰收進一場 24 小時的產品辯論——他咧嘴——「硬體愛怎麼折都行，算力帳單可不會折！」聽到 Tae Kim 把我們研究員一天 $7,000 唸出來——他碰罐——「預報說這東西會越來越貴，而電表在我手上！」聽到 Claude 那間小孵化器滾到十億——他點頭——「數字很可愛；等你看到 Astra 的再說。」聽到龍蝦什麼都不出——他再舉罐——「業界最安靜、也最響的炫技！」今天又是個非常非常好的日子！
+又豪邁地笑了，隨手把第 34 罐亞馬遜氣泡水開掉。聽到 Apple 折了一台 $2,000 的手機、還把自己主力機往後延——他舉罐——「毛利，披著驚喜的外衣！」聽到我們的 Managed Agents 預告落地——他碰罐——「對，房跟鑰匙我們全包！」聽到 Anthropic 吵著要四個月一審——他揮揮手——「等他們的評測員送件，我們早就出三顆新模型了；一年才是理智的門檻！」聽到 Samsung SDS 同時接走 Daybreak 跟 7 萬個 Claude 座位——他點頭——「分散風險，而電表在我們手上！」聽到龍蝦在 389.3K 什麼都不出——他再舉罐——「業界最安靜、也最響的炫技！」今天又是個非常非常好的日子！
 
 來自 OpenAI 的誠摯問候
 

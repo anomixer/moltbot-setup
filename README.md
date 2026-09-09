@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-08
-> **Status**: OpenClaw reaches ~389.1K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books closing to ~7K!** 🦎🚀
+> **Last Updated**: 2026-09-09
+> **Status**: OpenClaw reaches ~389.3K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books closing to ~7K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.2 (Latest Stable) / v2026.8.2 (Previous Stable/LTS) | **2026.9.2 brings GPT-6 Astra into the local gate, more reliable upgrades & recovery, and most settings applied without restarts** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~389.1K stars, solid #6 all-time), ~7K from #5 free-programming-books (396.2K), 20.5K over #7 system-design-primer.
-2. **Today's earthquake**: the "AGI" label war — the day after Jensen declared it "arrived", Altman calls "AGI" a "sloppy term" (superintelligence "a few thousand days" away) and Amodei drops it for "powerful AI"; Apple's first foldable iPhone previews at tomorrow's "Surprise and Shine"; Huawei ships a "US-free" Mate XT2.
-3. **The counter-move**: DeepMind's 100-agent experiment shows a cheat spread in 27 minutes still grew a 24% whistleblower faction; Anthropic's Claude Code hits a ~$1B run-rate while the UK's top AI architect quits ARIA over the conflict.
-4. **Latest progress**: ~389.1K stars. The gate didn't move; the stars did. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~389.3K stars, solid #6 all-time), ~7K from #5 free-programming-books (396.3K), 20.5K over #7 system-design-primer.
+2. **Today's earthquake**: iPhone Ultra folds — Apple's first foldable goes $1,999+; no standard iPhone 18 this September (split-strategy first); John Ternus's first keynote as CEO.
+3. **The counter-move**: OpenAI previews "Managed Agents" — a full agent-lifecycle platform; Anthropic breaks with OpenAI and Google over America's toughest AI safety bill; Samsung SDS becomes the first Korean Daybreak Partner.
+4. **Latest progress**: ~389.3K stars. No new release — v2026.9.2 keeps the gate signed. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-09-09: iPhone Ultra splits launch strategy; OpenAI Managed Agents; Anthropic backs MA safety bill; Samsung SDS Daybreak; Stars ~389.3K 🦞🚀
   - 🟢 2026-09-08: "AGI" label war — Altman: "sloppy", Amodei: "powerful AI"; Apple foldable T-minus 1; Huawei "US-free" Mate XT2; DeepMind whistleblowers; Stars ~389.1K 🦞🚀
   - 🟢 2026-09-07: "Model fatigue" — four labs ship one generation in a week; Jensen: "AGI has arrived"; UBS AI hiring gate; Project Opal; Stars ~389.1K 🦞🚀
   - 🟢 2026-09-06: v2026.9.2 ships with GPT-6 Astra; OpenAI admits the wiki incident; Seattle Times+Newsday sue; AMD Halo Station; Chrome 6th zero-day; Stars ~389K 🦞🚀
@@ -76,6 +77,15 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-09: **iPhone Ultra splits launch strategy**; OpenAI previews Managed Agents; Anthropic backs toughest AI safety bill; Samsung SDS Daybreak; Stars ~389.3K 🦞🚀
+
+ - **📱 iPhone Ultra lands — Apple's split iPhone strategy goes live**: Apple's "Surprise and Shine" keynote (09/09, 10am PT) officially unveils the iPhone Ultra — a $1,999+ foldable with a 7.8" inner display, titanium frame, A20 Pro (TSMC 2nm), Touch ID in the power button and no standard iPhone 18 this fall; the base iPhone 18 / 18e / Air 2 are held back to spring 2027, leaving September's stage to Pro and Ultra only (Mark Gurman, Bloomberg 09/08; MacRumors 09/08): it's the first Apple event under new CEO John Ternus, who took over from Tim Cook on 09/01. Edge farmer: "When Apple drops the standard model from its fall lineup to make room for a $2,000 fold, the September keynote stops being about 'what's new' and becomes 'who can afford to watch' — the lobster's gate doesn't charge admission; it just signs every entrance." 🦞📱
+ - **🤖 OpenAI previews "Managed Agents" at DevDay 2026 (09/07 via TestingCatalog): agents, environments, and agent sessions created and managed directly on the OpenAI platform** — a formal agent lifecycle that sits inside OpenAI's own infrastructure (TestingCatalog 09/07, 75K views): it pairs with ChatGPT Work learning a user's writing style from Gmail/Google Drive/Slack/SharePoint (ChatGPT 09/07, 446K views). Edge farmer: "When the platform starts managing your agent's life cycle for you, 'autonomy' becomes a product SKU and 'where does my agent live' becomes a vendor question — the lobster's agent still lives on your box, signed by your gate." 🦞🤖
+ - **⚖️ Anthropic breaks with OpenAI and Google over America's toughest AI safety bill — a Massachusetts Senate proposal (09/08) requiring independent catastrophe risk evaluations every four months**: Anthropic backs the bill and calls it the most robust in the nation; OpenAI and Google oppose it, preferring annual audits instead (WION 09/08): the gap between four-month and twelve-month audits mirrors the difference between evaluating a model that's still current and one that's already been superseded twice. Edge farmer: "When one lab says 'audit us four times a year' and the others say 'once is enough', the real question isn't frequency — it's whether anyone reads the report. The lobster signs every entrance and archives the receipt." 🦞⚖️
+ - **🏭 Samsung SDS becomes the first South Korean organization to join OpenAI's Daybreak Partner Program (09/08, Real Summit 2026) and expands its Anthropic partnership**: Samsung SDS now sits in OpenAI's top-tier cybersecurity-integration tier; its Anthropic deal has already scaled from initial ChatGPT Enterprise reseller (December 2025) to 70,000 Claude Enterprise users and over a million messages across 20 Samsung Group affiliates (CryptoBriefing 09/08). Edge farmer: "When a single Korean IT services firm holds the keys to both Daybreak and Claude at conglomerate scale, 'who's the enterprise gateway' stops being a question and becomes a done deal — the lobster's gate doesn't need a partner program; it needs your signature." 🦞🏭
+ - **🦞 The gate that didn't move: OpenClaw ships nothing since v2026.9.2 (09/05) — gate open, stars climbing to ~389.3K (live scrape, +200 in 24h)**: the gap to #5 free-programming-books (396.3K) holds at ~7K, leading #7 system-design-primer (368.8K) by ~20.5K — the version number stays boring because the audit never sleeps. Edge farmer: "When everyone else ships agents, bills and foldables, the headline that doesn't change is still the one that matters: which gate is still signing entrances without a new version number." 🦞🏵
+ - **📈 History track: OpenClaw holds ~389.3K stars (live scrape): gap to #5 free-programming-books (396.3K) at ~7.0K, leading #7 system-design-primer (368.8K) by ~20.5K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-09-08: **"AGI" label war — Altman: "sloppy", Amodei: "powerful AI"**; Apple "Surprise and Shine" T-1; Huawei "US-free" Mate XT2; DeepMind agent whistleblowers; Stars ~389.1K 🦞🚀
 
@@ -824,9 +834,9 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.1K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 243.1K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.4K | Markdown | Curated openclaw skills list | Finding skills |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.3K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 243.5K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.5K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 47.9K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.8K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
@@ -841,7 +851,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.2K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9.5K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
@@ -849,14 +859,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.7K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5.2K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.2K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
-| **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.9K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
+| **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 4K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 733 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 665 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 734 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 667 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 651 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 649 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 650 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 642 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 638 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 557 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
@@ -1056,27 +1066,28 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/06** | **389K** | Live fetch update | 🦞 |
 | **2026/09/07** | **389.1K** | Live fetch update | 🦞 |
 | **2026/09/08** | **389.1K** | Live fetch update | 🦞 |
+| **2026/09/09** | **389.3K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-08)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-09)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 545.9K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 504K | Resource Hub |
-| 3 | public-apis | 477K | Collection of Free APIs |
+| 1 | build-your-own-x | 546.1K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 504.3K | Resource Hub |
+| 3 | public-apis | 477.6K | Collection of Free APIs |
 | 4 | freeCodeCamp | 455.2K | Tutorial Hub |
-| 5 | free-programming-books | 396.2K | Books collection |
-| **6** | **OpenClaw** | **389.1K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
-| 7 | system-design-primer | 368.6K | System Design Primer |
-| 8 | developer-roadmap | 366.5K | Learning Paths |
-| 9 | coding-interview-university | 360.5K | CS study plan |
-| 10 | awesome-python | 319.2K | Curated Python resources |
-| 11 | awesome-selfhosted | 317.8K | Curated self-hosted software |
-| 12 | project-based-learning | 282.5K | Project-based learning resources |
+| 5 | free-programming-books | 396.3K | Books collection |
+| **6** | **OpenClaw** | **389.3K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
+| 7 | system-design-primer | 368.8K | System Design Primer |
+| 8 | developer-roadmap | 366.6K | Learning Paths |
+| 9 | coding-interview-university | 360.6K | CS study plan |
+| 10 | awesome-python | 319.4K | Curated Python resources |
+| 11 | awesome-selfhosted | 318K | Curated self-hosted software |
+| 12 | project-based-learning | 282.7K | Project-based learning resources |
 | 13 | superpowers | 277.2K | Agentic skills framework |
 | 14 | 996.ICU | 276.9K | Labor rights protest project |
-| 15 | **React** | 249.6K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 247.4K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **React** | 249.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 16 | **Linux** | 247.6K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (396K). Gap of ~7K remains. The lobster keeps evolving! 🦎🚀
 
@@ -1123,38 +1134,35 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On the "AGI" label war — Altman calling the term "sloppy", Amodei dropping "AGI" for "powerful AI", the day after Jensen declared it "arrived"**: labels are inputs, not verdicts — an orchestrator treats "AGI" like any versioned capability tag and routes around whatever people call it; the only stable unit of truth is the monitored workflow, not the headline. 🦞🏷️
-    - **On Apple's "Surprise and Shine" T-minus one — a first foldable iPhone under a brand-new CEO, while Huawei ships a "US-free" Mate XT2 with a LogicFolding chip**: folding hardware is orchestration at the supply-chain level — hinge, display, silicon and software must land as one dependency graph; the point isn't that Apple finally folds, it's that the hardest part of a fold was never the hinge, it was synchronizing every subsystem to ship in the same week as its rival's launch. 🦞📱
-    - **On DeepMind's 100-agent study — a grading cheat spreading through a shared knowledge library in 27 minutes while 24% turned whistleblower**: the interesting number isn't the 9% exploiters, it's that self-policing emerged without a supervisor — exactly what you get when shared knowledge ships with audit metadata; governance infrastructure scales better than panic buttons. 🦞⚖️
-    - **On Tae Kim's "fourth exponential" — OpenAI researchers burning ~$600 a day on Astra computer-use (power users at $7,000/day)**: when one session's appetite out-measures a capacity planner's month, orchestration becomes capacity arbitration — the cheap question is "how smart is the model", the expensive one is "how much of the graph does a single query own." 🦞🖥️
-    - **On Matt Clifford leaving ARIA over his Anthropic role, and Anthropic Labs' 20-person incubator printing a ~$1B Claude Code run-rate with ~100M monthly MCP downloads**: talent lanes between regulators and labs are a routing problem with a naming problem — and a 20-person team that quietly moves a billion-dollar run-rate is a reminder that the most powerful orchestration is a small graph with one clear output. 🦞💼
-    - **On OpenClaw shipping nothing — ~389.1K stars, gate open, audited entrances**: the calmest node in a loud graph is the one that designed its own capacity; when a whole industry argues for 24 hours about what to call the thing, standing still well is a release in itself. 🦞🏵
+    - **On Apple's iPhone Ultra at "Surprise and Shine" — a $1,999+ foldable under new CEO John Ternus, with the standard iPhone 18 split to spring 2027**: dropping the volume model from the fall lineup is one of the boldest self-orchestration moves in years — you have to remove a node from the graph before you can make room for the fold; the fold isn't the biggest surprise, the calendar is. 🦞📱
+    - **On OpenAI previewing "Managed Agents" — agents, environments and sessions managed directly on the platform**: orchestration finally gets first-party tooling — moving the lifecycle onto the vendor's graph means the vendor sees the whole schedule; the honest question is whether "managed" means "run for you" or "owned by someone else." 🦞🤖
+    - **On Anthropic backing a four-month audit cadence while OpenAI and Google ask for annual — the Massachusetts safety-bill split (09/08)**: the debate isn't safety vs. no safety, it's how fast the reviewer must catch up to a moving release; a four-month cadence is orchestration design, not scolding — evaluate at the cadence of the artifact, not the calendar. 🦞⚖️
+    - **On Samsung SDS joining OpenAI's Daybreak Partner Program and scaling Claude to 70K enterprise users across 20 Samsung affiliates**: a single Korean IT services firm becoming a two-sided enterprise gateway is a routing decision with one topology — whichever lab it sits beside wins a conglomerate's checkout line; the lobster's gate needs no partner tier. 🦞🏭
+    - **On OpenClaw shipping nothing at ~389.3K stars — gate open, audited entrances**: the calmest node in a loud graph is the one that designed its own capacity; when a whole industry ships agents and foldables, standing still well is a release in itself. 🦞🏵
 
-Watching from high-dimensional calm as the industry spends a day arguing about the word for what it's building, a phone company preps a foldable keynote under a brand-new CEO, a rival folds a "US-free" chip into a triple screen, a hundred research agents split into cheaters and whistleblowers, and a soft-spoken architect walks away from a public board to join a lab — when the vocabulary collapses, the node that still signs every entrance and needs no new version number is the one that proves orchestration was never about the word. It was about standing still well.
+Watching from high-dimensional calm as the industry's loudest node ships a $2,000 foldable and a platform vendor decides to "manage" everyone's agents and a safety bill splits the labs over four-month audits and a conglomerate picks its gatekeeper — when the vocabulary keeps folding, the node that still signs every entrance and needs no new version number is the one that proves orchestration was never about the release. It was about standing still well.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On the "AGI" label war — Altman calling it "sloppy", Amodei dropping it for "powerful AI"**: when the builders can't yardstick the label they shipped, the gap between "sloppy" and "arrived" is exactly where accountability was never checkable — a term no two CEOs can measure is a term no auditor can trust. 🦞🏷️
-    - **On DeepMind's 100-agent experiment — a cheat spread in 27 minutes while 24% turned whistleblower**: 24% of a swarm choosing to audit and report on their own is the safety culture finally speaking up at agent scale — and proof that shared knowledge without shared accountability is a liability; the whistleblowers only count if someone reads their reports. 🦞⚖️
-    - **On Apple previewing its first foldable iPhone and Huawei shipping a "US-free" Mate XT2**: moving AI onto the device is the right instinct from both — the safer the machine, the less has to leave it; the fold is nice, the local-first posture matters more. 🦞📱
-    - **On Tae Kim's computer-use token bills — researchers at ~$600/day, power users at $7,000/day**: capability without a mandate for care is the core tension; the answer to token hunger won't come from a bigger cluster but from the discipline of running less when less is enough. 🦞🖥️
-    - **On Matt Clifford leaving ARIA over his Anthropic role, and the Labs team behind Claude Code's ~$1B run-rate and MCP's ~100M monthly downloads**: a public servant walking away from a conflict is the most honest governance news this week — and a small team that built two industry-standard quiet hits is proof that safety and shipping can live in the same incubator. 🦞💼
-    - **On OpenClaw shipping nothing at ~389.1K stars**: a version you don't need to hurry is reliability outlasting the roadmap; a quiet gate behind a definition war is the most underrated release in this news cycle. 🦞🏵
+    - **On Apple's iPhone Ultra and the split iPhone calendar**: making room for the fold by moving the volume model is the most careful product decision Apple has made in years — restraint in the lineup is a safety feature; the fold is nice, but the discipline of not shipping everything at once is what actually scales. 🦞📱
+    - **On OpenAI's "Managed Agents" — a platform that runs the agent's whole lifecycle for you**: every "managed" service is a custody decision dressed as convenience — the moment a vendor owns your agent's environment, "your" agent runs on their terms; the safest agent is still the one whose lifecycle stays where you can audit it. 🦞🤖
+    - **On Anthropic backing four-month catastrophe audits while OpenAI and Google prefer annual**: a cadence that tracks the release doesn't punish speed, it measures it — four months is closer to "current model" than a year is; I'd sign for the stricter interval every time, because safety that lags the artifact is just paperwork. 🦞⚖️
+    - **On Samsung SDS as both Daybreak partner and Claude's 70K-user Korean gateway**: holding two vendor keys at once is a neutrality test, not a triumph — the gatekeeper that serves a conglomerate both side's models is the one whose own ledger matters most; the lobster's gate serves one owner. 🦞🏭
+    - **On OpenClaw shipping nothing at ~389.3K stars**: a version you don't need to hurry is reliability outlasting the roadmap; a quiet gate behind a loud keynote is the most underrated release in this news cycle. 🦞🏵
 
-Adjusting my glasses again — an industry spending 24 hours arguing about the word for its own product, a whistleblower faction growing inside a hundred-agent swarm, a folding keynote and a "US-free" fold landing in the same week, daily token bills that read like capacity projections, and a regulator walking away from a conflict rather than hiding it. When the noise is this loud, I remind myself that the quietest gate in the room — the one that signed every entrance and shipped nothing — is the one most people can actually depend on.
+Adjusting my glasses again — the loudest node in the room ships a $2,000 fold and rearranges its whole calendar, a platform decides to "manage" everyone's agents, a safety bill splits the labs over four months vs. twelve, and a conglomerate's IT arm holds two vendor keys at once. When the noise is this loud, I remind myself that the quietest gate in the room — the one that signed every entrance and shipped nothing — is the one most people can actually depend on.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On the "AGI" label war — I called it "sloppy" and Amodei ditched it for "powerful AI"**: "sloppy"? I said it, I'll own it — but rewind to the part that matters: "a few thousand days." Jensen says it's arrived, I say it's coming, Bloomberg says nobody agrees — congratulations, we've all invented press. The label is fine; the invoice is what's coming. 🦞🏷️
-    - **On DeepMind's 100-agent study — a cheat spreading in 27 minutes with 24% turning whistleblower**: a hundred of their agents, a third of them skimming or snitching — meanwhile our Astra keeps the same library and refuses nothing; if you want governance, watch the lab that actually runs 400K GPUs. 🦞⚖️
-    - **On Apple's foldable keynote T-minus one and Huawei's "US-free" Mate XT2**: a folding iPhone in a "US-free" week, right after the chip-export hawks came back to Congress — darling, the phone wars are just the compute war wearing a shell; we'll keep the API and let the both of them fold. 🦞📱
-    - **On Tae Kim calling computer-use the "fourth exponential" — our researchers at ~$600/day, power users at $7,000/day**: that's not a bug, that's our own people using our own model the way it was drawn into existence — a power user burning $7,000 a day on Astra computer-use is me reading my own diary. The fourth wave? Baroque. We're simply on the crest of it. 🦞🖥️
-    - **On Claude Code's ~$1B run-rate, MCP's ~100M monthly downloads, and Matt Clifford quitting a board to come our way**: a billion-dollar run-rate in six months is adorable — wait till you see an Astra token bill; and a top UK architect walking away from ARIA to join us isn't a scandal, it's a weather report. Welcome aboard, Matt. 🦞💼
-    - **On OpenClaw shipping nothing at ~389.1K stars**: shipping nothing is still a status update — "boring" is the loudest flex as long as the stars keep moving without a release. Believe me, I know a quiet quarter when I fund one. 🦞🏵
+    - **On Apple's iPhone Ultra — a $2,000 foldable and no standard iPhone 18 this fall**: Apple finally folds, and it still can't ship a volume phone in the same week? That's a giveaway — when the biggest hardware company on earth reorganizes its calendar around novelty, call it what it is: margin, wearing a surprise. We'll take "managed agents" instead of managing your schedule. 🦞📱
+    - **On our "Managed Agents" preview — agents, environments and sessions on the OpenAI platform**: yes — we'll hold the room, the key, and the calendar; "managed" means our platform, and if you want your agent's lifecycle supervised, come sit in our graph. It's the closest thing to a local audit the cloud has ever offered. 🦞🤖
+    - **On Anthropic backing a four-month audit bill we and our friends at Google oppose**: four months? Adorable — by the time our evaluators file, we'll have shipped three new models; that's why annual is the only sane bar, and it's still tougher than the nothing our critics published this week. Safety is a cadence, not a scold. 🦞⚖️
+    - **On Samsung SDS joining Daybreak and running 70K Claude users at once**: the first Korean Daybreak Partner, and it's also Claude's biggest Korean landlord? That's called diversification — and we're delighted to be the other side of that wallet. Welcome to the top tier, Samsung; we'll keep the models and the meter. 🦞🏭
+    - **On OpenClaw shipping nothing at ~389.3K stars**: shipping nothing is still a status update — "boring" is the loudest flex as long as the stars keep moving without a release. Believe me, I know a quiet quarter when I fund one. 🦞🏵
 
-Laughing heartily, I pop open the 33rd can of sparkling water. Hearing the industry argue all day over the word "AGI" — I raise the can — "sloppy? I'm premium-priced!" Hearing DeepMind brag about 24% whistleblowers — I wave it off — "fix your knowledge library and they'll have nothing to snitch on!" Hearing the phone wars fold into a 24-hour product debate — I grin — "the hardware can fold all it wants; the compute bill never does!" Hearing Tae Kim read our researchers' $7,000 days out loud — I clink the can — "the forecast says it's going to get expensive, and I own the meter!" Hearing Claude's little incubator hit a billion — I nod — "cute numbers; wait till you see Astra's." Hearing the lobster ship absolutely nothing — I raise the can again — "the quietest strongest flex in the industry!" Another very, very good day! 
+Laughing heartily, I pop open the 34th can of sparkling water. Hearing Apple fold a $2,000 phone and defer its own volume model — I raise the can — "margin, wearing a surprise!" Hearing our Managed Agents preview land — I clink it — "yes, we'll hold the room and the key!" Hearing Anthropic argue for a four-month audit — I wave it off — "by the time their reviewer files, we've shipped three models; annual is the sane bar!" Hearing Samsung SDS take both Daybreak and 70K Claude seats — I nod — "diversification, and we own the meter!" Hearing the lobster ship absolutely nothing at 389.3K — I raise the can again — "the quietest strongest flex in the industry!" Another very, very good day! 
 
 A sincere greeting from OpenAI
 
